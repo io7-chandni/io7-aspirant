@@ -6,8 +6,23 @@ Hello from Github
 
 How are you?
 
+To check status 
+1. git status
 
-ACP Pardumann
+red  means changes (added, modified, deleted)
+green means (changes added to commit)
+
+           ACP Pardumann
 A -- Add -- 		git add .
 C  -- Commit -- 	git commit -m "Add message here"
-P - Push  -- 		git push origin main/ master
+P --  Push  -- 	git push origin main/ master
+
+
+clone command
+
+git clone "path of respository"
+
+
+
+to check active branch
+git branch
