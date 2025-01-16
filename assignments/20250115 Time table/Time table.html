@@ -4,47 +4,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TIME TABLE</title>
-    <style>
-      table,
-      tr,
-      th,
-      td {
-        border: 1px solid black;
-        border-collapse: collapse;
-      }
-    </style>
   </head>
+  <style>
+    table {
+      width: 100%;
+      border-left: 5px solid black;
+    }
+    table,
+    tr,
+    th {
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      border-collapse: collapse;
+    }
+    td {
+      border: 1px solid black;
+      text-align: center;
+    }
+    .border-bottom-none {
+      border-bottom: none !important;
+      border-top: 1px solid black;
+    }
+    .border-top-none {
+      border-top: none !important;
+      border-bottom: 1px solid black;
+    }
+    .border-all {
+      border: 1px solid black;
+    }
+  </style>
   <body>
     <h1>SCHOOL TIME TABLE</h1>
     <table>
       <thead>
         <tr>
-          <th></th>
-          <th>I</th>
-          <th>II</th>
-          <th>III</th>
-          <th>IV</th>
-          <th>V</th>
-          <th>VI</th>
-          <th>VII</th>
+          <th class="border-bottom-none"></th>
+          <th class="border-bottom-none">I</th>
+          <th class="border-bottom-none">II</th>
+          <th class="border-bottom-none">III</th>
+          <th class="border-all" rowspan="2">12:00-12:40</th>
+          <th class="border-bottom-none">IV</th>
+          <th class="border-bottom-none">V</th>
+          <th class="border-bottom-none">VI</th>
+          <th class="border-bottom-none">VII</th>
         </tr>
-
         <tr>
-          <th>Day/Period</th>
-          <th>9:30-10:20</th>
-          <th>10:20-11:10</th>
-          <th>11:10-12:00</th>
-          <th>12:00-12:40</th>
-          <th>12:40-1:30</th>
-          <th>1:30-2:20</th>
-          <th>2:20-3:10</th>
-          <th>3:10-4:00</th>
+          <th class="border-top-none">Day/Period</th>
+          <th class="border-top-none">9:30-10:20</th>
+          <th class="border-top-none">10:20-11:10</th>
+          <th class="border-top-none">12:00-12:40</th>
+          <th class="border-top-none">12:40-1:30</th>
+          <th class="border-top-none">1:30-2:20</th>
+          <th class="border-top-none">2:20-3:10</th>
+          <th class="border-top-none">3:10-4:00</th>
         </tr>
       </thead>
 
       <tbody>
         <tr>
-          <td>Monday</td>
+          <td><strong>Monday</strong></td>
           <td>Eng</td>
           <td>Mat</td>
           <td>Che</td>
@@ -54,9 +72,8 @@
         </tr>
 
         <tr>
-          <td>Tuesday</td>
+          <td><storng>Tuesday</storng></td>
           <td colspan="3">LAB</td>
-          <td>LUNCH</td>
           <td>Eng</td>
           <td>Che</td>
           <td>Mat</td>
@@ -64,29 +81,26 @@
         </tr>
 
         <tr>
-          <td>Wedsnesday</td>
+          <td><strong>Wednesday</strong></td>
           <td>Mat</td>
-          <td>phy</td>
-          <td>Eng</td>
-          <td>LUNCH</td>
-          <td>Che</td>
-          <td>LIBRARY</td>
-        </tr>
-
-        <tr>
-          <td>Thursday</td>
           <td>Phy</td>
           <td>Eng</td>
           <td>Che</td>
-          <td>LUNCH</td>
-          <td>LAB</td>
+          <td colspan="3">LIBRARY</td>
+        </tr>
+
+        <tr>
+          <td><strong>Thursday</strong></td>
+          <td>Phy</td>
+          <td>Eng</td>
+          <td>Che</td>
+          <td colspan="3">LAB</td>
           <td>Mat</td>
         </tr>
 
         <tr>
-          <td>Friday</td>
-          <td>LAB</td>
-          <td>LUNCH</td>
+          <td><strong>Friday</strong></td>
+          <td colspan="3">LAB</td>
           <td>Mat</td>
           <td>Che</td>
           <td>Eng</td>
@@ -94,12 +108,11 @@
         </tr>
 
         <tr>
-          <td>Saturday</td>
+          <td><strong>Saturday</strong></td>
           <td>Eng</td>
           <td>Che</td>
           <td>Mat</td>
-          <td>LUNCH</td>
-          <td>SEMINAR</td>
+          <td colspan="3">SEMINAR</td>
           <td>SPORTS</td>
         </tr>
       </tbody>
