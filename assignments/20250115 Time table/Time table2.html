@@ -4,6 +4,233 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML FORM</title>
+    <style>
+      table,
+      tr,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      table {
+        width: 70%;
+        margin: 10px auto;
+      }
+      .border-style-none {
+        border: none;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <h1 style="color: hotpink">DAILY ROUTINE</h1>
+    <table>
+      <thead>
+        <tr>
+          <th class="border-style-none" colspan="3">2015-2016 School Year</th>
+          <!-- <th></th> -->
+          <th class="border-style-none" colspan="4">
+            K1 (for 3-4 years olds) (Morning Session)
+          </th>
+          <!-- <th></th>
+          <th></th>
+          <th></th> -->
+        </tr>
+
+        <tr>
+          <th class="border-style-none">Lead Teacher: Ms. Liang</th>
+          <th class="border-style-none" colspan="2">
+            Assitant Teacher: Ms. Chan
+          </th>
+          <!-- <th></th> -->
+          <th class="border-style-none" colspan="3">
+            English Teacher: Ms. Amy
+          </th>
+          <!-- <th></th>
+          <th></th> -->
+        </tr>
+      </thead>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th>Activity Time</th>
+          <th>Mon.</th>
+          <th>Tue.</th>
+          <th>Wed.</th>
+          <th>Thur.</th>
+          <th>Fri</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>8:15-8:45</td>
+          <td colspan="5">
+            Early Arrival (free choice and play-based learning)
+          </td>
+        </tr>
+
+        <tr>
+          <td>8:45-9:00</td>
+          <td colspan="5">
+            Morning Greeting (Music, Story reading, Craft, Sharing..etc)
+          </td>
+        </tr>
+
+        <tr>
+          <td rowspan="3">9:00-9:25</td>
+          <td rowspan="3">Pysical Movement (indoor gym)</td>
+          <td>Toilet Time</td>
+          <td rowspan="5">9:00-9:30 Physical Movement (indoor gym)</td>
+          <td>Toilet Time</td>
+          <td rowspan="2">9:00-9:20 Music</td>
+        </tr>
+
+        <tr>
+          <!-- <td></td> -->
+          <!-- <td></td> -->
+          <td rowspan="3">9:10-9:40 Thermatic Learning</td>
+          <!-- <td></td> -->
+          <td>9:10-9-55 Thermatic Learning</td>
+          <!-- <td></td> -->
+        </tr>
+
+        <tr>
+          <!-- <td></td> -->
+          <!-- <td></td> -->
+          <td></td>
+          <!-- <td></td> -->
+          <!-- <td></td> -->
+          <td rowspan="3">9:20-9:30 Toilet</td>
+        </tr>
+
+        <tr>
+          <td>9:25-9:35</td>
+          <td>Toilet Time</td>
+          <!-- <td></td> -->
+          <!-- <td></td> -->
+          <!-- <td></td> -->
+          <!-- <td></td> -->
+        </tr>
+
+        <tr>
+          <td></td>
+          <td></td>
+          <!-- <td></td> -->
+          <!-- <td></td> -->
+          <!-- <td></td> -->
+          <!-- <td></td> -->
+        </tr>
+
+        <tr>
+          <td rowspan="2">9:35-9:55</td>
+          <td rowspan="2">9:35-9:55</td>
+          <td rowspan="2">Early Reading</td>
+          <td rowspan="2">9:40-9:55 Music</td>
+          <td>Early Reading</td>
+          <td rowspan="2"></td>
+          <td rowspan="2">Thermatic Learning</td>
+        </tr>
+
+        <tr>
+          <!-- <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td> -->
+        </tr>
+
+        <tr>
+          <td>9:55-10:20</td>
+          <td colspan="6">Toilet Time and Snack</td>
+          <!-- <td></td>
+          <td></td>
+          <td></td>
+          <td></td> -->
+        </tr>
+
+        <tr>
+          <td>10:20-10:50</td>
+          <td colspan="6">English Learning Time</td>
+          <!-- <td></td>
+          <td></td>
+          <td></td>
+          <td></td> -->
+        </tr>
+
+        <tr>
+          <td rowspan="3">10:50-11:20</td>
+          <td rowspan="3">Thernatic Learning</td>
+          <td rowspan="3">10:50-11:05 Story Reading and Sharing</td>
+          <td rowspan="3">Thermatic Learning</td>
+          <td rowspan="3">10:50-11:05 Physical Movement</td>
+          <td rowspan="7">Physical Movement</td>
+        </tr>
+
+        <tr>
+          <!-- <td></td> -->
+          <!-- <td></td>
+          <td></td>
+          <td></td>
+          <td></td> -->
+          <!-- <td></td> -->
+        </tr>
+
+        <tr>
+          <!-- <td></td> -->
+          <!-- <td></td>
+          <td></td>
+          <td></td>
+          <td></td> -->
+          <!-- <td></td> -->
+        </tr>
+
+        <tr>
+          <td rowspan="4">11:20-11:35</td>
+          <td rowspan="4">Music</td>
+          <td rowspan="4">11:05-11:30 Physical Movement (indoor gym)</td>
+          <td rowspan="4">Music</td>
+          <td rowspan="4">11:05-11:25 Music</td>
+          <!-- <td></td> -->
+        </tr>
+
+        <tr>
+          <!-- <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td> -->
+          <!-- <td></td> -->
+        </tr>
+
+        <tr>
+          <!-- <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td> -->
+          <!-- <td></td> -->
+        </tr>
+
+        <tr>
+          <!-- <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td> -->
+          <!-- <td></td> -->
+        </tr>
+
+        <tr>
+          <td>11:35-11:45</td>
+          <td colspan="6">End of the Day Routine Time (packing school bags)</td>
+          <!-- <td></td>
+          <td></td>
+          <td></td>
+          <td></td> -->
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
