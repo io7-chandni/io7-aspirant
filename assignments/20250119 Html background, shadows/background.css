@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: paleturquoise;
+  height: 500px;
+}
+
+.container {
+  background-color: rgb(250, 209, 105);
+  height: 500px;
+}
+
+.container .common {
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+.img-cont {
+  background-image: url(assets/image/dora.jpg);
+}
+
+.img-cont-1 {
+  background-image: url(assets/image/tom\ and\ jerry.jpg);
+  background-position: top;
+}
+
+.img-cont-2 {
+  background-image: url(assets/image/tom\ and\ jerry.jpg);
+  background-position: left;
+}
+
+.img-cont-3 {
+  background-image: url(assets/image/tom\ and\ jerry.jpg);
+  background-position: right;
+}
+
+.img-cont-4 {
+  background-image: url(assets/image/tom\ and\ jerry.jpg);
+  background-position: bottom;
+}
+
+.img-cont-5 {
+  background-image: url(assets/image/tom\ and\ jerry.jpg);
+  background-position: 70% 50%;
+}
+
+.img-cont-6 {
+  background-image: url(assets/image/tom\ and\ jerry.jpg);
+  background-position-x: right;
+}
+
+.img-cont-7 {
+  background-image: url(assets/image/tom\ and\ jerry.jpg);
+  background-position-x: left;
+}
+
+.img-cont-8 {
+  background-image: url(assets/image/tom\ and\ jerry.jpg);
+  background-position-y: top;
+}
+
+.img-cont-9 {
+  background-image: url(assets/image/tom\ and\ jerry.jpg);
+  background-position-y: bottom;
+}
+
+.img-cont-10 {
+  background-image: url(assets/image/tom\ and\ jerry.jpg);
+  background-position-x: 15%;
+  background-position-y: bottom;
+}
+
+.big-image-container {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(232, 218, 245);
+  display: inline-block;
+}
+
+.img-cont-11 {
+  background-image: url(assets/image/dora.jpg);
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  /* background-repeat: round; */
+  /* background-repeat: space; */
+  background-repeat: unset;
+}
+
+.img-cont-12 {
+  background-image: url(assets/image/tom\ and\ jerry.jpg);
+  height: 300px;
+  width: 400px;
+  background-size: cover;
+  background-repeat: repeat-x;
+  filter: blur(5px);
+}
+
+.filter-bg {
+  background-repeat: repeat-y;
+  height: 600px;
+  width: 100%;
+}
+
+.img-cont-13 {
+  background-image: url(assets/image/tom\ and\ jerry.jpg);
+  height: 300px;
+  width: 400px;
+  background-size: cover;
+  background-repeat: repeat-y;
+  filter: opacity(0.1);
+}
+
+.img-cont-14 {
+  background-image: url(assets/image/tom\ and\ jerry.jpg);
+  height: 300px;
+  width: 400px;
+  background-size: cover;
+  background-repeat: repeat-y;
+  filter: grayscale(100);
+}
