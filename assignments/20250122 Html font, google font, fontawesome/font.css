@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-container {
+  width: 100%;
+  height: 1000px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.container-I {
+  width: 100%;
+  height: 200px;
+  background-color: beige;
+  display: inline-block;
+  font-size: large;
+}
+
+.container1 {
+  width: 25%;
+  height: 200px;
+  background-color: beige;
+  display: inline-block;
+  font-size: large;
+  font-family: "Playwrite IN", serif;
+  background-image: url(assets/image/image.png);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.container2 {
+  width: 25%;
+  height: 200px;
+  background-color: beige;
+  display: inline-block;
+  font-size: large;
+  font-family: "Bebas Neue", serif;
+  background-image: url(assets/image/image2.jpg);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.container3 {
+  width: 25%;
+  height: 200px;
+  background-color: beige;
+  display: inline-block;
+  font-size: large;
+  font-family: "Sixtyfour Convergence", serif;
+  background-image: url(assets/image/image3.png);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.container4 {
+  width: 23%;
+  height: 200px;
+  background-color: beige;
+  display: inline-block;
+  font-size: large;
+  font-family: "Agu Display", serif;
+  background-image: url(assets/image/image4.jpg);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.container-II {
+  width: 100%;
+  height: 200px;
+  background-color: beige;
+  display: inline-block;
+  font-size: large;
+}
+
+.container5 {
+  width: 25%;
+  height: 200px;
+  background-color: beige;
+  display: inline-block;
+  font-size: large;
+  font-family: "Barriecito", serif;
+  background-image: url(assets/image/image5.jpg);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.container6 {
+  width: 25%;
+  height: 200px;
+  background-color: beige;
+  display: inline-block;
+  font-size: large;
+  font-family: "Noto Sans Cuneiform", serif;
+  background-image: url(assets/image/image6.jpg);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.container7 {
+  width: 25%;
+  height: 200px;
+  background-color: beige;
+  display: inline-block;
+  font-size: large;
+  font-family: "Smooch Sans", serif;
+  background-image: url(assets/image/image7.jpg);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.container8 {
+  width: 23%;
+  height: 200px;
+  background-color: beige;
+  display: inline-block;
+  font-size: large;
+  font-family: "Poppins", serif;
+  background-image: url(assets/image/image8.jpg);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.container-III {
+  width: 100%;
+  height: 200px;
+  background-color: beige;
+  display: inline-block;
+  font-size: large;
+}
+
+.container9 {
+  width: 25%;
+  height: 200px;
+  background-color: beige;
+  display: inline-block;
+  font-size: large;
+  font-family: "Bahianita", serif;
+  background-image: url(assets/image/image9.jpg);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.container10 {
+  width: 25%;
+  height: 200px;
+  background-color: beige;
+  display: inline-block;
+  font-size: large;
+  font-family: "Caveat", serif;
+  background-image: url(assets/image/image10.jpg);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.container11 {
+  width: 25%;
+  height: 200px;
+  background-color: beige;
+  display: inline-block;
+  font-size: large;
+  font-family: "Bebas Neue", serif;
+  background-image: url(assets/image/image11.jpg);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.container12 {
+  width: 23%;
+  height: 200px;
+  background-color: beige;
+  display: inline-block;
+  font-size: large;
+  font-family: "Lexend Giga", serif;
+  background-image: url(assets/image/image12.jpg);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.container-IV {
+  width: 100%;
+  height: 200px;
+  background-color: beige;
+  display: inline-block;
+  font-size: large;
+}
+
+.container13 {
+  width: 25%;
+  height: 200px;
+  background-color: beige;
+  display: inline-block;
+  font-size: large;
+  font-family: "Anton", serif;
+  background-image: url(assets/image/image13.jpg);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.container14 {
+  width: 25%;
+  height: 200px;
+  background-color: beige;
+  display: inline-block;
+  font-size: large;
+  font-family: "Orbitron", serif;
+  background-image: url(assets/image/image14.jpg);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.container15 {
+  width: 25%;
+  height: 200px;
+  background-color: beige;
+  display: inline-block;
+  font-size: large;
+  font-family: "Playwrite HU Guides", serif;
+  background-image: url(assets/image/image15.jpg);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.container16 {
+  width: 23%;
+  height: 200px;
+  background-color: beige;
+  display: inline-block;
+  font-size: large;
+  font-family: "Creepster", serif;
+  background-image: url(assets/image/image16.jpg);
+  background-size: cover;
+  border-radius: 5px;
+}
