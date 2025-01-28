@@ -1,0 +1,86 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.main-container,
+.main-container2 {
+  margin: auto;
+  width: fit-content;
+}
+
+.b1 {
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.b2 {
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.main-container h1 {
+  display: inline-block;
+  border: 2px solid red;
+  padding: 10px;
+  width: fit-content;
+  margin-top: 5px;
+}
+
+.main-container2 h1 {
+  display: inline-block;
+  border: 2px solid red;
+  padding: 10px;
+  width: fit-content;
+  margin-top: 5px;
+}
+
+.image-section {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+.img-1 {
+  background-image: url(assests/images/hulk.png);
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.team-members-conatiner {
+  width: 100%;
+  margin: 10px auto;
+}
+
+.team-members-conatiner,
+.teams-1,
+.team-members-conatiner,
+.teams-2 {
+  width: 50%;
+  margin: auto;
+}
+
+
+.team-member-1 {
+  background-image: url(assests/images/image.jpg);
+  width: 49%;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.team-member-2 {
+  background-image: url(assests/images/image2.jpg);
+  width: 49%;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 400px;
+}

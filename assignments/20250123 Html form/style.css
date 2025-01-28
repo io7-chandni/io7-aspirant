@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-form-section {
+  background-color: beige;
+  height: 500px;
+  width: 50%;
+  margin: 10px auto;
+}
+
+label {
+  font-size: 2rem;
+  width: 200px;
+  display: inline-block;
+}
+
+form {
+  padding: 2%;
+}
+
+.individual-form {
+  margin-top: 20px;
+}
+
+.individual-input {
+  width: 50%;
+  height: 20px;
+}
+
+.gender {
+  display: inline-block;
+}
+
+.gender label {
+  width: 100px;
+}

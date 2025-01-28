@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-form-section">
+      <form>
+        <div class="individual-form">
+          <label for="first name">First name:</label>
+          <input
+            class="individual-input"
+            id="first name"
+            type="text"
+            placeholder="Please Enter your first name"
+            value="chandni"
+            required
+            minlength="6"
+          />
+        </div>
+
+        <div class="individual-form">
+          <label for="Last name">Last name:</label>
+          <input
+            class="individual-input"
+            id="Last name"
+            type="text"
+            placeholder="Please Enter your last name"
+            maxlength="5"
+            value="grewal"
+            readonly
+          />
+        </div>
+
+        <div class="individual-form">
+          <label for="Please enter your email id">Email:</label>
+          <input
+            class="individual-input"
+            id="enter your email id"
+            type="text"
+            placeholder="Please Enter your email id address"
+            maxlength="9"
+          />
+        </div>
+
+        <div class="individual-form">
+          <label for="mobile">telephone no:</label>
+          <input
+            class="individual-input"
+            id="mobile"
+            type="tel"
+            placeholder="Please Enter your telephone number"
+            maxlength="9"
+            pattern="[0-9]{3}-[0-9{2}-[0-9]{3}]"
+          />
+        </div>
+
+        <div class="individual-form">
+          <label for="password">password:</label>
+          <input
+            class="individual-input"
+            id="enter your password"
+            type="password"
+            placeholder="Please Enter your password"
+            maxlength="9"
+          />
+        </div>
+
+        <div class="individual-form">
+          <label for="Age">Age:</label>
+          <input
+            class="individual-input"
+            id="age"
+            type="number"
+            placeholder="Please enter your Age"
+            max="99"
+            min="60"
+          />
+        </div>
+
+        <div class="individual-form">
+          <label for="dob">Date of birth:</label>
+          <input
+            class="individual-input"
+            id="dob"
+            type="date"
+            value="2025-01-23"
+            min="2020-01-01"
+            max="2025-12-01"
+          />
+        </div>
+
+        <div class="individual-form">
+          <label for="bt">Birth Time:</label>
+          <input
+            class="individual-input"
+            id="bt"
+            type="time"
+            value="14:30"
+            min="08:00"
+            max="6:30"
+          />
+        </div>
+
+        <div class="individual-form">
+          <label for="datetime">Birth Time:</label>
+          <input
+            class="individual-input"
+            id="datetime"
+            type="datetime-local"
+            value="2016-02:28T15:30"
+          />
+        </div>
+
+        <div class="individual-form">
+          <label for="website">Website:</label>
+          <input class="individual-input" id="website" type="url" />
+        </div>
+
+        <div class="gender">
+          <label>Gender:</label>
+          <div class="gender">
+            <input id="male" type="radio" />
+            <label for="male">Male</label>
+
+            <input id="female" type="radio" checked />
+            <label for="female">Female</label>
+
+            <input id="trans" type="radio" />
+            <label for="trans">Trans</label>
+          </div>
+        </div>
+
+        <div class="individual-form">
+          <label>Hobbies:</label>
+
+          <div style="display: inline-block">
+            <input id="Cricket" type="checkbox" />
+            <label for="Cricket">Cricket:</label>
+          </br>
+            <input id="Chess" type="checkbox" />
+            <label for="Chess">Chess:</label>
+        </br>
+            <input id="Book-reading" type="checkbox" />
+            <label for="Book-reading">Book-reading:</label>
+          </div>
+        </div>
+        <div class="individual-form">
+          <input type="submit" value="register" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

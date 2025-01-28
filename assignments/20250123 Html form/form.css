@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%s;
+}
+.main-form-section {
+  background-color: rgb(238, 217, 178);
+  height: 500px;
+  width: 50%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.individual-form {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(230, 206, 163);
+  text-align: center;
+}
+
+.individual-form1 {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(230, 206, 163);
+  text-align: center;
+}
+
+.individual-form2 {
+  margin: 2px auto;
+  text-align: left;
+}
+
+.individual-input {
+  width: 75%;
+}
+
+.individual-form3 {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(230, 191, 120);
+  text-align: center;
+}

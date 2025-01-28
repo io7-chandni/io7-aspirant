@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.new-font {
+  font-family: "Noto Serif Todhri", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
