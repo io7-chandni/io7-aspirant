@@ -6,51 +6,98 @@
 .main-container {
   height: 25px;
   width: 100%;
-  background-color: orange;
+  background-color: beige;
 }
 
 .container {
   height: 25px;
-  width: 100%;
-  background-color: red;
+  width: 80%;
+  background-color: beige;
+  margin: auto;
 }
 
-.container1 {
+ul,
+li,
+a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.container2 {
   height: 25px;
-  width: 50%;
-  background-color: green;
+  width: 100%;
+  background-color: beige;
 }
 
-.conatiner2 {
+.container3 {
   height: 25px;
-  width: 100%;
-  background-color: brown;
-}
-
-.conatiner3 {
-  height: 700px;
-  width: 100%;
-  background-color: orange;
+  width: 80%;
+  background-color: beige;
+  margin: auto;
 }
 
 .container4 {
   height: 700px;
-  width: 20%;
-  background-color: rgb(223, 190, 128);
-  display: inline-block;
-  margin-left: -20px;
+  width: 100%;
+  background-color: rgb(185, 170, 172);
 }
 
 .container5 {
   height: 700px;
-  width: 60%;
-  background-color: pink;
+  width: 20%;
+  background-color: rgb(99, 90, 99);
   display: inline-block;
 }
 
 .container6 {
   height: 700px;
-  width: 20%;
-  background-color: magenta;
+  width: 60%;
+  background-color: purple;
   display: inline-block;
+}
+
+.container7 {
+  height: 700px;
+  width: 18%;
+  background-color: rgb(212, 171, 212);
+  display: inline-block;
+}
+
+.container8 {
+  height: 25px;
+  width: 100%;
+  background-color: beige;
+  margin-left: 300px;
+}
+
+.container9 {
+  height: 25px;
+  width: 100%;
+  background-color: beige;
+}
+
+.container10 {
+  height: 25px;
+  width: 80%;
+  background-color: beige;
+  margin: auto;
+}
+
+.icon,
+.icon1,
+.icon2,
+.icon3,
+.icon4,
+.icon5 {
+  width: 15px;
+}
+
+.a {
+  margin-left: 95px;
+}
+
+.b {
+  margin-right: 420px;
 }
