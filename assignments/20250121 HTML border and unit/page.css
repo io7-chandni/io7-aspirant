@@ -6,13 +6,13 @@
 .main-container {
   height: 25px;
   width: 100%;
-  background-color: beige;
+  background-color: #ffffff;
 }
 
 .container {
   height: 25px;
   width: 80%;
-  background-color: beige;
+  background-color: #ffffff;
   margin: auto;
 }
 
@@ -28,60 +28,60 @@ a {
 .container2 {
   height: 25px;
   width: 100%;
-  background-color: beige;
+  background-color: #ffffff;
 }
 
 .container3 {
   height: 25px;
   width: 80%;
-  background-color: beige;
+  background-color: #ffffff;
   margin: auto;
 }
 
 .container4 {
   height: 700px;
   width: 100%;
-  background-color: rgb(185, 170, 172);
+  background-color: #f19469;
 }
 
 .container5 {
   height: 700px;
   width: 20%;
-  background-color: rgb(99, 90, 99);
+  background-color: #f19469;
   display: inline-block;
 }
 
 .container6 {
   height: 700px;
   width: 60%;
-  background-color: purple;
+  background-color: rgb(244, 101, 35);
   display: inline-block;
 }
 
 .container7 {
   height: 700px;
-  width: 18%;
-  background-color: rgb(212, 171, 212);
+  width: 19%;
+  background-color: #f19469;
   display: inline-block;
 }
 
 .container8 {
-  height: 25px;
+  height: 35px;
   width: 100%;
-  background-color: beige;
+  background-color: #ffffff;
   margin-left: 300px;
 }
 
 .container9 {
-  height: 25px;
+  height: 35px;
   width: 100%;
-  background-color: beige;
+  background-color: rgb(69, 43, 104);
 }
 
 .container10 {
   height: 25px;
   width: 80%;
-  background-color: beige;
+  background-color: rgb(69, 43, 104);
   margin: auto;
 }
 
