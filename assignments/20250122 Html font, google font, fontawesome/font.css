@@ -1,13 +1,13 @@
 .maincontainer {
   height: 1020px;
   width: 100%;
-  /* border: 2px solid grey; */
+  border: 2px solid black;
 }
 
 .header {
   height: 50px;
   width: 100%;
-  /* border: 2px solid grey; */
+  border: 2px solid grey;
   background-color: beige;
   display: inline-block;
   margin-bottom: 4px;
@@ -16,14 +16,14 @@
 .header {
   height: 50px;
   width: 100%;
-  background-color: beige;
+  background-color: #ffffff;
 }
 
 .div-1 {
   height: 50px;
   width: 90%;
-  background-color: hotpink;
-  border: 2px solid grey;
+  background-color: #ffffff;
+  /* border: 2px solid grey; */
   margin: auto;
   color: grey;
 }
