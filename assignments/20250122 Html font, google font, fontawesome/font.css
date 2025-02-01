@@ -4,6 +4,28 @@
   border: 2px solid black;
 }
 
+.header {
+  height: 50px;
+  width: 100%;
+  border: 2px solid grey;
+  background-color: beige;
+  display: inline-block;
+}
+
+.div-1 {
+  height: 50px;
+  width: 60%;
+  background-color: beige;
+  margin: auto;
+}
+
+.div-2 {
+  height: 50px;
+  width: 30%;
+  background-color: beige;
+  display: inline-block;
+}
+
 .container-I,
 .container-II,
 .container-III,
@@ -12,7 +34,6 @@
   width: 100%;
   /* border: 2px solid grey; */
   display: inline-flex;
-
 }
 
 .container-1,
