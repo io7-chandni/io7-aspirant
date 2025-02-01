@@ -1,28 +1,39 @@
 .maincontainer {
   height: 1020px;
   width: 100%;
-  border: 2px solid black;
+  /* border: 2px solid grey; */
 }
 
 .header {
   height: 50px;
   width: 100%;
-  border: 2px solid grey;
+  /* border: 2px solid grey; */
   background-color: beige;
   display: inline-block;
+  margin-bottom: 4px;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  background-color: beige;
 }
 
 .div-1 {
   height: 50px;
-  width: 60%;
-  background-color: beige;
+  width: 90%;
+  background-color: hotpink;
+  border: 2px solid grey;
   margin: auto;
+  color: grey;
 }
 
-.div-2 {
-  height: 50px;
-  width: 30%;
-  background-color: beige;
+ul,
+li,
+a {
+  text-decoration: none;
+  color: black;
+  color: grey;
   display: inline-block;
 }
 
@@ -60,18 +71,21 @@
   border-radius: 4%;
   margin-left: 5px;
   margin-right: 5px;
+  font-size: xx-large;
 }
 
 .container-1 {
   background-image: url(assets/image/image.png);
   background-size: cover;
   font-family: "Playwrite IN", serif;
+  color: green;
 }
 
 .container-2 {
   background-image: url(assets/image/image2.jpg);
   background-size: cover;
   font-family: "Bebas Neue", serif;
+  color: blue;
 }
 
 .container-3 {
@@ -84,60 +98,70 @@
   background-image: url(assets/image/image4.jpg);
   background-size: cover;
   font-family: "Agu Display", serif;
+  color: grey;
 }
 
 .container-5 {
   background-image: url(assets/image/image5.jpg);
   background-size: cover;
   font-family: "Barriecito", serif;
+  color: navy;
 }
 
 .container-6 {
   background-image: url(assets/image/image6.jpg);
   background-size: cover;
   font-family: "Noto Sans Cuneiform", serif;
+  color: rgb(75, 43, 43);
 }
 
 .container-7 {
   background-image: url(assets/image/image7.jpg);
   background-size: cover;
   font-family: "Smooch Sans", serif;
+  color: rgb(75, 43, 43);
 }
 
 .container-8 {
   background-image: url(assets/image/image8.jpg);
   background-size: cover;
   font-family: "Poppins", serif;
+  color: seagreen;
 }
 
 .container-9 {
   background-image: url(assets/image/image9.jpg);
   background-size: cover;
   font-family: "Bahianita", serif;
+  color: brown;
 }
 
-.container10 {
+.container-10 {
   background-image: url(assets/image/image10.jpg);
   background-size: cover;
   font-family: "Caveat", serif;
+  color: purple;
 }
 
 .container-11 {
   background-image: url(assets/image/image11.jpg);
   background-size: cover;
   font-family: "Bebas Neue", serif;
+  color: hotpink;
 }
 
 .container-12 {
   background-image: url(assets/image/image12.jpg);
   background-size: cover;
   font-family: "Lexend Giga", serif;
+  color: purple;
 }
 
 .container-13 {
   background-image: url(assets/image/image13.jpg);
   background-size: cover;
   font-family: "Anton", serif;
+  color: rgb(116, 122, 116);
 }
 
 .container-14 {
@@ -150,10 +174,12 @@
   background-image: url(assets/image/image15.jpg);
   background-size: cover;
   font-family: "Playwrite HU Guides", serif;
+  color: brown;
 }
 
 .container-16 {
   background-image: url(assets/image/image16.jpg);
   background-size: cover;
   font-family: "Creepster", serif;
+  color: grey;
 }
