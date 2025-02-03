@@ -8,21 +8,21 @@ html {
   font-size: 62.5%;
 }
 
-.main-form-section {
-  background-color: beige;
-  height: 500px;
-  width: 50%;
-  margin: 10px auto;
+form {
+  padding: 2%;
 }
 
 label {
   font-size: 2rem;
-  width: 200px;
+  width: 150px;
   display: inline-block;
 }
 
-form {
-  padding: 2%;
+.main-form-section {
+  height: 700px;
+  width: 70%;
+  background-color: beige;
+  margin: 10px auto;
 }
 
 .individual-form {
@@ -31,13 +31,17 @@ form {
 
 .individual-input {
   width: 50%;
-  height: 20px;
+  height: 30px;
+}
+
+input[type="number"] {
+  background-color: hotpink;
 }
 
 .gender {
   display: inline-block;
 }
 
-.gender label {
+.gender-label {
   width: 100px;
 }

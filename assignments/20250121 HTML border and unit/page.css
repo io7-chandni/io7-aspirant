@@ -17,6 +17,25 @@
   color: #636b71;
 }
 
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4,
+.heading-5,
+.heading-6,
+.heading-7,
+.heading-8 {
+  margin-left: 7px;
+  text-shadow: 10px 10px 10px grey;
+}
+
+.button {
+  background-color: #1e51f7;
+  color: white;
+  border-radius: 4px;
+  margin-top: 7px;
+}
+
 ul,
 li,
 a {

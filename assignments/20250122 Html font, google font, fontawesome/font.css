@@ -1,40 +1,53 @@
 .maincontainer {
-  height: 1020px;
-  width: 100%;
   border: 2px solid black;
 }
 
-.header {
-  height: 50px;
+.main-div-container {
+  height: 1020px;
   width: 100%;
-  border: 2px solid grey;
-  background-color: beige;
-  display: inline-block;
-  margin-bottom: 4px;
+  /* border: 2px solid black; */
 }
 
 .header {
   height: 50px;
   width: 100%;
+  /* border: 2px solid grey; */
+  box-shadow: 2px 2px 2px 2px grey;
   background-color: #ffffff;
+  display: flex;
+  margin-bottom: 4px;
+  border-top: none;
 }
 
 .div-1 {
   height: 50px;
-  width: 90%;
-  background-color: #ffffff;
-  /* border: 2px solid grey; */
+  width: 25%;
+  border: 1px solid grey;
   margin: auto;
-  color: grey;
 }
 
-ul,
-li,
+.div-2 {
+  height: 50px;
+  width: 30%;
+  border: 1px solid grey;
+  display: inline-block;
+}
+
+.div-3 {
+  height: 50px;
+  width: 30%;
+  border: 1px solid grey;
+}
+
+.div-4 {
+  height: 50px;
+  width: 15%;
+  border: 1px solid grey;
+}
+
 a {
   text-decoration: none;
-  color: black;
   color: grey;
-  display: inline-block;
 }
 
 .container-I,
@@ -67,11 +80,10 @@ a {
   width: 23%;
   border: 2px solid grey;
   margin-top: 5px;
-  padding: 2px;
   border-radius: 4%;
   margin-left: 5px;
   margin-right: 5px;
-  font-size: xx-large;
+  font-size: large;
 }
 
 .container-1 {
@@ -79,6 +91,7 @@ a {
   background-size: cover;
   font-family: "Playwrite IN", serif;
   color: green;
+  text-shadow: 10px 10px 10px black;
 }
 
 .container-2 {
@@ -86,12 +99,14 @@ a {
   background-size: cover;
   font-family: "Bebas Neue", serif;
   color: blue;
+  text-shadow: 10px 10px 10px black;
 }
 
 .container-3 {
   background-image: url(assets/image/image3.png);
   background-size: cover;
   font-family: "Sixtyfour Convergence", serif;
+  text-shadow: 10px 10px 10px black;
 }
 
 .container-4 {
@@ -99,6 +114,7 @@ a {
   background-size: cover;
   font-family: "Agu Display", serif;
   color: grey;
+  text-shadow: 10px 10px 10px black;
 }
 
 .container-5 {
@@ -106,6 +122,7 @@ a {
   background-size: cover;
   font-family: "Barriecito", serif;
   color: navy;
+  text-shadow: 10px 10px 10px black;
 }
 
 .container-6 {
@@ -113,6 +130,7 @@ a {
   background-size: cover;
   font-family: "Noto Sans Cuneiform", serif;
   color: rgb(75, 43, 43);
+  text-shadow: 10px 10px 10px black;
 }
 
 .container-7 {
@@ -120,6 +138,7 @@ a {
   background-size: cover;
   font-family: "Smooch Sans", serif;
   color: rgb(75, 43, 43);
+  text-shadow: 10px 10px 10px black;
 }
 
 .container-8 {
@@ -127,6 +146,7 @@ a {
   background-size: cover;
   font-family: "Poppins", serif;
   color: seagreen;
+  text-shadow: 10px 10px 10px black;
 }
 
 .container-9 {
@@ -134,6 +154,7 @@ a {
   background-size: cover;
   font-family: "Bahianita", serif;
   color: brown;
+  text-shadow: 10px 10px 10px black;
 }
 
 .container-10 {
@@ -141,6 +162,7 @@ a {
   background-size: cover;
   font-family: "Caveat", serif;
   color: purple;
+  text-shadow: 10px 10px 10px black;
 }
 
 .container-11 {
@@ -148,6 +170,7 @@ a {
   background-size: cover;
   font-family: "Bebas Neue", serif;
   color: hotpink;
+  text-shadow: 10px 10px 10px black;
 }
 
 .container-12 {
@@ -155,6 +178,7 @@ a {
   background-size: cover;
   font-family: "Lexend Giga", serif;
   color: purple;
+  text-shadow: 10px 10px 10px black;
 }
 
 .container-13 {
@@ -162,12 +186,14 @@ a {
   background-size: cover;
   font-family: "Anton", serif;
   color: rgb(116, 122, 116);
+  text-shadow: 10px 10px 10px black;
 }
 
 .container-14 {
   background-image: url(assets/image/image14.jpg);
   background-size: cover;
   font-family: "Orbitron", serif;
+  text-shadow: 10px 10px 10px black;
 }
 
 .container-15 {
@@ -175,6 +201,7 @@ a {
   background-size: cover;
   font-family: "Playwrite HU Guides", serif;
   color: brown;
+  text-shadow: 10px 10px 10px black;
 }
 
 .container-16 {
@@ -182,4 +209,5 @@ a {
   background-size: cover;
   font-family: "Creepster", serif;
   color: grey;
+  text-shadow: 10px 10px 10px black;
 }
