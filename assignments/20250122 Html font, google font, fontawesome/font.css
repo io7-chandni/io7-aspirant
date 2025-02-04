@@ -1,5 +1,5 @@
 .maincontainer {
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 .main-div-container {
@@ -12,7 +12,7 @@
   height: 50px;
   width: 100%;
   /* border: 2px solid grey; */
-  box-shadow: 2px 2px 2px 2px grey;
+  box-shadow: 0px 0px 1px 1px grey;
   background-color: #ffffff;
   display: flex;
   margin-bottom: 4px;
@@ -22,27 +22,30 @@
 .div-1 {
   height: 50px;
   width: 25%;
-  border: 1px solid grey;
+  border-right: 1px solid rgb(211, 209, 209);
+  /* border: 1px solid grey; */
   margin: auto;
 }
 
 .div-2 {
   height: 50px;
   width: 30%;
-  border: 1px solid grey;
+  border-right: 1px solid rgb(211, 209, 209);
+  /* border: 1px solid grey; */
   display: inline-block;
 }
 
 .div-3 {
   height: 50px;
   width: 30%;
-  border: 1px solid grey;
+  border-right: 1px solid rgb(211, 209, 209);
+  /* border: 1px solid grey; */
 }
 
 .div-4 {
   height: 50px;
   width: 15%;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 
 a {

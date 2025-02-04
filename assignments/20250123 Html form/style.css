@@ -18,8 +18,16 @@ label {
   display: inline-block;
 }
 
+.submit-button {
+  height: 20px;
+  width: 100px;
+  background-color: red;
+  color: teal;
+  border-radius: 15px;
+  border-top-left-radius: 2px;
+}
+
 .main-form-section {
-  height: 700px;
   width: 70%;
   background-color: beige;
   margin: 10px auto;

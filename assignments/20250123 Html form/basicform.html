@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Form</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div style="border: 2px solid black; margin-left: 10%; margin-right: 10%">
+      <h1 class="heading">Basic HTML Form</h1>
+      <form class="main-form-section">
+        <div>
+          <fieldset class="form">
+            <br />
+            <legend>Name</legend>
+            <h3>First Name</h3>
+            <input style="width: 28%" type="text" /><br /><br />
+
+            <h3>Last Name</h3>
+            <input style="width: 28%" type="text" />
+          </fieldset>
+        </div>
+
+        <fieldset class="form">
+          <legend>Other Questions</legend>
+          <br />
+          <h3>Choose a drink:</h3>
+
+          <input id="drinks" type="radio" disabled />
+          <label for="drinks">Coffee</label>
+          <br />
+
+          <input id="drinks" type="radio" disabled checked />
+          <label for="drinks">Tea</label><br />
+
+          <input id="drinks" type="radio" disabled />
+          <label for="drinks">Hot chocolate</label>
+          <br /><br />
+
+          <div>
+            <h3>What ice cream do you like?</h3>
+            <input id="types-of-ice-cream" type="checkbox" disabled />
+            <label for="types-of-ice-cream">Chocolate</label><br />
+
+            <input id="types-of-ice-cream" type="checkbox" disabled />
+            <label for="types-of-ice-cream">Chocolate Pudding</label><br />
+
+            <input id="types-of-ice-cream" type="checkbox" checked disabled />
+            <label for="types-of-ice-cream">Chocolate Peanut Butter</label
+            ><br />
+
+            <input id="types-of-ice-cream" type="checkbox" disabled />
+            <label for="types-of-ice-cream">Vanilla</label><br />
+
+            <input id="types-of-ice-cream" type="checkbox" disabled />
+            <label for="types-of-ice-cream">Strawberry</label><br /><br />
+          </div>
+
+          <div>
+            <h3>Select a school:</h3>
+            <input
+              class="input-box"
+              id="number"
+              type="number"
+              placeholder="Harvard"
+              disbled
+            />
+            <label for="number"></label>
+          </div>
+          <br />
+
+          <div>
+            <h3>Please provide comments:</h3>
+            <textarea cols="22" rows="5"></textarea>
+          </div>
+          <br /><br />
+        </fieldset>
+        <button class="button">submit</button>
+      </form>
+    </div>
+  </body>
+</html>
