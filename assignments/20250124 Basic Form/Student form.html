@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Anton&family=Bahianita&family=Barriecito&family=Bebas+Neue&family=Caveat:wght@400..700&family=Creepster&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Lexend+Giga:wght@100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Sans+Cuneiform&family=Noto+Serif+Todhri&family=Orbitron:wght@400..900&family=Playwrite+HU+Guides&family=Playwrite+IN:wght@100..400&family=Playwrite+VN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sixtyfour+Convergence&family=Smooch+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="studentform.css" />
+  </head>
+  <body>
+    <h1 class="header"><u>STUDENT REGISTRATION FORM</u></h1>
+    <form class="student-form-section">
+      <div class="main-container">
+        <div>
+          <label for="First Name">FIRST NAME</label>
+          <input id="First Name" type="text" /> (max 30 charcaters a-z and A-Z)
+        </div>
+        <br />
+
+        <div>
+          <label for="Last Name">LAST NAME</label>
+          <input id="Last Name" type="text" /> (max 30 characters a-z and A-Z)
+        </div>
+        <br />
+
+        <div>
+          <label for="date of birth">DATE OF BIRTH</label>
+          <select>
+            <option value="Day">Day</option>
+            <option>Monaday</option>
+            <option>Tuesday</option>
+            <option>Wednesday</option>
+            <option>Thursday</option>
+            <option>Friday</option>
+            <option>Saturday</option>
+            <option>Sunday</option>
+          </select>
+
+          <select>
+            <option value="Month">Month</option>
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+            <option>April</option>
+            <option>May</option>
+            <option>June</option>
+            <option>July</option>
+            <option>August</option>
+            <option>September</option>
+            <option>October</option>
+            <option>November</option>
+            <option>December</option>
+          </select>
+
+          <select>
+            <option value="Year">Year</option>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            <option>20003</option>
+            <option>2004</option>
+            <option>2005</option>
+            <option>2006</option>
+            <option>2007</option>
+            <option>2008</option>
+            <option>2009</option>
+            <option>2010</option>
+            <option>2011</option>
+            <option>2012</option>
+            <option>2013</option>
+            <option>2014</option>
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+            <option>2024</option>
+            <option>2025</option>
+            <option>2026</option>
+            <option>2027</option>
+            <option>2028</option>
+            <option>2029</option>
+            <option>2030</option>
+          </select>
+        </div>
+        <br />
+
+        <div>
+          <label for="Email id">EMAIL ID</label>
+          <input id="Email id" type="text" />
+        </div>
+        <br />
+
+        <div>
+          <label for="Mobile number">MOBILE NUMBER</label>
+          <input id="Mobile number" type="text" /> (10 digit number)
+        </div>
+
+        <div style="display: inline-block" class="form">
+          <label class="label">GENDER</label>
+          <label style="margin-right: -75px" for="male">Male</label>
+          <input id="gender" type="radio" />
+        </div>
+
+        <div style="display: inline-block">
+          <label style="margin-right: -62px" for="female">Female</label>
+          <input id="gender" type="radio" />
+        </div>
+        <br /><br />
+
+        <div>
+          <label for="">ADDRESS</label>
+          <textarea
+            style="display: inline-block"
+            name=""
+            id="Adress"
+            rows="5"
+            cols="25"
+          ></textarea>
+        </div>
+        <br />
+
+        <div>
+          <label for="City">CITY</label>
+          <input id="City" type="text" /> (max 30 characters a-z and A-Z)
+        </div>
+        <br />
+
+        <div>
+          <label for="Pin Code">PIN CODE</label>
+          <input id="Pin Code" type="text" /> (6 digit number)
+        </div>
+        <br />
+
+        <div>
+          <label for="State">State</label>
+          <input id="State" type="text" /> (max 30 characters a-z and A-Z)
+        </div>
+        <br />
+
+        <div>
+          <label for="Country">COUNTRY</label>
+          <input id="Country" type="text" value="India" />
+        </div>
+        <br />
+
+        <div>
+          <label>HOBBIES</label>
+
+          <div style="display: inline-block">
+            <label class="label-box" for="Drawing">Drawing:</label>
+            <input id="Drawing" type="checkbox" />
+
+            <label class="label-box" for="Singing">Singing:</label>
+            <input id="Singing" type="checkbox" />
+
+            <label class="label-box" for="Dancing">Dancing:</label>
+            <input id="Dancing" type="checkbox" />
+
+            <label class="label-box" for="Sketching">Sketching:</label>
+            <input id="Sketching" type="checkbox" /><br />
+
+            <label class="label-box" for="Other">Other:</label>
+            <input id="Other" type="checkbox" />
+            <input type="text" />
+          </div>
+        </div>
+        <br />
+
+        <div>
+          <label for="Qualification">QUALIFICATION</label>
+          <table>
+            <thead class="input-box">
+              <th>SI.No.</th>
+              <th>Examination</th>
+              <th>Board</th>
+              <th>Percentage</th>
+              <th>Year of Passing</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1.</td>
+                <td>Class X</td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+              </tr>
+
+              <tr>
+                <td>2.</td>
+                <td>Class XII</td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+              </tr>
+
+              <tr>
+                <td>3.</td>
+                <td>Graduation</td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+              </tr>
+
+              <tr>
+                <td>4.</td>
+                <td>Masters</td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+              </tr>
+
+              <tr>
+                <td></td>
+                <td></td>
+                <td style="text-align: center">(10 Char max)</td>
+                <td style="text-align: center">(upto 2 decimal)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div>
+          <label for="Courses Applied For">COURSES APPLIED FOR</label>
+          <div style="display: inline-block">
+            <label style="margin-right: -75px" for="Bca">BCA</label>
+            <input id="Bca" type="radio" />
+
+            <label style="margin-right: -62px" for="B.com">B.Com</label>
+            <input id="B.Com" type="radio" />
+
+            <label style="margin-right: -75px" for="B.Sc">B.Sc</label>
+            <input id="B.Sc" type="radio" />
+
+            <label style="margin-right: -75px" for="B.A">B.A</label>
+            <input id="B.A" type="radio" />
+          </div>
+        </div>
+        <br /><br />
+
+        <div class="button">
+          <input type="Submit" />
+          <input type="Reset" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
