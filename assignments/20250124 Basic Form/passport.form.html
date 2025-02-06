@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Anton&family=Bahianita&family=Barriecito&family=Bebas+Neue&family=Caveat:wght@400..700&family=Creepster&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Lexend+Giga:wght@100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Sans+Cuneiform&family=Noto+Serif+Todhri&family=Orbitron:wght@400..900&family=Playwrite+HU+Guides&family=Playwrite+IN:wght@100..400&family=Playwrite+VN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sixtyfour+Convergence&family=Smooch+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>PASSPORT APPLICATION FORM</title>
+    <link rel="stylesheet" href="passportform.css" />
+  </head>
+  <body>
+    <div class="passport-form">
+      <div style="display: inline-block">
+        <img
+          style="display: inline-block"
+          src="assets/logo/image.PNG"
+          alt="logo"
+        />
+      </div>
+      <div class="main-container">
+        <h1><b>PASSPORT APPLICATION FORM</b></h1>
+        <h2><b>Government of India, Ministery of External Affairs</b></h2>
+
+        <p style="display: inline-block">
+          <b>
+            Please read the Passport Instruction Booklet carefully before
+            filling the form. Furnishing of incorrect information/ suppression
+            of information would lead to rejection of application and would
+            attract penal provisions as prescribed under the Passports Act,
+            1967. Please produce your original documents at the time of
+            submission of the form. All fields marked with (*) are mandatory to
+            fill.</b
+          ><br /><br />
+        </p>
+        <div class="bar"><b>Service Required</b></div>
+        <br />
+
+        <div>
+          <b><label for="Applying Details">Applying for *</label></b>
+          <select class="form-apply-section">
+            <option></option>
+            <option>Fresh Passport</option>
+            <option>Re-isssue of Passport</option>
+          </select>
+        </div>
+
+        <b><label for="Type of Application *">Type of Application</label></b>
+        <input id="Type of Application" class="input-box" type="text" />
+        <input
+          id="Type of Application"
+          style="margin-left: -35%"
+          type="radio"
+          value="Normal"
+        />
+        <label for="Normal">Normal</label>
+
+        <input style="margin-left: 12%" id="Tatkaal" type="radio" />
+        <label for="Tatkaal">Tatkaal</label>
+      </div>
+
+      <div>
+        <b
+          ><label for="Type of Passport Booklet"
+            >Type of Passport Booklet *</label
+          ></b
+        >
+        <input class="input-box-1" type="text" />
+        <input
+          id="Type of Application"
+          style="margin-left: -35%"
+          type="radio"
+          value="36 Pages"
+        />
+        <label for="36 Pages">36 Pages</label>
+
+        <input class="input-box-2" id="60 Pages" type="radio" />
+        <label for="60 Pages">60 Pages</label>
+      </div>
+
+      <div class="bar"><b>Applicant Details</b></div>
+      <p>
+        <b>
+          Applicant's Given Name (Given Name means First Name followed by middle
+          Name (if any)) *</b
+        >
+      </p>
+
+      <input class="input-box-3" type="text" />
+
+      <br />
+      <b>Surname</b>
+      <input style="width: 99%" type="text" />
+
+      <div>
+        <b><label for="Gender">Gender *</label></b>
+        <select class="Gender">
+          <option></option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Transgender</option>
+        </select>
+      </div>
+
+      <div>
+        <b
+          ><label for="aliases"
+            >Are you known by any other names(aliases)? *</label
+          ></b
+        >
+        <input class="radio-button" id="aliases" type="text" />
+        <input style="margin-left: -60%" id="Yes" type="radio" />
+        <label for="Yes">Yes</label>
+        <input style="margin-left: 2%" id="No" type="radio" />
+        <label for="No">No</label>
+      </div>
+
+      <div>
+        <b
+          ><label for="Have you ever changed your name ? *"
+            >Have you ever changed your name ? *</label
+          ></b
+        >
+        <input class="radio-button-1" type="text" />
+        <input style="margin-left: -60%" id="Yes" type="radio" />
+        <label for="Yes">Yes</label>
+        <input style="margin-left: 2%" id="No" type="radio" />
+        <label for="No">No</label>
+      </div>
+
+      <div>
+        <b
+          ><label for="Date of Birth (DD/MM/YYYY) *"
+            >Date of Birth (DD/MM/YYYY) *</label
+          ></b
+        >
+        <input class="Date-Of-Birth" type="text" />
+      </div>
+
+      <div class="bar"><b>Place Of Birth</b></div>
+
+      <div>
+        <b
+          ><label for="Is your Place of Birth out of India? *"
+            >Is your Place of Birth out of India? *</label
+          ></b
+        >
+        <input class="radio-button-2" type="text" />
+        <input style="margin-left: -60%" id="Yes" type="radio" />
+        <label for="Yes">Yes</label>
+        <input style="margin-left: 2%" id="No" type="radio" />
+        <label for="No">No</label>
+      </div>
+
+      <div>
+        <b><label for="Town or city">Village or Town or City *</label></b>
+        <input id="Town or city" type="text" class="Town-City" />
+      </div>
+
+      <div>
+        <b><label for="Martial Status *">Martial Status *</label></b>
+        <select class="Martial-Status">
+          <option value=""></option>
+          <option value="Single">Single</option>
+          <option value="Married">Married</option>
+          <option value="Divorced">Divorced</option>
+          <option value="Separated">Separated</option>
+        </select>
+
+        <b><label for="Citizenship">Citizenship of India by *</label></b>
+        <select class="Martial-Status">
+          <option value=""></option>
+          <option value="Birth">Birth</option>
+          <option value="Descent">Descent</option>
+          <option value="Registration/Naturalization">
+            Registration/Naturalization
+          </option>
+        </select>
+      </div>
+
+      <div>
+        <b><label for="Pan-id">Pan (if availble) </label></b>
+        <input type="text" />
+        <b><label for="Voter-id">Voter (if availble) </label></b>
+        <input type="text" />
+      </div>
+    </div>
+  </body>
+</html>
