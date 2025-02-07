@@ -149,15 +149,15 @@
           ></b
         >
         <input class="radio-button-2" type="text" />
-        <input style="margin-left: -60%" id="Yes" type="radio" />
+        <input style="margin-left: -62%" id="Yes" type="radio" />
         <label for="Yes">Yes</label>
         <input style="margin-left: 2%" id="No" type="radio" />
         <label for="No">No</label>
       </div>
 
       <div>
-        <b><label for="Town or city">Village or Town or City *</label></b>
-        <input id="Town or city" type="text" class="Town-City" />
+        <b><label for="Town-or-city">Village or Town or City *</label></b>
+        <input id="Town-or-city" type="text" class="Town-City" />
       </div>
 
       <div>
@@ -183,10 +183,876 @@
 
       <div>
         <b><label for="Pan-id">Pan (if availble) </label></b>
-        <input type="text" />
+        <input id="Pan-id" type="text" />
         <b><label for="Voter-id">Voter (if availble) </label></b>
-        <input type="text" />
+        <input id="Voter-id" type="text" />
       </div>
+
+      <div>
+        <b><label for="Employment-Type">Employment-Type *</label></b>
+        <input id="Employment-Type" type="text" />
+      </div>
+
+      <div>
+        <b
+          ><label for="government-servant"
+            >Is either of your parent (in case of minor)/ spouse, a government
+            servant? *</label
+          ></b
+        >
+        <select class="government-servant">
+          <option value=""></option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+      </div>
+
+      <div>
+        <b><label for="Qualification">Educational Qualification *</label></b>
+        <select class="Qualification">
+          <option value=""></option>
+          <option value="7th pass or less">7th pass or less</option>
+          <option value="Between 8th and 9th stabdard">
+            Between 8th and 9th stabdard
+          </option>
+          <option value="10th pass and above">10th pass and above</option>
+          <option value="Graduate and above">Graduate and above</option>
+        </select>
+        <b><label for="">Are you eligible for Non-ECR category? *</label></b>
+        <select class="Non-ECR">
+          <option value=""></option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+      </div>
+
+      <div>
+        <b><label for="Visible-Mark">Visible Distinguishing Mark</label></b>
+        <input id="Visible-Mark" type="text" />
+      </div>
+
+      <div>
+        <b><label for="Aadhaar-Number">Aadhaar Number</label></b>
+        <input id="Aadhaar-Number" type="text" />
+      </div>
+
+      <div class="container">
+        <p>
+          I, the holder of above mentioned Aadhaar Number , hereby give my
+          consent to Passport Seva to obtain my Aadhaar Number, Name and
+          Fingerprint/Iris for authentication with UIDAI. I have no objection
+          using my identity and biometric information for validation with
+          Aadhaar (CIDR) database only for the purpose of authentication<br />
+          <label for="I agree">I agree</label>
+          <input type="checkbox" />
+          <label for="Yes">Yes</label>
+          <input type="checkbox" />
+          <label for="No">No</label>
+        </p>
+      </div>
+      <br />
+
+      <div class="bar">
+        <p>
+          <b
+            >Family Details (Father/Mother/Legal Guardian details; at least one
+            is mandatory.) *</b
+          >
+        </p>
+      </div>
+
+      <div>
+        <label for="Middle-name"
+          ><b
+            >Father's Given Name (Given Name means First Name followed by Middle
+            Name (If any))</b
+          ><br
+        /></label>
+        <input id="Middle-name" type="text" />
+      </div>
+
+      <div style="margin-top: 1%">
+        <label for="Surname"><b>Surname</b><br /></label>
+        <input id="Surname" type="text" />
+      </div>
+
+      <div style="margin-top: 1%">
+        <label for="Guardians-name"
+          ><b>Legal Guardian's Given Name (if applicable)</b><br
+        /></label>
+        <input id="Guardians-name" type="text" />
+      </div>
+
+      <div style="margin-top: 1%">
+        <label for="Surname"><b>Surname</b><br /></label>
+        <input id="Surname" type="text" />
+      </div>
+
+      <div style="margin-top: 1%">
+        <label for="Parents-name"
+          ><b
+            >Mother's Given Name (Given Name means First Name followed by Middle
+            Name (If any))</b
+          ></label
+        >
+        <input id="Parents-name" type="text" />
+      </div>
+
+      <div style="margin-top: 1%">
+        <label for="Surname"><b>Surname</b><br /></label>
+        <input id="Surname" type="text" />
+      </div>
+
+      <div style="margin-top: 1%" class="bar">
+        <p>
+          <b>
+            Present Residential Address Details (where applicant presently
+            resides)</b
+          >
+        </p>
+      </div>
+
+      <div>
+        <label for="Present-address"
+          ><b>Is your present address out of India? *</b></label
+        >
+        <input class="radio-button-3" id="Yes" type="text" />
+        <input style="margin-left: -65.9%" id="Yes" type="radio" />
+        <label for="Yes">Yes</label>
+        <input style="margin-left: 2%" id="No" type="radio" />
+        <label for="No">No</label>
+      </div>
+
+      <div>
+        <b><label>House No. and Street Name *</label></b>
+        <input id="street-Address" type="text" />
+      </div>
+
+      <div>
+        <b><label for="village-town">Village or Town or City *</label></b>
+        <input id="village-town" type="text" />
+        <b><label for="Country">Region/Country *</label></b>
+        <select id="Country">
+          <option value=""></option>
+          <option value="United States">United States</option>
+          <option value="Afghanistan">Afghanistan</option>
+          <option value="Albania">Albania</option>
+          <option value="Algeria">Algeria</option>
+          <option value="American Samoa">American Samoa</option>
+          <option value="Andorra">Andorra</option>
+          <option value="Angola">Angola</option>
+          <option value="Anguilla">Anguilla</option>
+          <option value="Antartica">Antarctica</option>
+          <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+          <option value="Argentina">Argentina</option>
+          <option value="Armenia">Armenia</option>
+          <option value="Aruba">Aruba</option>
+          <option value="Australia">Australia</option>
+          <option value="Austria">Austria</option>
+          <option value="Azerbaijan">Azerbaijan</option>
+          <option value="Bahamas">Bahamas</option>
+          <option value="Bahrain">Bahrain</option>
+          <option value="Bangladesh">Bangladesh</option>
+          <option value="Barbados">Barbados</option>
+          <option value="Belarus">Belarus</option>
+          <option value="Belgium">Belgium</option>
+          <option value="Belize">Belize</option>
+          <option value="Benin">Benin</option>
+          <option value="Bermuda">Bermuda</option>
+          <option value="Bhutan">Bhutan</option>
+          <option value="Bolivia">Bolivia</option>
+          <option value="Bosnia and Herzegowina">Bosnia and Herzegowina</option>
+          <option value="Botswana">Botswana</option>
+          <option value="Bouvet Island">Bouvet Island</option>
+          <option value="Brazil">Brazil</option>
+          <option value="British Indian Ocean Territory">
+            British Indian Ocean Territory
+          </option>
+          <option value="Brunei Darussalam">Brunei Darussalam</option>
+          <option value="Bulgaria">Bulgaria</option>
+          <option value="Burkina Faso">Burkina Faso</option>
+          <option value="Burundi">Burundi</option>
+          <option value="Cambodia">Cambodia</option>
+          <option value="Cameroon">Cameroon</option>
+          <option value="Canada">Canada</option>
+          <option value="Cape Verde">Cape Verde</option>
+          <option value="Cayman Islands">Cayman Islands</option>
+          <option value="Central African Republic">
+            Central African Republic
+          </option>
+          <option value="Chad">Chad</option>
+          <option value="Chile">Chile</option>
+          <option value="China">China</option>
+          <option value="Christmas Island">Christmas Island</option>
+          <option value="Cocos Islands">Cocos (Keeling) Islands</option>
+          <option value="Colombia">Colombia</option>
+          <option value="Comoros">Comoros</option>
+          <option value="Congo">Congo</option>
+          <option value="Congo">Congo, the Democratic Republic of the</option>
+          <option value="Cook Islands">Cook Islands</option>
+          <option value="Costa Rica">Costa Rica</option>
+          <option value="Cota D'Ivoire">Cote d'Ivoire</option>
+          <option value="Croatia">Croatia (Hrvatska)</option>
+          <option value="Cuba">Cuba</option>
+          <option value="Cyprus">Cyprus</option>
+          <option value="Czech Republic">Czech Republic</option>
+          <option value="Denmark">Denmark</option>
+          <option value="Djibouti">Djibouti</option>
+          <option value="Dominica">Dominica</option>
+          <option value="Dominican Republic">Dominican Republic</option>
+          <option value="East Timor">East Timor</option>
+          <option value="Ecuador">Ecuador</option>
+          <option value="Egypt">Egypt</option>
+          <option value="El Salvador">El Salvador</option>
+          <option value="Equatorial Guinea">Equatorial Guinea</option>
+          <option value="Eritrea">Eritrea</option>
+          <option value="Estonia">Estonia</option>
+          <option value="Ethiopia">Ethiopia</option>
+          <option value="Falkland Islands">Falkland Islands (Malvinas)</option>
+          <option value="Faroe Islands">Faroe Islands</option>
+          <option value="Fiji">Fiji</option>
+          <option value="Finland">Finland</option>
+          <option value="France">France</option>
+          <option value="France Metropolitan">France, Metropolitan</option>
+          <option value="French Guiana">French Guiana</option>
+          <option value="French Polynesia">French Polynesia</option>
+          <option value="French Southern Territories">
+            French Southern Territories
+          </option>
+          <option value="Gabon">Gabon</option>
+          <option value="Gambia">Gambia</option>
+          <option value="Georgia">Georgia</option>
+          <option value="Germany">Germany</option>
+          <option value="Ghana">Ghana</option>
+          <option value="Gibraltar">Gibraltar</option>
+          <option value="Greece">Greece</option>
+          <option value="Greenland">Greenland</option>
+          <option value="Grenada">Grenada</option>
+          <option value="Guadeloupe">Guadeloupe</option>
+          <option value="Guam">Guam</option>
+          <option value="Guatemala">Guatemala</option>
+          <option value="Guinea">Guinea</option>
+          <option value="Guinea-Bissau">Guinea-Bissau</option>
+          <option value="Guyana">Guyana</option>
+          <option value="Haiti">Haiti</option>
+          <option value="Heard and McDonald Islands">
+            Heard and Mc Donald Islands
+          </option>
+          <option value="Holy See">Holy See (Vatican City State)</option>
+          <option value="Honduras">Honduras</option>
+          <option value="Hong Kong">Hong Kong</option>
+          <option value="Hungary">Hungary</option>
+          <option value="Iceland">Iceland</option>
+          <option value="India">India</option>
+          <option value="Indonesia">Indonesia</option>
+          <option value="Iran">Iran (Islamic Republic of)</option>
+          <option value="Iraq">Iraq</option>
+          <option value="Ireland">Ireland</option>
+          <option value="Israel">Israel</option>
+          <option value="Italy">Italy</option>
+          <option value="Jamaica">Jamaica</option>
+          <option value="Japan">Japan</option>
+          <option value="Jordan">Jordan</option>
+          <option value="Kazakhstan">Kazakhstan</option>
+          <option value="Kenya">Kenya</option>
+          <option value="Kiribati">Kiribati</option>
+          <option value="Democratic People's Republic of Korea">
+            Korea, Democratic People's Republic of
+          </option>
+          <option value="Korea">Korea, Republic of</option>
+          <option value="Kuwait">Kuwait</option>
+          <option value="Kyrgyzstan">Kyrgyzstan</option>
+          <option value="Lao">Lao People's Democratic Republic</option>
+          <option value="Latvia">Latvia</option>
+          <option value="Lebanon">Lebanon</option>
+          <option value="Lesotho">Lesotho</option>
+          <option value="Liberia">Liberia</option>
+          <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+          <option value="Liechtenstein">Liechtenstein</option>
+          <option value="Lithuania">Lithuania</option>
+          <option value="Luxembourg">Luxembourg</option>
+          <option value="Macau">Macau</option>
+          <option value="Macedonia">
+            Macedonia, The Former Yugoslav Republic of
+          </option>
+          <option value="Madagascar">Madagascar</option>
+          <option value="Malawi">Malawi</option>
+          <option value="Malaysia">Malaysia</option>
+          <option value="Maldives">Maldives</option>
+          <option value="Mali">Mali</option>
+          <option value="Malta">Malta</option>
+          <option value="Marshall Islands">Marshall Islands</option>
+          <option value="Martinique">Martinique</option>
+          <option value="Mauritania">Mauritania</option>
+          <option value="Mauritius">Mauritius</option>
+          <option value="Mayotte">Mayotte</option>
+          <option value="Mexico">Mexico</option>
+          <option value="Micronesia">Micronesia, Federated States of</option>
+          <option value="Moldova">Moldova, Republic of</option>
+          <option value="Monaco">Monaco</option>
+          <option value="Mongolia">Mongolia</option>
+          <option value="Montserrat">Montserrat</option>
+          <option value="Morocco">Morocco</option>
+          <option value="Mozambique">Mozambique</option>
+          <option value="Myanmar">Myanmar</option>
+          <option value="Namibia">Namibia</option>
+          <option value="Nauru">Nauru</option>
+          <option value="Nepal">Nepal</option>
+          <option value="Netherlands">Netherlands</option>
+          <option value="Netherlands Antilles">Netherlands Antilles</option>
+          <option value="New Caledonia">New Caledonia</option>
+          <option value="New Zealand">New Zealand</option>
+          <option value="Nicaragua">Nicaragua</option>
+          <option value="Niger">Niger</option>
+          <option value="Nigeria">Nigeria</option>
+          <option value="Niue">Niue</option>
+          <option value="Norfolk Island">Norfolk Island</option>
+          <option value="Northern Mariana Islands">
+            Northern Mariana Islands
+          </option>
+          <option value="Norway">Norway</option>
+          <option value="Oman">Oman</option>
+          <option value="Pakistan">Pakistan</option>
+          <option value="Palau">Palau</option>
+          <option value="Panama">Panama</option>
+          <option value="Papua New Guinea">Papua New Guinea</option>
+          <option value="Paraguay">Paraguay</option>
+          <option value="Peru">Peru</option>
+          <option value="Philippines">Philippines</option>
+          <option value="Pitcairn">Pitcairn</option>
+          <option value="Poland">Poland</option>
+          <option value="Portugal">Portugal</option>
+          <option value="Puerto Rico">Puerto Rico</option>
+          <option value="Qatar">Qatar</option>
+          <option value="Reunion">Reunion</option>
+          <option value="Romania">Romania</option>
+          <option value="Russia">Russian Federation</option>
+          <option value="Rwanda">Rwanda</option>
+          <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+          <option value="Saint Lucia">Saint LUCIA</option>
+          <option value="Saint Vincent">
+            Saint Vincent and the Grenadines
+          </option>
+          <option value="Samoa">Samoa</option>
+          <option value="San Marino">San Marino</option>
+          <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+          <option value="Saudi Arabia">Saudi Arabia</option>
+          <option value="Senegal">Senegal</option>
+          <option value="Seychelles">Seychelles</option>
+          <option value="Sierra">Sierra Leone</option>
+          <option value="Singapore">Singapore</option>
+          <option value="Slovakia">Slovakia (Slovak Republic)</option>
+          <option value="Slovenia">Slovenia</option>
+          <option value="Solomon Islands">Solomon Islands</option>
+          <option value="Somalia">Somalia</option>
+          <option value="South Africa">South Africa</option>
+          <option value="South Georgia">
+            South Georgia and the South Sandwich Islands
+          </option>
+          <option value="Span">Spain</option>
+          <option value="Sri Lanka">Sri Lanka</option>
+          <option value="St. Helena">St. Helena</option>
+          <option value="St. Pierre and Miguelon">
+            St. Pierre and Miquelon
+          </option>
+          <option value="Sudan">Sudan</option>
+          <option value="Suriname">Suriname</option>
+          <option value="Svalbard">Svalbard and Jan Mayen Islands</option>
+          <option value="Swaziland">Swaziland</option>
+          <option value="Sweden">Sweden</option>
+          <option value="Switzerland">Switzerland</option>
+          <option value="Syria">Syrian Arab Republic</option>
+          <option value="Taiwan">Taiwan, Province of China</option>
+          <option value="Tajikistan">Tajikistan</option>
+          <option value="Tanzania">Tanzania, United Republic of</option>
+          <option value="Thailand">Thailand</option>
+          <option value="Togo">Togo</option>
+          <option value="Tokelau">Tokelau</option>
+          <option value="Tonga">Tonga</option>
+          <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+          <option value="Tunisia">Tunisia</option>
+          <option value="Turkey">Turkey</option>
+          <option value="Turkmenistan">Turkmenistan</option>
+          <option value="Turks and Caicos">Turks and Caicos Islands</option>
+          <option value="Tuvalu">Tuvalu</option>
+          <option value="Uganda">Uganda</option>
+          <option value="Ukraine">Ukraine</option>
+          <option value="United Arab Emirates">United Arab Emirates</option>
+          <option value="United Kingdom">United Kingdom</option>
+          <option value="United States Minor Outlying Islands">
+            United States Minor Outlying Islands
+          </option>
+          <option value="Uruguay">Uruguay</option>
+          <option value="Uzbekistan">Uzbekistan</option>
+          <option value="Vanuatu">Vanuatu</option>
+          <option value="Venezuela">Venezuela</option>
+          <option value="Vietnam">Viet Nam</option>
+          <option value="Virgin Islands (British)">
+            Virgin Islands (British)
+          </option>
+          <option value="Virgin Islands (U.S)">Virgin Islands (U.S.)</option>
+          <option value="Wallis and Futana Islands">
+            Wallis and Futuna Islands
+          </option>
+          <option value="Western Sahara">Western Sahara</option>
+          <option value="Yemen">Yemen</option>
+          <option value="Serbia">Serbia</option>
+          <option value="Zambia">Zambia</option>
+          <option value="Zimbabwe">Zimbabwe</option>
+        </select>
+      </div>
+
+      <div>
+        <b><label for="State">State/Province</label></b>
+        <input id="State" type="text" />
+
+        <b><label for="Distict">District/ Country</label></b>
+        <input id="Distict" type="text" />
+      </div>
+
+      <div>
+        <b><label for="Zip-code">Zip Code</label></b>
+        <input id="Zip-code" type="text" />
+
+        <b
+          ><label style="margin-left: 5%" for="Mobile-no"
+            >Mobile Number</label
+          ></b
+        >
+        <input id="Mobile-no" type="text" />
+
+        <b
+          ><label style="margin-left: 5%" for="Tel-no"
+            >Telephone Number</label
+          ></b
+        >
+        <input id="Tel-no" type="text" />
+      </div>
+
+      <div>
+        <b><label for="email-id">Email-ID *</label></b>
+        <input id="email-id" type="text" />
+      </div>
+
+      <div>
+        <b><label for="per-add">Do you have a Permanent Address? *</label></b>
+        <input class="radio-button-4" id="Yes" type="text" />
+        <input style="margin-left: -65.9%" id="Yes" type="radio" />
+        <label for="Yes">Yes</label>
+        <input style="margin-left: 2%" id="No" type="radio" />
+        <label for="No">No</label>
+      </div>
+
+      <div>
+        <b><p class="bar">Emergency Contact Details *</p></b>
+      </div>
+
+      <div>
+        <b><label for="NAME-ADD">Name and Address *</label><br /></b>
+        <input class="NAME-ADD" type="text" />
+      </div>
+
+      <div>
+        <b><label for="Mob-No">Mobile Number*</label></b>
+        <input class="Mob-No" type="text" />
+
+        <b><label for="Tel-num">Telephone Number</label></b>
+        <input style="margin-left: 2%" class="Tel-num" type="text" />
+      </div>
+
+      <div>
+        <b><label for="email-id-1">Email-ID *</label></b>
+        <input id="email-id-1" type="text" />
+      </div>
+
+      <div>
+        <b><p class="bar-1">Identity Certificate /Passport Details</p></b>
+      </div>
+
+      <div>
+        <b
+          ><label for="id-certificate"
+            >Have you ever held/hold any Identity Certificate? *</label
+          ></b
+        >
+        <input style="margin-left: 4%" id="id-certificate" type="text" />
+        <input style="margin-left: -55%" type="radio" />
+        <label for="Yes">Yes</label>
+        <input type="radio" />
+        <label for="No">No</label>
+      </div>
+
+      <div>
+        <p>
+          <b
+            >(Identity Certificate(IC) is normally issued to Tibetan/other
+            stateless people residing in India)</b
+          >
+        </p>
+      </div>
+
+      <div>
+        <p><b>Details of Previous/Current Diplomatic/Official Passport*</b></p>
+      </div>
+
+      <div>
+        <input id="Details-Avail" type="text" />
+        <input style="margin-left: -85%" type="radio" />
+        <b><label for="Details Available">Details Available</label></b>
+        <input style="margin-left: 19%" type="radio" />
+        <b
+          ><label for="Official passport"
+            >Details Not Available/Never Held Diplomatic/Official
+            passport</label
+          ></b
+        >
+      </div>
+
+      <div>
+        <b
+          ><label for="Passport"
+            >Have you ever applied for passport, but not issued? *</label
+          ></b
+        >
+        <input
+          id="Passport"
+          style="margin-left: 4%"
+          id="id-certificate"
+          type="text"
+        />
+        <input style="margin-left: -55%" type="radio" />
+        <label for="Yes">Yes</label>
+        <input type="radio" />
+        <label for="No">No</label>
+      </div>
+
+      <div class="bar">
+        <p><b>Other Details</b></p>
+      </div>
+
+      <div>
+        <p>
+          <b>
+            1) Provide the following details if there are any criminal
+            proceedings pending against the applicant.</b
+          >
+        </p>
+      </div>
+
+      <div>
+        <b
+          ><label for="criminal-court"
+            >Are any proceedings in respect of an offence alleged to have been
+            committed by you pending before a criminal court <br />
+            in India? *</label
+          ></b
+        >
+        <input style="margin-left: 77%" id="criminal-court" type="text" />
+        <input style="margin-left: -12%" type="radio" />
+        <label for="Yes">Yes</label>
+        <input type="radio" />
+        <label for="No">No</label>
+      </div>
+
+      <div>
+        <b
+          ><label for="issues">
+            Has any warrant or summons for your appearance been issued and
+            pending before a court under any law for the time <br />
+            being in force? *
+          </label></b
+        >
+        <input
+          id="issues"
+          style="margin-left: 72.5%"
+          id="criminal-court"
+          type="text"
+        />
+        <input style="margin-left: -12%" type="radio" />
+        <label for="Yes">Yes</label>
+        <input type="radio" />
+        <label for="No">No</label>
+      </div>
+
+      <div>
+        <b
+          ><label for="arrest-warrant"
+            >Has a warrant for your arrest been issued by a court under any law
+            for the time being in force? *</label
+          ></b
+        >
+        <input id="arrest-warrant" style="margin-left: 16%" type="text" />
+        <input style="margin-left: -12%" type="radio" />
+        <label for="Yes">Yes</label>
+        <input type="radio" />
+        <label for="No">No</label>
+      </div>
+
+      <div>
+        <b
+          ><label for="india-court"
+            >Has an order prohibiting your departure from India been made by any
+            court? *</label
+          ></b
+        >
+        <input id="india-court" style="margin-left: 28.7%" type="text" />
+        <input style="margin-left: -12%" type="radio" />
+        <label for="Yes">Yes</label>
+        <input type="radio" />
+        <label for="No">No</label>
+      </div>
+      <br />
+
+      <div>
+        <p>
+          <b>
+            2) Provide the following details if the applicant has been convicted
+            by a court in India.</b
+          >
+        </p>
+      </div>
+
+      <div>
+        <b
+          ><label for="court"
+            >Have you, at any time during the period of five years immediately
+            preceding the date of this application, been convicted by a court in
+            India for any offence involving moral turpitude and sentenced in
+            respect thereof to imprisonment for not less than two years?*</label
+          ></b
+        >
+        <input id="court" style="margin-left: -1%" type="text" />
+        <input style="margin-left: -12%" type="radio" />
+        <label for="Yes">Yes</label>
+        <input type="radio" />
+        <label for="No">No</label>
+      </div>
+      <br />
+
+      <div>
+        <p>
+          <b>
+            3) Provide the following details if the applicant has been
+            refused/denied passport.</b
+          >
+        </p>
+      </div>
+
+      <div>
+        <b
+          ><label for="denied-passport"
+            >Have you ever been refused/denied passport? *</label
+          ></b
+        >
+        <input id="court" style="margin-left: 51%" type="text" />
+        <input style="margin-left: -12%" type="radio" />
+        <label for="Yes">Yes</label>
+        <input type="radio" />
+        <label for="No">No</label>
+      </div>
+
+      <div>
+        <b
+          ><label for="impounded-passport"
+            >Has your passport ever been impounded?*</label
+          ></b
+        >
+        <input id="impounded-passport" style="margin-left: 54.5%" type="text" />
+        <input style="margin-left: -12%" type="radio" />
+        <label for="Yes">Yes</label>
+        <input type="radio" />
+        <label for="No">No</label>
+      </div>
+
+      <div>
+        <b
+          ><label for="revoke-passport"
+            >Has your passport ever been revoked?*</label
+          ></b
+        >
+        <input id="revoke-passport" style="margin-left: 56.7%" type="text" />
+        <input style="margin-left: -12%" type="radio" />
+        <label for="Yes">Yes</label>
+        <input type="radio" />
+        <label for="No">No</label>
+      </div>
+      <br />
+
+      <div>
+        <b
+          ><p>
+            4) Provide the following details if applicant has applied for or
+            been granted foreign citizenship.
+          </p></b
+        >
+      </div>
+
+      <div>
+        <b
+          ><label for="citizen-ship"
+            >Have you ever been granted citizenship by any other
+            region/country?*</label
+          ></b
+        >
+        <input id="citizen-ship" style="margin-left: 35%" type="text" />
+        <input style="margin-left: -12%" type="radio" />
+        <label for="Yes">Yes</label>
+        <input type="radio" />
+        <label for="No">No</label>
+      </div>
+
+      <div>
+        <b
+          ><label for="foreign-citizenship"
+            >Have you ever held the passport of any other region/country at any
+            time?*</label
+          ></b
+        >
+        <input id="foreign-citizenship" style="margin-left: 32%" type="text" />
+        <input style="margin-left: -12%" type="radio" />
+        <label for="Yes">Yes</label>
+        <input type="radio" />
+        <label for="No">No</label>
+      </div>
+
+      <div>
+        <b
+          ><label for="surrendered-passport"
+            >Have you ever surrendered your Indian passport?*</label
+          ></b
+        >
+        <input id="surrendered-passport" style="margin-left: 49%" type="text" />
+        <input style="margin-left: -12%" type="radio" />
+        <label for="Yes">Yes</label>
+        <input type="radio" />
+        <label for="No">No</label>
+      </div>
+
+      <div>
+        <b
+          ><label for="indian-citizenship"
+            >Have you ever applied for renunciation of Indian
+            citizenship?*</label
+          ></b
+        >
+        <input id="indian-citizenship" style="margin-left: 41%" type="text" />
+        <input style="margin-left: -12%" type="radio" />
+        <label for="Yes">Yes</label>
+        <input type="radio" />
+        <label for="No">No</label>
+      </div>
+      <br />
+
+      <div>
+        <b
+          ><p>
+            5) Provide the following details if applicant has returned to India
+            on Emergency Certificate.
+          </p></b
+        >
+      </div>
+
+      <div>
+        <b
+          ><label for="Emergency-Certificate"
+            >Have you ever returned to India on Emergency Certificate (EC) ?
+            *</label
+          ></b
+        >
+        <input
+          id="Emergency-Certificate"
+          style="margin-left: 38%"
+          type="text"
+        />
+        <input style="margin-left: -12%" type="radio" />
+        <label for="Yes">Yes</label>
+        <input type="radio" />
+        <label for="No">No</label>
+      </div>
+
+      <div>
+        <b
+          ><label for="deported-country"
+            >Have you ever been deported from any country?*</label
+          ></b
+        >
+        <input id="deported-country" style="margin-left: 49.5%" type="text" />
+        <input style="margin-left: -12%" type="radio" />
+        <label for="Yes">Yes</label>
+        <input type="radio" />
+        <label for="No">No</label>
+      </div>
+
+      <div>
+        <b
+          ><label for="repatriated-country"
+            >Have you ever been repatriated from any country back to
+            India?*</label
+          ></b
+        >
+        <input
+          id="repatriated-country"
+          style="margin-left: 38.5%"
+          type="text"
+        />
+        <input style="margin-left: -12%" type="radio" />
+        <label for="Yes">Yes</label>
+        <input type="radio" />
+        <label for="No">No</label>
+      </div>
+
+      <div>
+        <b><p class="bar-1">Self Declaration</p></b>
+      </div>
+
+      <div class="Declaration">
+        <p>
+          I owe allegiance to the sovereignty, unity & integrity of India, and
+          have not voluntarily acquired citizenship or travel document of any
+          other country. I have not lost, surrendered or been deprived of the
+          citizenship of India. I have not contravened any of the conditions
+          relating to the possession and use of an Indian passport.<br />
+          I affirm that the information and particulars given by me in this form
+          are true and correct. I further state that I am not suppressing any
+          material information in this regard. I further affirm that the
+          enclosures and documentary proof submitted in support of my
+          application for an Indian passport are authentic and solely pertain to
+          me and I am fully responsible for the accuracy of the same. I am
+          liable to be penalized or prosecuted if found otherwise. I am aware
+          that under the Passports Act, 1967 it is a criminal offence to furnish
+          any false information or to suppress any material information with a
+          view to obtaining passport or travel<br />
+          I have read and understood the contents of the above and by submitting
+          this form certify that all the information submitted by me in the form
+          is bonafide.
+        </p>
+        <br />
+        <input type="checkbox" />
+        <b><label for="Agree">I Agree</label></b>
+      </div>
+
+      <div>
+        <b><label for="Residence">Place *</label></b>
+        <input class="Residence" type="text" />
+
+        <b><label for="">Date (DD/MM/YYYY) *</label></b>
+        <input type="text" value="07/02/2025" />
+      </div>
+      <br />
+
+      <div>
+        <b>NOTICE:</b>
+      </div>
+
+      <div>
+        <p>
+          Applicants are required to submit the proof of address of the present
+          address only, irrespective of the date from which he/she has been
+          residing at the given address.
+        </p>
+      </div>
+      <br />
+      <input class="button" type="submit" value="VALIDATE & SAVE" />
     </div>
   </body>
 </html>

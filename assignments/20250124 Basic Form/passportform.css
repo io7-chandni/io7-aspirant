@@ -6,14 +6,16 @@
 html {
   font-size: 62.5%;
   font-family: "Poppins", serif;
+  color: brown;
 }
 
 .passport-form {
-  height: 700px;
+  height: 3000px;
   width: 70%;
   margin: 10px auto;
-  border: 2px solid grey;
+  border: 4px solid grey;
   font-size: 12px;
+  background-color: burlywood;
 }
 
 label {
@@ -71,12 +73,18 @@ h2 {
 .Gender {
   border: 3px solid red;
   width: 25%;
+  margin-top: 1%;
 }
 
 .radio-button {
   border: 3px solid red;
   width: 60%;
   margin-left: 5%;
+  margin-top: 1%;
+}
+
+#Town-or-city {
+  margin-top: 1%;
 }
 
 .button {
@@ -110,4 +118,295 @@ h2 {
   border: 3px solid red;
   width: 17%;
   margin-left: 2%;
+  margin-top: 1%;
+}
+
+.input-box-4 {
+  width: 30%;
+}
+
+#Pan-id {
+  width: 25%;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+#Voter-id {
+  width: 39%;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+#Employment-Type {
+  width: 82.5%;
+  border: 3px solid red;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+.government-servant {
+  border: 3px solid red;
+  margin-top: 1%;
+  width: 10%;
+}
+
+.Qualification {
+  width: 30%;
+  border: 3px solid red;
+  margin-top: 1%;
+  margin-left: 3%;
+}
+
+.Non-ECR {
+  width: 10%;
+  border: 3px solid red;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+#Visible-Mark {
+  width: 78%;
+  margin-top: 1%;
+  margin-left: 1.5%;
+}
+
+#Aadhaar-Number {
+  margin-left: 9%;
+  width: 29.5%;
+  margin-top: 1%;
+}
+
+.container {
+  border: 2px solid black;
+  margin-top: 1%;
+}
+
+#Middle-name {
+  width: 99.5%;
+}
+
+#Surname {
+  width: 99.5%;
+}
+
+#Guardians-name {
+  width: 99.5%;
+}
+
+#Parents-name {
+  width: 99.5%;
+}
+
+.radio-button-3 {
+  border: 3px solid red;
+  width: 66%;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+#street-Address {
+  width: 76%;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+#village-town {
+  width: 34%;
+  margin-top: 1%;
+}
+
+#Country {
+  width: 34%;
+  margin-top: 1%;
+  border: 3px solid red;
+}
+
+#State {
+  margin-left: 6.5%;
+  width: 34%;
+  border: 3px solid red;
+  margin-top: 1%;
+}
+
+#Distict {
+  width: 33.4%;
+  border: 3px solid red;
+  margin-left: 0.5%;
+  margin-top: 1%;
+}
+
+#Zip-code {
+  width: 16%;
+  border: 3px solid red;
+  margin-top: 1%;
+  margin-left: 4%;
+}
+
+#Mobile-no {
+  width: 17%;
+  border: 3px solid red;
+  margin-top: 1%;
+}
+
+#Tel-no {
+  width: 17%;
+  margin-top: 1%;
+}
+
+#email-id {
+  margin-top: 1%;
+  width: 57%;
+  margin-left: 10%;
+}
+
+#per-add {
+  border: 3px solid red;
+  margin-top: 1%;
+  width: 64%;
+}
+
+.radio-button-4 {
+  border: 3px solid red;
+  width: 66%;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+.NAME-ADD {
+  width: 99%;
+}
+
+.Mob-No {
+  margin-left: 5%;
+  width: 25%;
+  border: 3px solid red;
+  margin-top: 1%;
+}
+
+.Tel-num {
+  width: 28%;
+  margin-top: 1%;
+}
+
+#email-id-1 {
+  margin-top: 1%;
+  width: 70%;
+  margin-left: 9.5%;
+}
+
+.bar-1 {
+  margin-top: 1%;
+  height: 25px;
+  width: 100%;
+  background-color: #c0c0c0;
+  padding-top: 5px;
+}
+
+#id-certificate {
+  border: 3px solid red;
+  width: 55%;
+}
+
+#Details-Avail {
+  border: 3px solid red;
+  width: 85%;
+}
+
+#Passport {
+  border: 3px solid red;
+  width: 55%;
+}
+
+#criminal-court {
+  width: 12%;
+  border: 3px solid red;
+}
+
+#issues {
+  width: 12%;
+  border: 3px solid red;
+}
+
+#arrest-warrant {
+  width: 12%;
+  border: 3px solid red;
+}
+
+#india-court {
+  width: 12%;
+  border: 3px solid red;
+}
+
+#court {
+  width: 12%;
+  border: 3px solid red;
+}
+
+#denied-passport {
+  width: 12%;
+  border: 3px solid red;
+}
+
+#impounded-passport {
+  width: 12%;
+  border: 3px solid red;
+}
+
+#revoke-passport {
+  width: 12%;
+  border: 3px solid red;
+}
+
+#citizen-ship {
+  width: 12%;
+  border: 3px solid red;
+}
+
+#foreign-citizenship {
+  width: 12%;
+  border: 3px solid red;
+}
+
+#surrendered-passport {
+  width: 12%;
+  border: 3px solid red;
+}
+
+#indian-citizenship {
+  width: 12%;
+  border: 3px solid red;
+}
+
+#Emergency-Certificate {
+  width: 12%;
+  border: 3px solid red;
+}
+
+#deported-country {
+  width: 12%;
+  border: 3px solid red;
+}
+
+#repatriated-country {
+  width: 12%;
+  border: 3px solid red;
+}
+
+.Declaration {
+  height: 240px;
+  width: 100%;
+  border: 1px solid black;
+  border-top: none;
+}
+
+.Residence {
+  width: 45%;
+  border: 3px solid red;
+  margin-top: 1%;
+}
+
+.button{
+    height: 35px;
+    width: 20%;
+    color: brown;
 }
