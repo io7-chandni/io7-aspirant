@@ -10,7 +10,6 @@ html {
 }
 
 .passport-form {
-  height: 3000px;
   width: 70%;
   margin: 10px auto;
   border: 4px solid grey;
@@ -405,8 +404,12 @@ h2 {
   margin-top: 1%;
 }
 
-.button{
-    height: 35px;
-    width: 20%;
-    color: brown;
+.button {
+  height: 35px;
+  width: 20%;
+  color: brown;
+}
+
+option {
+  background-color: rgb(214, 14, 14);
 }
