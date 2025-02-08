@@ -19,7 +19,7 @@ html {
   height: 500px;
   width: 70%;
   margin: 10px auto;
-  background-color: hotpink;
+  background-color: beige;
 }
 
 .main-container .signup-box .image-section {
@@ -79,4 +79,8 @@ button {
 
 .icons {
   margin-left: 32%;
+}
+
+.input-box {
+  padding-left: 5%;
 }
