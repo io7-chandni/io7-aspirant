@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", serif;
+  font-weight: bold;
+}
+
+.header,
+ul,
+li {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #738089;
+  background-color: #ffffff;
+  font-size: 12px;
+}
+
+.icon {
+  color: #04abed;
+}
+
+.button {
+  height: 20px;
+  width: 60px;
+  border-radius: 25px;
+  background-color: #04abed;
+  color: white;
+  border: none;
+}
+
+.main-container {
+  height: 450px;
+  width: 90%;
+  background-color: rgb(230, 236, 240);
+  margin: 1px auto;
+  display: flex;
+}
+
+.Tweets-page {
+  height: 150px;
+  width: 18%;
+  background-color: #ffffff;
+  margin-left: 11%;
+}
+
+.heading {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.image {
+  text-align: left;
+  margin-left: 6%;
+  display: flex;
+}
+
+.remy {
+  padding-top: 58%;
+  margin-left: 35%;
+}
+
+.remy-1 {
+  margin-left: 25%;
+}
+
+.table {
+  text-align: end;
+  justify-content: end;
+  padding-top: 50%;
+  margin-left: -65%;
+  color: grey;
+}
+
+.chat-box {
+  height: 350px;
+  width: 40%;
+  background-color: red;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.img-1 {
+  background-color: #ffffff;
+  border-bottom: 1px solid grey;
+  height: 70px;
+  width: 100%;
+  padding-top: 2%;
+  padding-left: 2%;
+  display: flex;
+}
+
+.chat {
+  padding-top: -50px;
+  margin-left: 2%;
+}
+
+.followers {
+  height: 150px;
+  width: 18%;
+  background-color: #ffffff;
+  padding-top: 1%;
+  padding-left: 1%;
+}
+
+.img-2 {
+  display: flex;
+  border-bottom: 1px solid grey;
+  padding-top: 1%;
+}
+
+.button-1 {
+  height: 20px;
+  width: 60px;
+  border-radius: 7px;
+  background-color: white;
+  color: skyblue;
+  border: 2px solid #04abed;
+  margin-left: -75px;
+  margin-top: 14%;
+}
+
+.img-3 {
+  display: flex;
+  border-bottom: 1px solid grey;
+  padding-top: 1%;
+}
+
+.button-2 {
+  height: 20px;
+  width: 60px;
+  border-radius: 7px;
+  background-color: white;
+  color: skyblue;
+  border: 2px solid #04abed;
+  margin-left: -42px;
+  margin-top: 14%;
+}
+
+.h2 {
+  padding-top: 2%;
+}
