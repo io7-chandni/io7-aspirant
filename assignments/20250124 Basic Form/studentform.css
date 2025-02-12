@@ -37,6 +37,6 @@ label {
 }
 
 .button {
-  display: inline-block;
+  display: flex;
   margin-left: 43%;
 }

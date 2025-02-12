@@ -18,13 +18,15 @@
       <div class="main-container">
         <div>
           <label for="First Name">FIRST NAME</label>
-          <input id="First Name" type="text" /> (max 30 charcaters a-z and A-Z)
+          <input id="First Name" type="text" maxlength="30" /> (max 30
+          charcaters a-z and A-Z)
         </div>
         <br />
 
         <div>
           <label for="Last Name">LAST NAME</label>
-          <input id="Last Name" type="text" /> (max 30 characters a-z and A-Z)
+          <input id="Last Name" type="text" maxlength="30" /> (max 30 characters
+          a-z and A-Z)
         </div>
         <br />
 
@@ -102,12 +104,15 @@
 
         <div>
           <label for="Mobile number">MOBILE NUMBER</label>
-          <input id="Mobile number" type="text" /> (10 digit number)
+          <input id="Mobile number" type="text" maxlength="10" /> (10 digit
+          number)
         </div>
 
         <div style="display: inline-block" class="form">
           <label class="label">GENDER</label>
-          <label style="margin-right: -75px" for="male">Male</label>
+          <label style="margin-right: -75px; margin-top: -2px" for="male"
+            >Male</label
+          >
           <input id="gender" type="radio" />
         </div>
 
@@ -131,19 +136,21 @@
 
         <div>
           <label for="City">CITY</label>
-          <input id="City" type="text" /> (max 30 characters a-z and A-Z)
+          <input id="City" type="text" maxlength="30" /> (max 30 characters a-z
+          and A-Z)
         </div>
         <br />
 
         <div>
           <label for="Pin Code">PIN CODE</label>
-          <input id="Pin Code" type="text" /> (6 digit number)
+          <input id="Pin Code" type="text" maxlength="6" /> (6 digit number)
         </div>
         <br />
 
         <div>
           <label for="State">State</label>
-          <input id="State" type="text" /> (max 30 characters a-z and A-Z)
+          <input id="State" type="text" maxlength="30" /> (max 30 characters a-z
+          and A-Z)
         </div>
         <br />
 
@@ -228,9 +235,10 @@
             </tbody>
           </table>
         </div>
+        <br />
 
         <div>
-          <label for="Courses Applied For">COURSES APPLIED FOR</label>
+          <label for="Courses Applied For">COURSES APPLIED</label>
           <div style="display: inline-block">
             <label style="margin-right: -75px" for="Bca">BCA</label>
             <input id="Bca" type="radio" />
@@ -248,8 +256,8 @@
         <br /><br />
 
         <div class="button">
-          <input type="Submit" />
-          <input type="Reset" />
+          <input style="width: 20%; border-radius: 10px" type="Submit" />
+          <input style="width: 20%; border-radius: 10px" type="Reset" />
         </div>
       </div>
     </form>

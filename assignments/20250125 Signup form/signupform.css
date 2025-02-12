@@ -19,7 +19,8 @@ html {
   height: 500px;
   width: 70%;
   margin: 10px auto;
-  background-color: beige;
+  background-color: #ffffff;
+  display: flex;
 }
 
 .main-container .signup-box .image-section {

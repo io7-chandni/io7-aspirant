@@ -42,13 +42,14 @@ li {
   background-color: rgb(230, 236, 240);
   margin: 1px auto;
   display: flex;
+  padding-top: 10px;
+  justify-content: center;
 }
 
 .Tweets-page {
   height: 150px;
   width: 18%;
   background-color: #ffffff;
-  margin-left: 11%;
 }
 
 .heading {

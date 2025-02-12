@@ -36,11 +36,17 @@ html {
   color: #162731;
 }
 
+.input {
+  display: flex;
+  padding-left: 5px;
+}
+
 .input-box {
   border-radius: 5px;
   border: 2px solid #bcc1c5;
   height: 30px;
   width: 43%;
+  display: grid;
 }
 
 .Address {
