@@ -28,7 +28,7 @@ html {
 }
 
 label {
-  width: 100px;
+  width: 105px;
   display: inline-block;
 }
 
@@ -38,5 +38,8 @@ label {
 
 .button {
   display: flex;
-  margin-left: 43%;
+  width: 30%;
+  justify-content: space-between;
+  margin: auto;
 }
+
