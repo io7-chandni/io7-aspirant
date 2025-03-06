@@ -1,5 +1,4 @@
-
-0* {
+* {
   margin: 0;
   padding: 0;
 }
@@ -13,7 +12,7 @@ html {
 .passport-form {
   width: 70%;
   margin: 10px auto;
-  border: 2px solid grey;
+  border: 2px solid rgb(192, 192, 192);
   font-size: 12px;
   background-color: #ffffff;
   padding: 2%;
@@ -38,50 +37,60 @@ h2 {
 }
 
 .bar {
+  background-color: rgb(192, 192, 192);
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+.birth-bar {
   height: 25px;
   width: 100%;
-  background-color: #c0c0c0;
+  background-color: rgb(192, 192, 192);
   padding-top: 5px;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
 }
 
 .form-apply-section {
   width: 35%;
-  border: 1px solid red;
   margin-left: 15%;
 }
 
 .input-box {
   width: 35%;
-  border: 1px solid red;
-  margin-left: 17.5%;
+
+  margin-left: 55px;
+  margin-right: -121px;
+}
+
+.Tatkaal {
+  margin-left: 5%;
 }
 
 .input-box-1 {
-  border: 1px solid red;
   width: 35%;
   margin-left: 12%;
 }
 
-.input-box-2 {
-  margin-left: 11%;
+.Passport-Booklet {
+  margin-left: 18.5%;
 }
 
 .input-box-3 {
   width: 99%;
-  border: 1px solid red;
 }
 
 .Gender {
-  border: 1px solid red;
   width: 25%;
   margin-top: 1%;
 }
 
 .radio-button {
-  border: 1px solid red;
-  width: 60%;
   margin-left: 5%;
-  margin-top: 1%;
+}
+
+.aliases {
+  margin-left: 2%;
 }
 
 #Town-or-city {
@@ -92,22 +101,25 @@ h2 {
   margin-right: -98%;
 }
 
-.radio-button-1 {
-  border: 1px solid red;
-  width: 60%;
-  margin-left: 11%;
+.name-changed-1 {
+  margin-left: 11.2%;
+}
+
+.name-changed-2 {
+  margin-left: 2%;
 }
 
 .Date-Of-Birth {
-  border: 1px solid red;
   width: 14%;
   margin-left: 1%;
 }
 
 .radio-button-2 {
-  border: 1px solid red;
-  width: 62%;
-  margin-left: 11%;
+  margin-left: 12.5%;
+}
+
+.place-of-birth {
+  margin-left: 2%;
 }
 
 .Town-City {
@@ -116,7 +128,6 @@ h2 {
 }
 
 .Martial-Status {
-  border: 1px solid red;
   width: 17%;
   margin-left: 2%;
   margin-top: 1%;
@@ -140,27 +151,26 @@ h2 {
 
 #Employment-Type {
   width: 82.5%;
-  border: 1px solid red;
+
   margin-top: 1%;
   margin-left: 2%;
 }
 
 .government-servant {
-  border: 1px solid red;
   margin-top: 1%;
   width: 10%;
 }
 
 .Qualification {
   width: 30%;
-  border: 1px solid red;
+
   margin-top: 1%;
   margin-left: 3%;
 }
 
 .Non-ECR {
   width: 10%;
-  border: 1px solid red;
+
   margin-top: 1%;
   margin-left: 2%;
 }
@@ -199,10 +209,12 @@ h2 {
 }
 
 .radio-button-3 {
-  border: 1px solid red;
-  width: 66%;
-  margin-left: 5%;
-  margin-top: 1%;
+  margin-left: 14.5%;
+  margin-top: 0.5%;
+}
+
+.present-address {
+  margin-left: 4%;
 }
 
 #street-Address {
@@ -219,33 +231,28 @@ h2 {
 #Country {
   width: 34%;
   margin-top: 1%;
-  border: 1px solid red;
 }
 
 #State {
   margin-left: 6.5%;
   width: 34%;
-  border: 1px solid red;
   margin-top: 1%;
 }
 
 #Distict {
   width: 33.4%;
-  border: 1px solid red;
   margin-left: 0.5%;
   margin-top: 1%;
 }
 
 #Zip-code {
   width: 16%;
-  border: 1px solid red;
   margin-top: 1%;
   margin-left: 4%;
 }
 
 #Mobile-no {
   width: 17%;
-  border: 1px solid red;
   margin-top: 1%;
 }
 
@@ -261,16 +268,17 @@ h2 {
 }
 
 #per-add {
-  border: 1px solid red;
   margin-top: 1%;
   width: 64%;
 }
 
 .radio-button-4 {
-  border: 1px solid red;
-  width: 66%;
-  margin-left: 5%;
+  margin-left: 15%;
   margin-top: 1%;
+}
+
+.per-add {
+  margin-left: 2%;
 }
 
 .NAME-ADD {
@@ -280,7 +288,7 @@ h2 {
 .Mob-No {
   margin-left: 5%;
   width: 25%;
-  border: 1px solid red;
+
   margin-top: 1%;
 }
 
@@ -295,102 +303,111 @@ h2 {
   margin-left: 9.5%;
 }
 
+.Emergency-con {
+  background-color: rgb(192, 192, 192);
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+
 .bar-1 {
   margin-top: 1%;
   height: 25px;
   width: 100%;
-  background-color: #c0c0c0;
+  background-color: rgb(192, 192, 192);
   padding-top: 5px;
 }
 
-#id-certificate {
-  border: 1px solid red;
-  width: 55%;
+.Residentail-Address {
+  background-color: rgb(192, 192, 192);
+  height: 25px;
+  padding-top: 1%;
+  margin-top: 0.5%;
+}
+
+.identify-certificate {
+  display: inline-flex;
+}
+
+.Certificate {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-left: 25%;
+}
+
+.other-details {
+  background-color: rgb(192, 192, 192);
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
 }
 
 #Details-Avail {
-  border: 1px solid red;
   width: 85%;
 }
 
 #Passport {
-  border: 1px solid red;
   width: 55%;
 }
 
 #criminal-court {
-  width: 12%;
-  border: 1px solid red;
+  justify-items: flex-end;
 }
 
 #issues {
   width: 12%;
-  border: 1px solid red;
 }
 
 #arrest-warrant {
   width: 12%;
-  border: 1px solid red;
 }
 
 #india-court {
   width: 12%;
-  border: 1px solid red;
 }
 
 #court {
   width: 12%;
-  border: 1px solid red;
 }
 
 #denied-passport {
   width: 12%;
-  border: 1px solid red;
 }
 
 #impounded-passport {
   width: 12%;
-  border: 1px solid red;
 }
 
 #revoke-passport {
   width: 12%;
-  border: 1px solid red;
 }
 
 #citizen-ship {
   width: 12%;
-  border: 1px solid red;
 }
 
 #foreign-citizenship {
   width: 12%;
-  border: 1px solid red;
 }
 
 #surrendered-passport {
   width: 12%;
-  border: 1px solid red;
 }
 
 #indian-citizenship {
   width: 12%;
-  border: 1px solid red;
 }
 
 #Emergency-Certificate {
   width: 12%;
-  border: 1px solid red;
 }
 
 #deported-country {
   width: 12%;
-  border: 1px solid red;
 }
 
 #repatriated-country {
   width: 12%;
-  border: 1px solid red;
 }
 
 .Declaration {
@@ -402,14 +419,14 @@ h2 {
 
 .Residence {
   width: 45%;
-  border: 1px solid red;
   margin-top: 1%;
 }
 
 .button {
   height: 35px;
   width: 20%;
-  color: brown;
+  color: black;
+  border: 2px solid black;
 }
 
 option {

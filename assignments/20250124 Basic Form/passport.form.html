@@ -49,7 +49,8 @@
         </div>
 
         <b><label for="Type of Application *">Type of Application</label></b>
-        <input id="Type of Application" class="input-box" type="text" />
+        <input class="input-box" type="radio" />Normal
+        <input class="Tatkaal" type="radio" />Tatkaal
       </div>
 
       <div>
@@ -58,7 +59,8 @@
             >Type of Passport Booklet *</label
           ></b
         >
-        <input class="input-box-1" type="text" />
+        <input class="Passport-Booklet" type="radio" />36 Pages
+        <input style="margin-left: 4.5%" type="radio" />60 pages
       </div>
 
       <div class="bar"><b>Applicant Details</b></div>
@@ -91,7 +93,8 @@
             >Are you known by any other names(aliases)? *</label
           ></b
         >
-        <input class="radio-button" id="aliases" type="text" />
+        <input class="radio-button" id="aliases" type="radio" />Yes
+        <input class="aliases" id="aliases" type="radio" />No
       </div>
 
       <div>
@@ -100,7 +103,8 @@
             >Have you ever changed your name ? *</label
           ></b
         >
-        <input class="radio-button-1" type="text" />
+        <input class="name-changed-1" type="radio" />Yes
+        <input class="name-changed-2" type="radio" />No
       </div>
 
       <div>
@@ -112,7 +116,7 @@
         <input class="Date-Of-Birth" type="text" />
       </div>
 
-      <div class="bar"><b>Place Of Birth</b></div>
+      <div class="birth-bar"><b>Place Of Birth</b></div>
 
       <div>
         <b
@@ -120,7 +124,8 @@
             >Is your Place of Birth out of India? *</label
           ></b
         >
-        <input class="radio-button-2" type="text" />
+        <input class="radio-button-2" type="radio" />Yes
+        <input class="place-of-birth" type="radio" />No
       </div>
 
       <div>
@@ -271,7 +276,7 @@
         <input id="Surname" type="text" />
       </div>
 
-      <div style="margin-top: 1%" class="bar">
+      <div class="Residentail-Address">
         <p>
           <b>
             Present Residential Address Details (where applicant presently
@@ -284,7 +289,8 @@
         <label for="Present-address"
           ><b>Is your present address out of India? *</b></label
         >
-        <input class="radio-button-3" id="Yes" type="text" />
+        <input class="radio-button-3" id="Yes" type="radio" />Yes
+        <input class="present-address" type="radio" />No
       </div>
 
       <div>
@@ -589,11 +595,12 @@
 
       <div>
         <b><label for="per-add">Do you have a Permanent Address? *</label></b>
-        <input class="radio-button-4" id="Yes" type="text" />
+        <input class="radio-button-4" id="Yes" type="radio" />Yes
+        <input class="per-add" type="radio" />No
       </div>
 
       <div>
-        <b><p class="bar">Emergency Contact Details *</p></b>
+        <b><p class="Emergency-con">Emergency Contact Details *</p></b>
       </div>
 
       <div>
@@ -624,7 +631,19 @@
             >Have you ever held/hold any Identity Certificate? *</label
           ></b
         >
-        <input style="margin-left: 4%" id="id-certificate" type="text" />
+      </div>
+
+      <div class="identify-certificate">
+        <input type="radio" />details Available
+      </div>
+
+      <div class="Certificate">
+        <input type="radio" />Details Not Availble/Never Held
+        Diplomatic/Official Passport
+      </div>
+
+      <div class="other-details">
+        <p>Other Details</p>
       </div>
 
       <div>
@@ -649,16 +668,11 @@
           ><label for="Passport"
             >Have you ever applied for passport, but not issued? *</label
           ></b
-        >
-        <input
-          id="Passport"
-          style="margin-left: 4%"
-          id="id-certificate"
-          type="text"
-        />
+        ><input class="radio-button-4" id="Yes" type="radio" />Yes
+        <input class="per-add" type="radio" />No
       </div>
 
-      <div class="bar">
+      <div class="other-details">
         <p><b>Other Details</b></p>
       </div>
 
@@ -679,7 +693,9 @@
             in India? *</label
           ></b
         >
-        <input style="margin-left: 77%" id="criminal-court" type="text" />
+
+        <input style="margin-left: 80%" id="criminal-court" type="radio" />Yes
+        <input style="margin-left: 2%" type="radio" />No
       </div>
 
       <div>
@@ -690,12 +706,8 @@
             being in force? *
           </label></b
         >
-        <input
-          id="issues"
-          style="margin-left: 72.5%"
-          id="criminal-court"
-          type="text"
-        />
+        <input style="margin-left: 75.5%" id="criminal-court" type="radio" />Yes
+        <input style="margin-left: 2%" type="radio" />No
       </div>
 
       <div>
@@ -705,7 +717,8 @@
             for the time being in force? *</label
           ></b
         >
-        <input id="arrest-warrant" style="margin-left: 16%" type="text" />
+        <input style="margin-left: 19.2%" id="criminal-court" type="radio" />Yes
+        <input style="margin-left: 2%" type="radio" />No
       </div>
 
       <div>
@@ -715,7 +728,8 @@
             court? *</label
           ></b
         >
-        <input id="india-court" style="margin-left: 28.7%" type="text" />
+        <input style="margin-left: 32%" id="criminal-court" type="radio" />Yes
+        <input style="margin-left: 2%" type="radio" />No
       </div>
       <br />
 
@@ -737,7 +751,8 @@
             respect thereof to imprisonment for not less than two years?*</label
           ></b
         >
-        <input id="court" style="margin-left: -1%" type="text" />
+        <input style="margin-left: 1.5%" id="criminal-court" type="radio" />Yes
+        <input style="margin-left: 2%" type="radio" />No
       </div>
       <br />
 
@@ -756,7 +771,8 @@
             >Have you ever been refused/denied passport? *</label
           ></b
         >
-        <input id="court" style="margin-left: 51%" type="text" />
+        <input style="margin-left: 53.5%" id="criminal-court" type="radio" />Yes
+        <input style="margin-left: 2%" type="radio" />No
       </div>
 
       <div>
@@ -765,7 +781,8 @@
             >Has your passport ever been impounded?*</label
           ></b
         >
-        <input id="impounded-passport" style="margin-left: 54.5%" type="text" />
+        <input style="margin-left: 57%" id="criminal-court" type="radio" />Yes
+        <input style="margin-left: 2%" type="radio" />No
       </div>
 
       <div>
@@ -774,7 +791,8 @@
             >Has your passport ever been revoked?*</label
           ></b
         >
-        <input id="revoke-passport" style="margin-left: 56.7%" type="text" />
+        <input style="margin-left: 59.3%" id="criminal-court" type="radio" />Yes
+        <input style="margin-left: 2%" type="radio" />No
       </div>
       <br />
 
@@ -794,7 +812,8 @@
             region/country?*</label
           ></b
         >
-        <input id="citizen-ship" style="margin-left: 35%" type="text" />
+        <input style="margin-left: 37.5%" id="criminal-court" type="radio" />Yes
+        <input style="margin-left: 2%" type="radio" />No
       </div>
 
       <div>
@@ -804,7 +823,8 @@
             time?*</label
           ></b
         >
-        <input id="foreign-citizenship" style="margin-left: 32%" type="text" />
+        <input style="margin-left: 34.5%" id="criminal-court" type="radio" />Yes
+        <input style="margin-left: 2%" type="radio" />No
       </div>
 
       <div>
@@ -813,7 +833,8 @@
             >Have you ever surrendered your Indian passport?*</label
           ></b
         >
-        <input id="surrendered-passport" style="margin-left: 49%" type="text" />
+        <input style="margin-left: 51.5%" id="criminal-court" type="radio" />Yes
+        <input style="margin-left: 2%" type="radio" />No
       </div>
 
       <div>
@@ -823,7 +844,8 @@
             citizenship?*</label
           ></b
         >
-        <input id="indian-citizenship" style="margin-left: 41%" type="text" />
+        <input style="margin-left: 43.4%" id="criminal-court" type="radio" />Yes
+        <input style="margin-left: 2%" type="radio" />No
       </div>
       <br />
 
@@ -843,11 +865,8 @@
             *</label
           ></b
         >
-        <input
-          id="Emergency-Certificate"
-          style="margin-left: 38%"
-          type="text"
-        />
+        <input style="margin-left: 40.5%" id="criminal-court" type="radio" />Yes
+        <input style="margin-left: 2%" type="radio" />No
       </div>
 
       <div>
@@ -856,7 +875,8 @@
             >Have you ever been deported from any country?*</label
           ></b
         >
-        <input id="deported-country" style="margin-left: 49.5%" type="text" />
+        <input style="margin-left: 52%" id="criminal-court" type="radio" />Yes
+        <input style="margin-left: 2%" type="radio" />No
       </div>
 
       <div>
@@ -866,11 +886,8 @@
             India?*</label
           ></b
         >
-        <input
-          id="repatriated-country"
-          style="margin-left: 38.5%"
-          type="text"
-        />
+        <input style="margin-left: 41.1%" id="criminal-court" type="radio" />Yes
+        <input style="margin-left: 2%" type="radio" />No
       </div>
 
       <div>
