@@ -22,6 +22,7 @@ html {
 .form {
   padding-left: 7px;
   border: 2px solid #b1b1b1;
+  margin: 2%;
 }
 
 .input-box {
@@ -33,6 +34,8 @@ html {
 
 .button {
   margin-top: 12px;
+  margin-left: 10.5px;
+  margin-bottom: 5px;
   color: grey;
   height: 20%;
   width: 15%;
