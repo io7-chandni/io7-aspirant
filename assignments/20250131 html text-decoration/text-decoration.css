@@ -1,0 +1,67 @@
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: aqua;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.normal {
+  width: 100px;
+  display: inline-flex;
+  border: 1px solid black;
+}
+
+.text-justify {
+  width: 100px;
+  text-align: justify;
+  display: inline-flex;
+  border: 1px solid black;
+}
+
+.text-decoration1 {
+  text-decoration: overline underline;
+}
+
+.text-decoration2 {
+  text-decoration: line-through;
+}
+
+.text-decoration3 {
+  text-decoration-style: wavy;
+  text-decoration-line: underline;
+  text-decoration-color: brown;
+  text-decoration-thickness: 5px;
+}
+
+.text-decoration4 {
+  text-decoration: overline dotted red 2px;
+}
+
+.tranform-1 {
+  text-transform: uppercase;
+}
+
+.tranform-2 {
+  text-transform: lowercase;
+}
+
+.tranform-3 {
+  text-transform: capitalize;
+}
+
+.written-mode {
+  writing-mode: vertical-lr;
+}

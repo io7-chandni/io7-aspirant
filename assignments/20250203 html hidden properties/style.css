@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: red;
+  width: 70%;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.clickable-element {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.display {
+  display: none;
+}
+
+.visibility {
+  visibility: hidden;
+}
+
+.opacity {
+  opacity: 0;
+}

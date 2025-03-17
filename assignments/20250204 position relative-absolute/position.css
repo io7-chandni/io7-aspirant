@@ -1,0 +1,67 @@
+.main {
+  width: 50%;
+  height: 200px;
+  background-color: pink;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.element {
+  width: 20%;
+  height: 80%;
+  background-color: rgb(134, 64, 64);
+  z-index: 2;
+}
+
+.relatives {
+  background-color: aqua;
+  position: relative;
+  top: 15%;
+  right: 7%;
+  z-index: 1;
+}
+
+.main-2 {
+  width: 80%;
+  height: 500px;
+  margin: 2% auto;
+  background-color: rgb(0, 255, 242);
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 5%;
+}
+
+.parent {
+  width: 20%;
+  height: 80%;
+  background-color: rgb(219, 112, 112);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.child {
+  width: 80%;
+  height: 80%;
+  background-color: rgb(111, 196, 41);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.grand-child {
+  width: 100px;
+  height: 200px;
+  background-color: tomato;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
