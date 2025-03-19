@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-1 {
+  background-color: #f0f8ff;
+  width: 30%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.container-2 {
+  background-color: #d7f1f1;
+  width: 40%;
+  height: 100%;
+  position: relative;
+}
+
+h2,
+u {
+  top: 8%;
+  left: 21%;
+  position: absolute;
+  color: #891e0e;
+}
+
+.letter-a,
+i {
+  position: absolute;
+  top: 9%;
+  left: 16%;
+}
+
+.green-box-1 {
+  width: 10%;
+  height: 30%;
+  background-color: #59ac69;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: absolute;
+  left: 24%;
+  top: 15%;
+  transform: rotate(314deg);
+}
+
+.green-box-2 {
+  width: 10%;
+  height: 62%;
+  background-color: #59ac69;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: absolute;
+  left: 10%;
+  top: 35%;
+  transform: rotate(44deg);
+}
+
+.green-box-3 {
+  width: 10%;
+  height: 23%;
+  background-color: #59ac69;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: absolute;
+  left: 12%;
+  top: 31%;
+  transform: rotate(44deg);
+}
+
+.green-box-4 {
+  width: 10%;
+  height: 23%;
+  background-color: #59ac69;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: absolute;
+  left: 65%;
+  top: 77%;
+  transform: rotate(44deg);
+}
+
+.green-box-5 {
+  width: 10%;
+  height: 41%;
+  background-color: #59ac69;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: absolute;
+  left: 87%;
+  top: 61%;
+  transform: rotate(317deg);
+}
+
+.container-2 img {
+  position: absolute;
+  transform: rotate(45deg);
+  top: 10%;
+  left: 47%;
+  border-radius: 10%;
+}
+
+.container-2 .dora {
+  position: absolute;
+  transform: rotate(45deg);
+  top: 24%;
+  left: 15%;
+  border-radius: 10%;
+}
+
+.container-2 .hulk {
+  position: absolute;
+  transform: rotate(45deg);
+  top: 53%;
+  left: 40%;
+  border-radius: 10%;
+}
+
+.green-box {
+  width: 45%;
+  height: 45%;
+  background-color: #59ac69;
+  position: absolute;
+  transform: rotate(45deg);
+  left: 75%;
+  top: 14%;
+  border-radius: 10%;
+}
+
+.green-box button {
+  position: absolute;
+  transform: rotate(316deg);
+  background-color: #fff7de;
+  color: #d3766c;
+  border-radius: 5px;
+  box-shadow: #d3766c;
+  border: none;
+  top: 73%;
+  left: 2%;
+  width: 40%;
+  height: 11%;
+}
+
+.container-3 {
+  background-color: #f0f8ff;
+  width: 30%;
+  height: 100%;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  top: 82%;
+  left: 6%;
+}
+
+.text p {
+  font-size: 12px;
+  padding-top: 12%;
+}
+
+.text i {
+  position: absolute;
+  top: 78%;
+  left: 100%;
+}
