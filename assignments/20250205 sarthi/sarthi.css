@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  height: 70px;
+  width: 100%;
+  background-color: #1ca6ef;
+  display: flex;
+  padding-left: 2%;
+}
+
+.ministry-road {
+  height: 70px;
+  width: 30%;
+  background-color: #1ca6ef;
+}
+
+.parivahan-sarthi {
+  height: 70px;
+  width: 35%;
+  background-color: #1ca6ef;
+}
+
+.ministry-road img {
+  width: 100%;
+}
+
+.change-state {
+  background-color: #1ca6ef;
+  width: 25%;
+  font-size: 10px;
+}
+
+.date-time {
+  display: flex;
+  padding: 5% 0;
+  justify-content: center;
+}
+
+.change-state span {
+  color: white;
+}
+
+.state-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.state-button button {
+  width: 40%;
+  height: 20px;
+  background-color: green;
+  color: white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.login {
+  background-color: #1ca6ef;
+  justify-content: center;
+  text-align: center;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-button {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-button button {
+  background-color: green;
+  color: white;
+  width: 40%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.department {
+  justify-content: center;
+  text-align: center;
+  background-color: #d9edf7;
+  color: #3240fe;
+  height: 25px;
+}
+
+.Services {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Learner-license {
+  width: 150px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Services .Learner-license p {
+  text-align: center;
+}
+
+.Services .Learner-license img {
+  transition: 1s ease-in-out;
+}
+
+.Services .Learner-license p {
+  height: 36px;
+  font-size: 12px;
+}
+
+.Services .Learner-license img:hover {
+  transform: rotate(360deg);
+}
+
+.footer {
+  width: 100%;
+  height: 90px;
+  background-color: #1ca6ef;
+  display: flex;
+  padding: 1%;
+}
+
+.footer .logo {
+  width: 18%;
+}
+
+.footer .logo p {
+  color: white;
+  font-size: 12px;
+}
+
+.digital-logo {
+  width: 15%;
+}
+
+.sitemap,
+.site,
+.map,
+.mapsite ul,
+li {
+  list-style-type: none;
+  color: white;
+  width: 68%;
+  font-size: 12px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.chat-box {
+  position: fixed;
+  right: 0;
+  bottom: 0%;
+}
