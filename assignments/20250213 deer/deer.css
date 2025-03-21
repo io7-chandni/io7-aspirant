@@ -1,0 +1,413 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(242, 226, 177);
+}
+
+.upper-section {
+  height: 90%;
+  width: 100%;
+  background-color: #f2e2b1;
+}
+
+.upper-section .left-cloud-section {
+  height: 105px;
+  width: 19%;
+  background-color: #f0aea4;
+  position: absolute;
+  left: 9%;
+  top: 4%;
+  border-top-left-radius: 139px;
+  border-top-right-radius: 133px;
+}
+
+.upper-section .left-cloud-section .cloud-1 {
+  height: 56px;
+  width: 59%;
+  background-color: #f5bcb3;
+  position: absolute;
+  border-top-left-radius: 139px;
+  border-top-right-radius: 139px;
+  top: 47%;
+  left: -21%;
+}
+
+.upper-section .left-cloud-section .cloud-2 {
+  height: 39px;
+  width: 41%;
+  background-color: #f4b9b0;
+  position: absolute;
+  top: 63%;
+  left: 86%;
+  border-top-left-radius: 153px;
+  border-top-right-radius: 157px;
+}
+
+.upper-section .right-cloud-section {
+  height: 105px;
+  width: 19%;
+  background-color: #f0aea4;
+  position: absolute;
+  right: 15%;
+  top: 4%;
+  border-top-left-radius: 139px;
+  border-top-right-radius: 133px;
+}
+
+.upper-section .right-cloud-section .cloud-3 {
+  height: 42px;
+  width: 43%;
+  background-color: #f5bcb3;
+  position: absolute;
+  top: 60%;
+  left: -14%;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 59px;
+}
+
+.upper-section .right-cloud-section .cloud-4 {
+  height: 68px;
+  width: 65%;
+  background-color: #f5bcb3;
+  position: absolute;
+  top: 35%;
+  right: -31%;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 59px;
+}
+
+.bottom-section {
+  height: 10%;
+  width: 100%;
+  background-color: #e77465;
+}
+
+.conatiner {
+  height: 86%;
+  width: 24%;
+  /* background-color: rgb(110, 66, 66); */
+  position: relative;
+  margin: auto;
+  top: 14%;
+}
+
+.conatiner .ear-section {
+  height: 25px;
+  width: 25%;
+  /* background-color: red; */
+  display: flex;
+}
+
+.ear-section .ear-1 {
+  height: 37px;
+  width: 7%;
+  background-color: #75c9b1;
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 70px;
+  transform: rotate(340deg);
+  position: absolute;
+  top: -1%;
+}
+
+.ear-section .ear-1 .inner-ear-1 {
+  height: 23px;
+  width: 63%;
+  background-color: #24646e;
+  border-top-left-radius: 110px;
+  border-bottom-left-radius: 120px;
+  transform: rotate(359deg);
+  position: absolute;
+  top: 28%;
+  left: 39%;
+}
+
+.ear-section .ear-2 {
+  height: 37px;
+  width: 7%;
+  background-color: #75c9b1;
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 70px;
+  transform: rotate(197deg);
+  position: absolute;
+  top: -1%;
+  left: 17%;
+}
+
+.ear-section .ear-2 .inner-ear-2 {
+  height: 23px;
+  width: 63%;
+  background-color: #24646e;
+  border-top-left-radius: 110px;
+  border-bottom-left-radius: 120px;
+  transform: rotate(359deg);
+  position: absolute;
+  top: 15%;
+  left: 39%;
+}
+
+.conatiner .mouth-section {
+  height: 132px;
+  width: 28%;
+  background-color: #75c9b1;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  position: relative;
+}
+
+.mouth-section .outer-mouth {
+  height: 43px;
+  width: 49px;
+  border-radius: 50%;
+  background-color: #99d6c3;
+  position: absolute;
+  top: 20%;
+  left: 17%;
+}
+
+.outer-mouth .cheeks-section {
+  height: 12px;
+  width: 139%;
+  /* background-color: red; */
+  position: absolute;
+  top: 38%;
+  justify-content: space-between;
+  display: flex;
+  left: -17%;
+}
+
+.outer-mouth .cheeks-section .left-cheek {
+  height: 11px;
+  width: 15%;
+  background-color: #e97a6b;
+  border-radius: 50%;
+  left: 2%;
+}
+
+.outer-mouth .cheeks-section .right-cheek {
+  height: 11px;
+  width: 15%;
+  background-color: #e97a6b;
+  border-radius: 50%;
+  position: absolute;
+  right: 4%;
+}
+
+.mouth-section .inner-mouth {
+  height: 28px;
+  width: 44px;
+  background-color: #b1e1d2;
+  position: absolute;
+  top: 29%;
+  left: 6%;
+  border-radius: 50%;
+}
+
+.inner-mouth .nose-section {
+  height: 8px;
+  width: 30%;
+  background-color: #24646e;
+  position: absolute;
+  top: 28%;
+  left: 33%;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.inner-mouth .teeth-section {
+  height: 10px;
+  width: 56%;
+  background-color: #24646e;
+  position: absolute;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  top: 60%;
+  left: 20%;
+}
+
+.mouth-section .eyes-section {
+  height: 20px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  position: absolute;
+  justify-content: space-evenly;
+  top: 15%;
+}
+
+.eyes-section .eyes-1 {
+  height: 10px;
+  width: 25%;
+  height: 20px;
+  width: 25%;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.eyes-section .eyes-1 .inner-eye-1 {
+  height: 11px;
+  width: 50%;
+  background-color: #24646e;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.eyes-section .eyes-2 {
+  height: 10px;
+  width: 25%;
+  height: 20px;
+  width: 25%;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.eyes-section .eyes-2 .inner-eye-2 {
+  height: 11px;
+  width: 50%;
+  background-color: #24646e;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.conatiner .stomach-section {
+  height: 138px;
+  width: 100%;
+  background-color: #75c9b1;
+  border-bottom-left-radius: 97%;
+  border-bottom-right-radius: 67%;
+  position: absolute;
+  z-index: 1;
+}
+
+.stomach-section .design-section {
+  height: 31px;
+  width: 8%;
+  background-color: #b1e1d2;
+  position: absolute;
+  top: 7%;
+  left: 79%;
+  border-radius: 50%;
+}
+
+.stomach-section .design-section .left-design {
+  height: 24px;
+  width: 87%;
+  background-color: #b1e1d2;
+  position: absolute;
+  top: 19%;
+  left: -94%;
+  border-top-left-radius: 26%;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 102%;
+  border-bottom-right-radius: -6%;
+  transform: rotate(349deg);
+}
+
+.stomach-section .design-section .right-design {
+  height: 24px;
+  width: 87%;
+  background-color: #b1e1d2;
+  position: absolute;
+  top: 19%;
+  left: 105%;
+  border-top-left-radius: 26%;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 102%;
+  border-bottom-right-radius: -6%;
+  transform: rotate(68deg);
+}
+
+.stomach-section .tail-section {
+  height: 50px;
+  width: 8%;
+  background-color: #75c9b1;
+  position: absolute;
+  top: -36%;
+  left: 100%;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.leg-section {
+  height: 189px;
+  width: 14%;
+  background-color: rgb(36, 100, 110);
+  position: absolute;
+  top: 49%;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.leg-section .foot-section {
+  height: 40px;
+  width: 34%;
+  background-color: rgb(36, 100, 110);
+  position: absolute;
+  top: 91%;
+  left: 30%;
+}
+
+.leg-2 {
+  height: 154px;
+  width: 14%;
+  background-color: #75c9b1;
+  position: absolute;
+  top: 57%;
+  left: 13%;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.leg-2 .foot-2 {
+  height: 41px;
+  width: 34%;
+  background-color: #75c9b1;
+  position: absolute;
+  top: 91%;
+  left: 35%;
+}
+
+.leg-3 {
+  height: 190px;
+  width: 21%;
+  background-color: #75c9b1;
+  position: absolute;
+  top: 49%;
+  left: 79%;
+  border-bottom-left-radius: 66px;
+  z-index: 1;
+}
+
+.leg-3 .foot-3 {
+  height: 42px;
+  width: 34%;
+  background-color: #75c9b1;
+  position: absolute;
+  top: 91%;
+  left: 66%;
+}
+
+.leg-4 {
+  height: 155px;
+  width: 18%;
+  background-color: rgb(36, 100, 110);
+  position: absolute;
+  top: 57%;
+  left: 64%;
+  border-bottom-left-radius: 66px;
+}
+
+.leg-4 .foot-4 {
+  height: 42px;
+  width: 35%;
+  background-color: rgb(36, 100, 110);
+  position: absolute;
+  top: 91%;
+  left: 65%;
+}
