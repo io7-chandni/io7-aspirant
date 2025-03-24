@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Agu+Display&family=Anton&family=Bahianita&family=Barriecito&family=Bebas+Neue&family=Caveat:wght@400..700&family=Creepster&family=DM+Serif+Text:ital@0;1&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Giga:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Sans+Cuneiform&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Todhri&family=Orbitron:wght@400..900&family=Playwrite+HU+Guides&family=Playwrite+IN:wght@100..400&family=Playwrite+VN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sixtyfour+Convergence&family=Smooch+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>youtube clone</title>
+    <link rel="stylesheet" href="youtubeclone.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <!--header start-->
+      <div class="header-section">
+        <div class="header">
+          <i class="fa-solid fa-bars hamburger"></i>
+          <i class="fa-brands fa-youtube red"></i>
+          <p class="font-1">YouTube</p>
+          <p class="absolute">IN</p>
+        </div>
+        <div class="Search-bar">
+          <div class="Search">
+            <input type="text" placeholder="Search" />
+            <button class="magnify">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+          <button class="mike"><i class="fa-solid fa-microphone"></i></button>
+        </div>
+        <div class="subscribe-button">
+          <button class="create">
+            <i class="fa-solid fa-plus"></i> Create
+          </button>
+          <i class="fa-solid fa-bell bell"></i>
+          <img src="assets/images/hulk.jpg" alt="image" />
+        </div>
+      </div>
+      <!--header end-->
+
+      <!-- main-section start -->
+      <div class="container">
+        <div class="conatiner-1">
+          <div class="main-player">
+            <video
+              style="border-radius: 15px"
+              src="assets/videos/videoplayback.mp4"
+              width="100%"
+              controls
+            ></video>
+          </div>
+          <h4 class="title">
+            5 Mistakes Beginner Web Developers Make (Avoid these)
+          </h4>
+          <div class="channel">
+            <div class="subscribers">
+              <div class="avatar">
+                <img
+                  style="border-radius: 50px"
+                  src="assets/images/hulk.jpg"
+                  alt="image"
+                />
+              </div>
+              <div class="content">
+                <p>
+                  CodeWithHarry
+                  <i class="fa-solid fa-circle-check text views"></i>
+                </p>
+                <p class="views">7.24M subscribers</p>
+              </div>
+              <div class="join-button">Join</div>
+            </div>
+            <div class="subscribe">
+              <button>Subscribed</button>
+            </div>
+            <div class="contanier-2">
+              <button class="view">
+                <i class="fa-regular fa-thumbs-up"></i>
+                10k |
+                <i class="fa-regular fa-thumbs-down"></i>
+              </button>
+              <button class="view">
+                <i class="fa-solid fa-share"></i> share
+              </button>
+              <button class="view">
+                <i class="fa-solid fa-download"></i> download
+              </button>
+              <button class="view">
+                <i class="fa-solid fa-heart"></i> Thanks
+              </button>
+              <button class="view">
+                <i class="fa-solid fa-scissors"></i> Clip
+              </button>
+              <button class="view"><i class="fa-solid fa-ellipsis"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="other-player">
+          <div class="video-suggestion">
+            <button class="button-1">All</button>
+            <button class="button-2">From CodeWithHarry</button>
+            <button class="button-3">Web Development</button>
+            <i class="fa-solid fa-caret-right"></i>
+          </div>
+
+          <div class="video-box">
+            <div class="video">
+              <video
+                style="border-radius: 7px"
+                src="assets/videos/videoplayback (2).mp4"
+                height="100%"
+                width="100%"
+                controls
+              ></video>
+            </div>
+            <div class="text-area">
+              <p class="font">
+                How to use AI Effectively
+                <i class="fa-solid fa-ellipsis-vertical elipsis"></i>
+                -Prompt, Tips and Tricks
+              </p>
+              <br />
+              <p class="text">
+                Code WithHarry <i class="fa-solid fa-circle-check"></i>
+              </p>
+
+              <p class="font">94K views . 3months ago</p>
+            </div>
+          </div>
+
+          <div class="video-box">
+            <div class="video">
+              <video
+                style="border-radius: 7px"
+                src="assets/videos/videoplayback (3).mp4"
+                height="100%"
+                width="100%"
+                controls
+              ></video>
+            </div>
+            <div class="text-area">
+              <p class="font">
+                What DO software Engineers Actaully Do? (Not it's what you
+                think)
+              </p>
+              <br />
+              <p class="text">
+                Code WithHarry <i class="fa-solid fa-circle-check"></i>
+              </p>
+
+              <p class="font">908K views . 11months ago</p>
+            </div>
+          </div>
+
+          <div class="video-box">
+            <div class="video">
+              <video
+                style="border-radius: 7px"
+                src="assets/videos/How To Download YouTube Shorts  _ YouTube _ YouTube Marketing _ Video Marketing _ Youtube Shorts.mp4"
+                height="100%"
+                width="100%"
+                controls
+              ></video>
+            </div>
+            <div class="text-area">
+              <p class="font">
+                Chandigarh University student review | of Btech
+              </p>
+              <br />
+              <p class="text">
+                Vivek Nirwan <i class="fa-solid fa-circle-check"></i>
+              </p>
+
+              <p class="font">342K views . 14 hours ago</p>
+            </div>
+          </div>
+
+          <div class="video-box">
+            <div class="video">
+              <video
+                style="border-radius: 7px"
+                src="assets/videos/How To Download YouTube Shorts Videos You've Uploaded.mp4"
+                height="100%"
+                width="100%"
+                controls
+              ></video>
+            </div>
+            <div class="text-area">
+              <p class="font">
+                Web development Complete RoadMap for 2025 | from basics to
+                advanced
+              </p>
+              <br />
+              <p class="text">
+                Apna College <i class="fa-solid fa-circle-check"></i>
+              </p>
+
+              <p class="font">94K views . 3months ago</p>
+            </div>
+          </div>
+
+          <div class="video-box">
+            <div class="video">
+              <video
+                style="border-radius: 7px"
+                src="assets/videos/videoplayback (1).mp4"
+                height="100%"
+                width="100%"
+                controls
+              ></video>
+            </div>
+            <div class="text-area">
+              <p class="font">Will Ai replace Software Developrs?</p>
+              <br />
+              <p class="text">
+                Code WithHarry <i class="fa-solid fa-circle-check"></i>
+              </p>
+
+              <p class="font">231K views . 1months ago</p>
+            </div>
+          </div>
+
+          <div class="video-box">
+            <div class="video">
+              <video
+                style="border-radius: 7px"
+                src="assets/videos/videoplayback (2).mp4"
+                height="100%"
+                width="100%"
+                controls
+              ></video>
+            </div>
+            <div class="text-area">
+              <p class="font">
+                Logic building in Programming - 5 Proven Strategies (2025)
+              </p>
+              <br />
+              <p class="text">
+                Code WithHarry <i class="fa-solid fa-circle-check"></i>
+              </p>
+
+              <p class="font">557K views . 1 Year ago</p>
+            </div>
+          </div>
+
+          <div class="video-box">
+            <div class="video">
+              <video
+                style="border-radius: 7px"
+                src="assets/videos/videoplayback (3).mp4"
+                height="100%"
+                width="100%"
+                controls
+              ></video>
+            </div>
+            <div class="text-area">
+              <p class="font">
+                Automatic Tasks with Pre-Built Ai Agents | n8n Tutorial
+              </p>
+              <br />
+              <p class="text">
+                Code WithHarry <i class="fa-solid fa-circle-check"></i>
+              </p>
+
+              <p class="font">94K views . 2months ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
