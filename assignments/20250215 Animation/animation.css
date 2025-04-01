@@ -1,0 +1,92 @@
+.parent {
+  height: 100px;
+  width: 50%;
+  border: 1px solid black;
+  background-color: red;
+}
+
+.parent .child {
+  height: 80px;
+  width: 10%;
+  margin: 5px auto;
+  background-color: blue;
+  /* animation-name: increase-width;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternative-reverse; */
+
+  /* short hand */
+  animation: increase 2s infinite alternate ease-in;
+}
+
+@keyframes increase {
+  from {
+    width: 10%;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+.loader-outer {
+  height: 100px;
+  width: 50%;
+  border: 1px solid black;
+  background-color: yellow;
+  margin: auto;
+  margin: 15%;
+  border-radius: 50px;
+}
+
+.loader {
+  height: 90px;
+  width: 10%;
+  background-color: black;
+  border-radius: 50px;
+  border: 1px solid yellow;
+  animation: loader 2s infinite normal ease-in-out;
+}
+
+@keyframes loader {
+  from {
+    width: 5%;
+    background-color: green;
+    border: 10px solid red;
+  }
+  to {
+    width: 88%;
+    background-color: brown;
+    border: 10px solid grey;
+  }
+}
+
+.object-parent {
+  height: 300px;
+  width: 300px;
+  background-color: aqua;
+  border: 2px groove black;
+  margin: auto;
+  border-radius: 50%;
+  animation: circle 3s infinite normal;
+  position: relative;
+}
+
+.object-child {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border: 2px groove black;
+  margin: auto;
+  border-radius: 50%;
+  position: absolute;
+  top: 12%;
+}
+
+@keyframes circle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

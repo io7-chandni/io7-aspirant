@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.loader-area {
+  height: 320px;
+  width: 70%;
+  margin: auto;
+  background-color: #3b9386;
+  padding-top: 23%;
+}
+
+.loader-area .parent {
+  height: 20px;
+  width: 50%;
+  margin: auto;
+  border: 10px solid #f19755;
+  border-radius: 50px;
+  background-color: #3b9386;
+}
+
+.loader {
+  height: 20px;
+  width: 10%;
+  background-color: #fdfffc;
+  border-radius: 50px;
+  animation: loader 4s infinite alternate ease-in-out;
+}
+
+@keyframes loader {
+  from {
+    height: 20px;
+    width: 2%;
+    background-color: #fdfffc;
+  }
+  to {
+    height: 20px;
+    width: 100%;
+    background-color: #fdfffc;
+  }
+}

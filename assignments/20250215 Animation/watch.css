@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  height: 620px;
+  width: 100%;
+  background-color: #273238;
+}
+
+.parent .white-circle {
+  height: 300px;
+  width: 300px;
+  background-color: #eaeeef;
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+  margin: auto;
+  top: 22%;
+}
+
+.parent .white-circle .green-circle {
+  height: 20px;
+  width: 20px;
+  background-color: #57b5aa;
+  border-radius: 50%;
+  position: absolute;
+  top: 49%;
+  left: 47%;
+  animation-name: needle-1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  /* animation-timing-function: ease-in-out; */
+}
+
+.parent .white-circle .green-circle .needle-1 {
+  height: 118px;
+  width: 14px;
+  background-color: #57b5aa;
+  border-radius: 50px;
+  position: absolute;
+  left: 13%;
+}
+
+@keyframes needle-1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.parent .white-circle .green-circle .pink-circle {
+  height: 20px;
+  width: 20px;
+  background-color: #57b5aa;
+  border-radius: 50%;
+  animation-name: needle-2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  top: 1%;
+}
+
+.parent .white-circle .green-circle .pink-circle .needle-2 {
+  height: 93px;
+  width: 14px;
+  background-color: #57b5aa;
+  border-radius: 50px;
+  position: absolute;
+  z-index: 1;
+  left: 8%;
+}
+
+@keyframes needle-2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.parent .white-circle .green-circle .pink-circle .red-circle {
+  height: 20px;
+  width: 20px;
+  background-color: #57b5aa;
+  border-radius: 50%;
+  animation-name: needle-3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  top: 1%;
+}
+
+.parent .white-circle .green-circle .pink-circle .needle-3 {
+  height: 136px;
+  width: 14px;
+  background-color: #57b5aa;
+  border-radius: 50px;
+  position: absolute;
+  z-index: 1;
+  left: 8%;
+}
+
+@keyframes needle-3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

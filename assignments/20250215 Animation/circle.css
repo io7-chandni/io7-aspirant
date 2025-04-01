@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  height: 630px;
+  width: 100%;
+  background-color: beige;
+}
+
+.parent .grey-circle {
+  height: 300px;
+  width: 300px;
+  background-color: #cbcbcb;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  display: flex;
+  top: 20%;
+  animation: rotation 6s infinite alternate ease-in-out;
+}
+
+.parent .grey-circle .white-circle {
+  height: 150px;
+  width: 150px;
+  background-color: #fefefe;
+  border-radius: 50%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  top: 28%;
+  left: 44.3%;
+}
+
+.parent .grey-circle .red {
+  height: 74px;
+  width: 74px;
+  background-color: #f03355;
+  border-radius: 50%;
+  position: absolute;
+  top: 1%;
+  left: 46.3%;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

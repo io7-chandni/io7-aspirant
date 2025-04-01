@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  height: 640px;
+  width: 100%;
+  background-color: #181e3e;
+  background-image: url(assets/images/star-4.jpg);
+  background-size: cover;
+}
+
+.parent .mercury-orbit .sun {
+  height: 150px;
+  width: 150px;
+  animation-name: sun;
+  animation-duration: 10s;
+  animation-iteration-count: linear;
+  animation-direction: normal;
+}
+
+@keyframes sun {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.parent .mercury-orbit {
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 50%;
+  position: relative;
+  top: 37%;
+  animation: mercury-orbit 10s infinite linear;
+}
+
+@keyframes mercury-orbit {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.parent .mercury-orbit .mercury {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 78%;
+  left: 72%;
+  animation: mercury-orbit 2s infinite linear;
+}
+
+.parent .venus-orbit {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 50%;
+  position: absolute;
+  left: 42.5%;
+  top: 33%;
+  animation: venus-orbit 9s infinite linear;
+  z-index: 1;
+}
+
+@keyframes venus-orbit {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.parent .venus-orbit .venus {
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  top: -7%;
+  left: 64%;
+  animation: venus-orbit 2s infinite linear;
+}
+
+.parent .earth-orbit {
+  height: 250px;
+  width: 250px;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 50%;
+  position: absolute;
+  top: 29%;
+  left: 40.8%;
+  /* animation-name: earth-orbit;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: normal; */
+  z-index: 0;
+  animation: earth-orbit 9s infinite linear;
+}
+
+@keyframes earth-orbit {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.parent .earth-orbit .earth {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 5%;
+  left: -11%;
+  /* animation: earth-orbit 2s infinite linear; */
+}
+
+.parent .mars-orbit {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  left: 39%;
+  z-index: 1;
+  animation: mars-orbit 2s infinite linear;
+}
+
+.parent .mars-orbit .mars {
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  top: 13%;
+  left: 81%;
+  animation: mars-orbit 2s infinite linear;
+}
+
+@keyframes mars-orbit {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.parent .jupiter-orbit {
+  height: 350px;
+  width: 350px;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 50%;
+  position: absolute;
+  top: 21%;
+  left: 37%;
+  z-index: 3;
+  animation: jupiter-orbit 8s infinite linear;
+}
+
+.parent .jupiter-orbit .jupiter {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 56%;
+  left: -5%;
+  animation: jupiter-orbit 2s infinite linear;
+}
+
+@keyframes jupiter-orbit {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.parent .saturn-orbit {
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 50%;
+  position: absolute;
+  left: 35%;
+  top: 17%;
+  animation: saturn-orbit 7s infinite reverse;
+}
+
+.parent .saturn-orbit .saturn {
+  height: 44px;
+  width: 72px;
+  position: absolute;
+  top: 4%;
+  left: 13%;
+  animation: saturn-orbit 2s infinite reverse;
+}
+
+@keyframes saturn-orbit {
+  100% {
+    transform: rotate(360deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  0% {
+    transform: rotate(0deg);
+  }
+}
+
+.parent .uranus-orbit {
+  height: 450px;
+  width: 450px;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 50%;
+  position: absolute;
+  left: 33%;
+  top: 13%;
+  animation: uranus-orbit 9s infinite linear;
+}
+
+.parent .uranus-orbit .uranus {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 86%;
+  left: 69%;
+  animation: uranus-orbit 2s infinite linear;
+}
+
+@keyframes uranus-orbit {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.parent .neptune-orbit {
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 50%;
+  position: absolute;
+  left: 31%;
+  top: 9%;
+  animation: uranus-orbit 4s infinite linear;
+}
+
+.parent .neptune-orbit .neptune {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 13%;
+  left: 84%;
+  animation: uranus-orbit 2s infinite linear;
+}
+
+@keyframes neptune-orbit {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
