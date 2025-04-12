@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grid</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .main-container {
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(176, 176, 226);
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto auto auto auto;
+      }
+
+      .section {
+        /* height: 300%;
+        width: 300%; */
+        border: 1px solid black;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 900;
+        color: white;
+      }
+
+      .section-1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+      }
+
+      .section-3 {
+        grid-column-start: 2;
+        grid-column-end: 5;
+      }
+
+      .section-2 {
+        grid-row-start: 2;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 2;
+      }
+
+      .section-4 {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 6;
+      }
+
+      .section-5 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="section section-1">logo</div>
+      <div class="section section-2">side bar navigation</div>
+      <div class="section section-3">header/banner</div>
+      <div class="section section-4">body area</div>
+      <div class="section section-5">footer</div>
+    </div>
+  </body>
+</html>

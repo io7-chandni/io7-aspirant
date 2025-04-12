@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  /* height: 100vh; */
+  width: 100%;
+  background-color: #fefefe;
+  display: grid;
+  text-align: center;
+  gap: 5px;
+  border: 1px soild black;
+  grid-template-areas:
+    "header header"
+    "detail image-section"
+    "our-services our-services"
+    "card-section card-section"
+    "testmonials-1 testmonials-2"
+    "lorem-ipsum lorem-ipsum"
+    "sitemap-1 sitemap-2"
+    "footer footer";
+}
+
+.header {
+  grid-area: header;
+  height: 100px;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+}
+
+.header-section,
+ul,
+li {
+  /* height: 100px; */
+  width: 75%;
+  /* background-color: red; */
+  display: flex;
+  color: grey;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+}
+
+.contact-us {
+  /* height: 100px; */
+  width: 25%;
+  /* background-color: grey; */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 2%;
+  background-color: #a9a9a9;
+  color: #fefefe;
+  border: none;
+}
+
+.detail {
+  grid-area: detail;
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.image-section {
+  grid-area: image-section;
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.our-services {
+  grid-area: our-services;
+  height: 100px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.card-section {
+  grid-area: card-section;
+  height: 300px;
+  /* width: 100%; */
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-section .card-1 {
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-section .card-2 {
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-section .card-3 {
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testmonials-1 {
+  grid-area: testmonials-1;
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.testmonials-2 {
+  grid-area: testmonials-2;
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.lorem-ipsum {
+  grid-area: lorem-ipsum;
+  height: 200px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.sitemap-1 {
+  grid-area: sitemap-1;
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.sitemap-2 {
+  grid-area: sitemap-2;
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.footer {
+  grid-area: footer;
+  height: 100px;
+  width: 100%;
+  border: 1px solid black;
+}

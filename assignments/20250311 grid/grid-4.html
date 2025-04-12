@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grid</title>
+  </head>
+  <style>
+    .main-container {
+      /* height: 100vh; */
+      width: 100%;
+      background-color: orange;
+      display: grid;
+      grid-template-areas:
+        "logo logo logo"
+        "navigation navigation navigation"
+        "banner banner banner"
+        "side-bar body-area-1 body-area-1"
+        "footer footer footer";
+      gap: 5px;
+    }
+
+    .section {
+      height: 300px;
+      /* width: 300px; */
+      border: 1px solid black;
+      text-align: center;
+    }
+
+    .logo {
+      grid-area: logo;
+      height: 100px;
+    }
+
+    .navigation {
+      grid-area: navigation;
+      height: 100px;
+    }
+
+    .banner {
+      grid-area: banner;
+      height: 100px;
+    }
+
+    .side-bar {
+      grid-area: side-bar;
+      height: 500px;
+    }
+
+    .body-area-1 {
+      grid-area: body-area-1;
+      height: 500px;
+      grid-column-start: 2;
+      grid-column-end: 4;
+    }
+
+    /* .body-area-2 {
+      grid-area: body-area-2;
+      height: 500px;
+    } */
+
+    .footer {
+      grid-area: footer;
+      height: 100px;
+    }
+  </style>
+  <body>
+    <div class="main-container">
+      <div class="section logo">logo</div>
+      <div class="section navigation">navigation</div>
+      <div class="section banner">banner</div>
+      <div class="section side-bar">side-bar</div>
+      <div class="section body-area-1">body-area-1</div>
+      <!-- <div class="section body-area-2">body-area-2</div> -->
+      <div class="section footer">footer</div>
+    </div>
+  </body>
+</html>

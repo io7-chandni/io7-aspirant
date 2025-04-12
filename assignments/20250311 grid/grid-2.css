@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  height: 100vh;
+  width: 100%;
+  background-color: red;
+  margin: 1% auto;
+  display: grid;
+  /* grid-template-columns: auto 500px auto; */
+  /* auto means 1fr agr double chahiye to 2fr */
+  /* fr -> fraction unit */
+  /* grid-template-columns: 1fr 1fr 2fr 2fr; */
+  /* --------------------repeat krna ha 2 bar, column ka size hona chahiye 1fr ka */
+  grid-template-columns: repeat(2, 1fr) 1fr 0.5fr;
+  grid-template-rows: auto auto 100px;
+  gap: 5px;
+}
+
+.child {
+  height: 100%;
+  width: 100%;
+  border: 1px solid navy;
+  text-align: center;
+  color: purple;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.child:nth-child(even) {
+  background-color: aqua;
+}
+
+.child:nth-child(odd) {
+  background-color: grey;
+}
+
+.child-1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background-color: wheat;
+}
+
+.child-2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.child-3 {
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.child-8 {
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.child-12 {
+  grid-row-start: 5;
+  grid-row-end: 7;
+  grid-column-start: 2;
+}
