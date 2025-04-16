@@ -95,117 +95,721 @@ img {
 
 /* product-section start */
 
-.products-section,
-.products {
-  /* height: 50px; */
+.products-section .featured-products h1 {
+  height: 60px;
   width: 100%;
-  margin: auto;
-  font-size: 1.3rem;
-  margin-top: -5%;
   background-color: aqua;
+  padding: 1%;
+  padding-left: 3%;
+  font-size: 3rem;
+}
+
+/* main-section-1 start */
+.products-section .product-container {
+  /* height: 380px; */
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* product-1 start */
+
+.product-container .product-1 {
+  height: 380px;
+  width: 21%;
+  background-color: blue;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.product-container .product-1 .product-img {
+  height: 300px;
+  width: 100%;
+  background-image: url(../assets/imgaes/right-side-see-green-can.jpg);
+  background-size: cover;
+  background-position-x: center;
+  position: relative;
+  border: 1px solid #d9d9d9;
+  border-radius: 3%;
+}
+
+.product-container .product-1 .product-img button {
+  height: 50px;
+  width: 17%;
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 7px;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+}
+
+.product-1 .price-section {
+  height: 35px;
+  width: 100%;
+  background-color: turquoise;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
   font-family: "Special Gothic", sans-serif;
 }
 
-.products-section,
-.main-products-section {
-  /* height: 700vh; */
-  width: 100%;
-  margin: auto;
-  background-color: yellowgreen;
-}
-
-.main-products-section .product-section-1 {
-  height: 276px;
-  width: 90%;
-  margin: auto;
-  background-color: red;
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-.product-section-1,
-.wine-tumbler {
-  height: 276px;
-  width: 27%;
-  /* background-color: grey; */
-  position: relative;
-  background-image: url(../assets/imgaes/right-side-see-green-can.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  border-radius: 8px;
-}
-
-.product-section-1,
-.wine-tumbler:hover {
-  background-image: url(../assets/imgaes/left-side-see-green-can.jpg);
-}
-
-.button {
-  height: 50px;
-  width: 18%;
-  border: 1px solid #dadada;
-  border-radius: 5px;
-  position: absolute;
-  right: 4%;
-  top: 4%;
-  background-color: #ffffff;
-}
-
-.eye {
+.product-1 .product-description {
   height: 20px;
   width: 100%;
+  background-color: violet;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
 }
 
-.product-section-1,
-.green-mug {
-  height: 280px;
-  width: 27%;
-  /* background-color: yellow; */
-  margin-left: 3%;
-  background-image: url(../assets/imgaes/right-green-mug.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  border-radius: 8px;
-  position: relative;
+.product-container .product-1 .product-img:hover {
+  background-image: url(../assets/imgaes/left-side-see-green-can.jpg);
+  cursor: pointer;
 }
 
-.product-section-1,
-.green-mug:hover {
+/* product-1 end */
+
+/* product-2 start */
+
+.product-container .product-2 {
+  height: 380px;
+  width: 21%;
+  background-color: grey;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.product-container .product-2 .product-img {
+  height: 300px;
+  width: 100%;
   background-image: url(../assets/imgaes/left-green-mug.jpg);
+  background-size: cover;
+  background-position-x: center;
+  position: relative;
+  border: 1px solid #d9d9d9;
+  border-radius: 3%;
 }
 
-.product-section-1,
-.black-mug {
-  height: 280px;
-  width: 27%;
-  /* background-color: blue; */
-  margin-left: 3%;
+.product-container .product-2 .product-img button {
+  height: 50px;
+  width: 17%;
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 7px;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+}
+
+.product-2 .price-section {
+  height: 35px;
+  width: 100%;
+  background-color: turquoise;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.product-2 .product-description {
+  height: 20px;
+  width: 100%;
+  background-color: violet;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.product-container .product-2 .product-img:hover {
+  background-image: url(../assets/imgaes/right-green-mug.jpg);
+  cursor: pointer;
+}
+
+/* product-2 end */
+
+/* product-3 start */
+.product-container .product-3 {
+  height: 380px;
+  width: 21%;
+  background-color: purple;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.product-container .product-3 .product-img {
+  height: 300px;
+  width: 100%;
   background-image: url(../assets/imgaes/right-black-mug.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  border-radius: 8px;
+  background-size: cover;
+  background-position-x: center;
   position: relative;
+  border: 1px solid #d9d9d9;
+  border-radius: 3%;
 }
 
-.product-section-1,
-.black-mug:hover {
+.product-container .product-3 .product-img button {
+  height: 50px;
+  width: 17%;
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 7px;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+}
+
+.product-3 .price-section {
+  height: 35px;
+  width: 100%;
+  background-color: turquoise;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.product-3 .product-description {
+  height: 20px;
+  width: 100%;
+  background-color: violet;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.product-container .product-3 .product-img:hover {
   background-image: url(../assets/imgaes/left-black-mug.jpg);
+  cursor: pointer;
+}
+/* product-3 end */
+
+/* product-4 start */
+.product-container .product-4 {
+  height: 380px;
+  width: 21%;
+  background-color: teal;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.product-section-1,
-.grip-ring {
-  height: 280px;
-  width: 27%;
-  /* background-color: purple; */
-  margin-left: 3%;
+.product-container .product-4 .product-img {
+  height: 300px;
+  width: 100%;
   background-image: url(../assets/imgaes/front-grip-ring.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  border-radius: 8px;
+  background-size: cover;
+  background-position-x: center;
   position: relative;
+  border: 1px solid #d9d9d9;
+  border-radius: 3%;
 }
 
-.product-section-1,
-.grip-ring:hover {
-  background-image: url(../assets/imgaes/grip-ring-2.jpg);
+.product-container .product-4 .product-img button {
+  height: 50px;
+  width: 17%;
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 7px;
+  position: absolute;
+  top: 4%;
+  right: 4%;
 }
+
+.product-4 .price-section {
+  height: 35px;
+  width: 100%;
+  background-color: turquoise;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.product-4 .product-description {
+  height: 20px;
+  width: 100%;
+  background-color: violet;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.product-container .product-4 .product-img:hover {
+  background-image: url(../assets/imgaes/grip-ring-2.jpg);
+  cursor: pointer;
+}
+
+.product-4 .product-color-section {
+  height: 25px;
+  width: 100%;
+  background-color: orange;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.product-color-section .color-white {
+  height: 17px;
+  width: 6%;
+  justify-content: center;
+  align-items: left;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+
+.product-color-section .color-grey {
+  height: 11px;
+  width: 4%;
+  justify-content: center;
+  align-items: left;
+  background-color: rgb(142, 144, 143);
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.product-color-section .color-grey:hover {
+  height: 12px;
+  width: 4%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product-color-section .color-black {
+  height: 11px;
+  width: 4%;
+  justify-content: center;
+  align-items: left;
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.product-color-section .color-black:hover {
+  height: 12px;
+  width: 4%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product-color-section .color-yellow {
+  height: 11px;
+  width: 4%;
+  justify-content: center;
+  align-items: left;
+  background-color: yellow;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.product-color-section .color-yellow:hover {
+  height: 12px;
+  width: 4%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product-color-section .color-navy {
+  height: 11px;
+  width: 4%;
+  justify-content: center;
+  align-items: left;
+  background-color: navy;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.product-color-section .color-navy:hover {
+  height: 12px;
+  width: 4%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product-color-section .color-blue {
+  height: 11px;
+  width: 4%;
+  justify-content: center;
+  align-items: left;
+  background-color: blue;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.product-color-section .color-blue:hover {
+  height: 12px;
+  width: 4%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* product-section 4 */
+/* main-section-1 end */
+/* product-section end */
+
+/* product-1 start */
+/* main-section-2 start */
+.products-section .product-container-2 {
+  /* height: 380px; */
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.product-container-2 .product-1 {
+  height: 380px;
+  width: 21%;
+  background-color: blue;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.product-container-2 .product-1 .product-img {
+  height: 300px;
+  width: 100%;
+  background-image: url(../assets/imgaes/right-battle-camp-timp.jpg);
+  background-size: cover;
+  background-position-x: center;
+  position: relative;
+  border: 1px solid #d9d9d9;
+  border-radius: 3%;
+}
+
+.product-container-2 .product-1 .product-img button {
+  height: 50px;
+  width: 17%;
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 7px;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+}
+
+.product-1 .price-section {
+  height: 35px;
+  width: 100%;
+  background-color: turquoise;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.product-1 .product-description {
+  height: 20px;
+  width: 100%;
+  background-color: violet;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.product-container-2 .product-1 .product-img:hover {
+  background-image: url(../assets/imgaes/left-battle-camp-timp.jpg);
+  cursor: pointer;
+}
+
+/* product-1 end */
+
+/* product-2 start */
+
+.product-container-2 .product-2 {
+  height: 380px;
+  width: 21%;
+  background-color: grey;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.product-container-2 .product-2 .product-img {
+  height: 300px;
+  width: 100%;
+  background-image: url(../assets/imgaes/right-battle-camp-tumbler.jpg);
+  background-size: cover;
+  background-position-x: center;
+  position: relative;
+  border: 1px solid #d9d9d9;
+  border-radius: 3%;
+}
+
+.product-container-2 .product-2 .product-img button {
+  height: 50px;
+  width: 17%;
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 7px;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+}
+
+.product-2 .price-section {
+  height: 35px;
+  width: 100%;
+  background-color: turquoise;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.product-2 .product-description {
+  height: 20px;
+  width: 100%;
+  background-color: violet;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.product-container-2 .product-2 .product-img:hover {
+  background-image: url(../assets/imgaes/left-battle-camp-tumbler.jpg);
+  cursor: pointer;
+}
+
+/* product-2 end */
+
+/* product-3 start */
+.product-container-2 .product-3 {
+  height: 380px;
+  width: 21%;
+  background-color: purple;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.product-container-2 .product-3 .product-img {
+  height: 300px;
+  width: 100%;
+  background-image: url(../assets/imgaes/right-black-mug.jpg);
+  background-size: cover;
+  background-position-x: center;
+  position: relative;
+  border: 1px solid #d9d9d9;
+  border-radius: 3%;
+}
+
+.product-container-2 .product-3 .product-img button {
+  height: 50px;
+  width: 17%;
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 7px;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+}
+
+.product-3 .price-section {
+  height: 35px;
+  width: 100%;
+  background-color: turquoise;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.product-3 .product-description {
+  height: 20px;
+  width: 100%;
+  background-color: violet;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.product-container-2 .product-3 .product-img:hover {
+  background-image: url(../assets/imgaes/left-black-mug.jpg);
+  cursor: pointer;
+}
+/* product-3 end */
+
+/* product-4 start */
+.product-container-2 .product-4 {
+  height: 380px;
+  width: 21%;
+  background-color: teal;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.product-container-2 .product-4 .product-img {
+  height: 300px;
+  width: 100%;
+  background-image: url(../assets/imgaes/front-grip-ring.jpg);
+  background-size: cover;
+  background-position-x: center;
+  position: relative;
+  border: 1px solid #d9d9d9;
+  border-radius: 3%;
+}
+
+.product-container-2 .product-4 .product-img button {
+  height: 50px;
+  width: 17%;
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 7px;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+}
+
+.product-4 .price-section {
+  height: 35px;
+  width: 100%;
+  background-color: turquoise;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.product-4 .product-description {
+  height: 20px;
+  width: 100%;
+  background-color: violet;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.product-container-2 .product-4 .product-img:hover {
+  background-image: url(../assets/imgaes/grip-ring-2.jpg);
+  cursor: pointer;
+}
+
+.product-4 .product-color-section {
+  height: 25px;
+  width: 100%;
+  background-color: orange;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.product-color-section .color-white {
+  height: 17px;
+  width: 6%;
+  justify-content: center;
+  align-items: left;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+
+.product-color-section .color-grey {
+  height: 11px;
+  width: 4%;
+  justify-content: center;
+  align-items: left;
+  background-color: rgb(142, 144, 143);
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.product-color-section .color-grey:hover {
+  height: 12px;
+  width: 4%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product-color-section .color-black {
+  height: 11px;
+  width: 4%;
+  justify-content: center;
+  align-items: left;
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.product-color-section .color-black:hover {
+  height: 12px;
+  width: 4%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product-color-section .color-yellow {
+  height: 11px;
+  width: 4%;
+  justify-content: center;
+  align-items: left;
+  background-color: yellow;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.product-color-section .color-yellow:hover {
+  height: 12px;
+  width: 4%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product-color-section .color-navy {
+  height: 11px;
+  width: 4%;
+  justify-content: center;
+  align-items: left;
+  background-color: navy;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.product-color-section .color-navy:hover {
+  height: 12px;
+  width: 4%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product-color-section .color-blue {
+  height: 11px;
+  width: 4%;
+  justify-content: center;
+  align-items: left;
+  background-color: blue;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.product-color-section .color-blue:hover {
+  height: 12px;
+  width: 4%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* product-4 end*/
+/* product-section end */
+/* main-section-2 end */
