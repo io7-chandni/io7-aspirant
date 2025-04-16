@@ -8,76 +8,204 @@ html {
   font-size: 62.5%;
 }
 
+/* main-section start */
+
 .main-container {
-  height: 700vh;
+  /* height: 700vh; */
   width: 100%;
   background-color: pink;
   display: grid;
-  grid-template-columns: 0.5fr 2fr 0.5fr;
-  grid-template-rows: auto, auto, auto, auto, auto, auto, auto, auto;
+  grid-template-areas:
+    "nav-bar"
+    "image-section"
+    "products-section"
+    "footer-section";
 }
 
-/* header-section start  */
+/* nav-bar start */
 
-.main-container .header-section {
-  height: 70px;
+.nav-bar {
+  grid-area: nav-bar;
+  height: 50px;
+  width: 90%;
+  background-color: burlywood;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar .catty {
+  height: 50px;
+  width: 20%;
+  background-color: red;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar .catty img {
+  height: 50px;
+  width: 22%;
+}
+
+.nav-bar .menus-section {
+  height: 50px;
+  width: 45%;
+  background-color: grey;
+}
+
+.nav-bar .icon-section {
+  height: 50px;
+  width: 20%;
+  background-color: yellow;
+}
+
+.menus-section,
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Special Gothic", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon-section {
+  font-size: 1.8rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon-section,
+i {
+  padding-left: 9%;
+}
+
+/* nav-bar end */
+
+.image-section,
+img {
+  height: 100%;
+  width: 100%;
+}
+
+/* product-section start */
+
+.products-section,
+.products {
+  /* height: 50px; */
+  width: 100%;
+  margin: auto;
+  font-size: 1.3rem;
+  margin-top: -5%;
+  background-color: aqua;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.products-section,
+.main-products-section {
+  /* height: 700vh; */
+  width: 100%;
+  margin: auto;
+  background-color: yellowgreen;
+}
+
+.main-products-section .product-section-1 {
+  height: 276px;
   width: 90%;
   margin: auto;
   background-color: red;
-  border: 1px solid black;
-  grid-template-columns: 0.5fr 2fr 0.5fr;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  padding-top: 3.5%;
+  flex-wrap: nowrap;
 }
 
-.header-section,
-.catty-icon {
-  height: 85px;
-  width: 50px;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 1%;
+.product-section-1,
+.wine-tumbler {
+  height: 276px;
+  width: 27%;
+  /* background-color: grey; */
+  position: relative;
+  background-image: url(../assets/imgaes/right-side-see-green-can.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 8px;
 }
 
-.main-container,
-.menus,
-a {
-  height: 70px;
-  font-size: 1.5rem;
-  font-weight: 600;
-  justify-content: space-between;
-  align-items: center;
-  color: black;
-  text-decoration: none;
+.product-section-1,
+.wine-tumbler:hover {
+  background-image: url(../assets/imgaes/left-side-see-green-can.jpg);
 }
 
-.menus,
-a {
-  margin: 3%;
-  width: 43%;
+.button {
+  height: 50px;
+  width: 18%;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  position: absolute;
+  right: 4%;
+  top: 4%;
+  background-color: #ffffff;
 }
 
-.main-container,
-.icon-section {
-  height: 70px;
-  font-size: 1.7rem;
-  font-family: "Special Gothic", sans-serif;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* header-section end  */
-
-/* image-section start*/
-.main-container,
-.image-section,
-img {
-  grid-column-start: 1;
-  grid-column-end: 4;
+.eye {
+  height: 20px;
   width: 100%;
 }
-/* image-section end*/
+
+.product-section-1,
+.green-mug {
+  height: 280px;
+  width: 27%;
+  /* background-color: yellow; */
+  margin-left: 3%;
+  background-image: url(../assets/imgaes/right-green-mug.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  position: relative;
+}
+
+.product-section-1,
+.green-mug:hover {
+  background-image: url(../assets/imgaes/left-green-mug.jpg);
+}
+
+.product-section-1,
+.black-mug {
+  height: 280px;
+  width: 27%;
+  /* background-color: blue; */
+  margin-left: 3%;
+  background-image: url(../assets/imgaes/right-black-mug.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  position: relative;
+}
+
+.product-section-1,
+.black-mug:hover {
+  background-image: url(../assets/imgaes/left-black-mug.jpg);
+}
+
+.product-section-1,
+.grip-ring {
+  height: 280px;
+  width: 27%;
+  /* background-color: purple; */
+  margin-left: 3%;
+  background-image: url(../assets/imgaes/front-grip-ring.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  position: relative;
+}
+
+.product-section-1,
+.grip-ring:hover {
+  background-image: url(../assets/imgaes/grip-ring-2.jpg);
+}
