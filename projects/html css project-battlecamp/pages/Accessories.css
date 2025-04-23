@@ -140,7 +140,7 @@ button {
   font-family: "Special Gothic", sans-serif;
 }
 
-.Men-T-Shirts {
+.face-mask {
   height: 380px;
   width: 90%;
   /* background-color: red; */
@@ -148,7 +148,7 @@ button {
   display: flex;
 }
 
-.Men-T-Shirts .product-1 {
+.face-mask .product-1 {
   height: 380px;
   width: 23%;
   /* background-color: purple; */
@@ -156,10 +156,10 @@ button {
   align-items: center;
 }
 
-.Men-T-Shirts .product-1 .product-img {
+.face-mask .product-1 .product-img {
   height: 300px;
   width: 100%;
-  background-image: url(../assets/imgaes/neck-t-shirt-1.jpg);
+  background-image: url(../assets/imgaes/facemaesk-1.jpg);
   background-size: cover;
   background-position-x: center;
   position: relative;
@@ -168,11 +168,11 @@ button {
 }
 
 .product-1 .product-img:hover {
-  background-image: url(../assets/imgaes/neck-t-shirt-2.jpg);
+  background-image: url(../assets/imgaes/face-mask-2.jpg);
   cursor: pointer;
 }
 
-.Men-T-Shirts .product-1 .product-img button {
+.face-mask .product-1 .product-img button {
   height: 50px;
   width: 17%;
   border: 1px solid #d9d9d9;
@@ -319,33 +319,54 @@ button {
   cursor: pointer;
 }
 /* product-section-1 end */
+/* main-section-1 end */
 
-/* product-section-2 start */
-.product-2 {
-  height: 380px;
-  width: 23%;
-  /* background-color: teal; */
-  margin-left: 3%;
+/* main-section-2 start */
+.Bags {
+  height: 50px;
+  width: 90%;
+  margin: auto;
+  /* background-color: green; */
+  font-size: 2rem;
+  padding-top: 2%;
+  margin-top: 2%;
+  font-family: "Special Gothic", sans-serif;
 }
 
-.product-2 .product-img {
+.classical-t-shirt {
+  height: 380px;
+  width: 90%;
+  /* background-color: blue; */
+  margin: auto;
+  display: flex;
+  margin-top: 1%;
+}
+
+.classical-t-shirt .product-2 {
+  height: 380px;
+  width: 23%;
+  /* background-color: purple; */
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.classical-t-shirt .product-2 .product-img {
   height: 300px;
   width: 100%;
-  background-image: url(../assets/imgaes/crew-neck-1.jpg);
+  background-image: url(../assets/imgaes/bag.jpg);
   background-size: cover;
   background-position-x: center;
   position: relative;
   border: 1px solid #d9d9d9;
   border-radius: 3%;
-  cursor: pointer;
 }
 
 .product-2 .product-img:hover {
-  background-image: url(../assets/imgaes/crew-neck-2.jpg);
+  background-image: url(../assets/imgaes/missing_image.png);
   cursor: pointer;
 }
 
-.product-2 .product-img button {
+.classical-t-shirt .product-2 .product-img button {
   height: 50px;
   width: 17%;
   border: 1px solid #d9d9d9;
@@ -372,322 +393,12 @@ button {
   height: 20px;
   width: 100%;
   /* background-color: violet; */
+  background-color: unset;
   font-size: 1.5rem;
   font-family: "Special Gothic", sans-serif;
 }
 
 .product-2 .product-color-section {
-  height: 25px;
-  width: 100%;
-  /* background-color: orange; */
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-
-.product-color-section .color-white {
-  height: 17px;
-  width: 6%;
-  justify-content: center;
-  align-items: left;
-  background-color: white;
-  border-radius: 50%;
-  border: 1px solid blue;
-  cursor: pointer;
-}
-
-.product-color-section .color-aqua {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: aqua;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
-}
-
-.product-color-section .color-aqua:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.product-color-section .color-navy {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: navy;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
-}
-
-.product-color-section .color-navy:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.product-color-section .color-lightblue {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: lightblue;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
-}
-
-.product-color-section .color-lightblue:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.product-color-section .color-pink {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: pink;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
-}
-
-.product-color-section .color-pink:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
-}
-/* product-section-2 end */
-
-/* product-section-3 start */
-
-.product-3 {
-  height: 380px;
-  width: 23%;
-  /* background-color: teal; */
-
-  margin-left: 3%;
-}
-
-.product-3 .product-img {
-  height: 300px;
-  width: 100%;
-  background-image: url(../assets/imgaes/black-t-shirt-1.jpg);
-  background-size: cover;
-  background-position-x: center;
-  position: relative;
-  border: 1px solid #d9d9d9;
-  border-radius: 3%;
-  cursor: pointer;
-}
-
-.product-3 .product-img:hover {
-  background-image: url(../assets/imgaes/black-t-shirt-2.jpg);
-  cursor: pointer;
-}
-
-.product-3 .product-img button {
-  height: 50px;
-  width: 17%;
-  border: 1px solid #d9d9d9;
-  background-color: #ffffff;
-  border-radius: 7px;
-  position: absolute;
-  top: 4%;
-  right: 4%;
-}
-
-.product-3 .price-section {
-  height: 35px;
-  width: 100%;
-  /* background-color: orange; */
-  background-color: unset;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 1.5rem;
-  font-family: "Special Gothic", sans-serif;
-}
-
-.product-3 .product-description {
-  height: 20px;
-  width: 100%;
-  /* background-color: violet; */
-  font-size: 1.5rem;
-  font-family: "Special Gothic", sans-serif;
-}
-
-.product-3 .product-color-section {
-  height: 25px;
-  width: 100%;
-  /* background-color: orange; */
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-
-.product-color-section .color-white {
-  height: 17px;
-  width: 6%;
-  justify-content: center;
-  align-items: left;
-  background-color: white;
-  border-radius: 50%;
-  border: 1px solid blue;
-  cursor: pointer;
-}
-
-.product-color-section .color-aqua {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: aqua;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
-}
-
-.product-color-section .color-aqua:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.product-color-section .color-navy {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: navy;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
-}
-
-.product-color-section .color-navy:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.product-color-section .color-lightblue {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: lightblue;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
-}
-
-.product-color-section .color-lightblue:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-/* product-section-3 end */
-/* main-section-1 end */
-
-/* main-section-2 start */
-.T-Shirts {
-  height: 50px;
-  width: 90%;
-  margin: auto;
-  /* background-color: green; */
-  font-size: 2rem;
-  padding-top: 2%;
-  margin-top: 2%;
-}
-
-.classical-t-shirt {
-  height: 380px;
-  width: 90%;
-  /* background-color: blue; */
-  margin: auto;
-  display: flex;
-  margin-top: 1%;
-}
-
-.classical-t-shirt .product-4 {
-  height: 380px;
-  width: 23%;
-  /* background-color: purple; */
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.classical-t-shirt .product-4 .product-img {
-  height: 300px;
-  width: 100%;
-  background-image: url(../assets/imgaes/neck-t-shirt-1.jpg);
-  background-size: cover;
-  background-position-x: center;
-  position: relative;
-  border: 1px solid #d9d9d9;
-  border-radius: 3%;
-}
-
-.product-4 .product-img:hover {
-  background-image: url(../assets/imgaes/neck-t-shirt-2.jpg);
-  cursor: pointer;
-}
-
-.classical-t-shirt .product-4 .product-img button {
-  height: 50px;
-  width: 17%;
-  border: 1px solid #d9d9d9;
-  background-color: #ffffff;
-  border-radius: 7px;
-  position: absolute;
-  top: 4%;
-  right: 4%;
-}
-
-.product-4 .price-section {
-  height: 35px;
-  width: 100%;
-  /* background-color: orange; */
-  background-color: unset;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 1.5rem;
-  font-family: "Special Gothic", sans-serif;
-}
-
-.product-4 .product-description {
-  height: 20px;
-  width: 100%;
-  /* background-color: violet; */
-  background-color: unset;
-  font-size: 1.5rem;
-  font-family: "Special Gothic", sans-serif;
-}
-
-.product-4 .product-color-section {
   height: 25px;
   width: 100%;
   /* background-color: orange; */
@@ -726,112 +437,82 @@ button {
   cursor: pointer;
 }
 
-.product-color-section .color-pink {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: pink;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
-}
+/* product-1 end */
 
-.product-color-section .color-pink:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.product-color-section .color-navy {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: navy;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
-}
-
-.product-color-section .color-navy:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.product-color-section .color-peachpuff {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: peachpuff;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
-}
-
-.product-color-section .color-peachpuff:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.product-color-section .color-black {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: black;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
-}
-
-.product-color-section .color-black:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.view {
-  height: 100px;
-  width: 90%;
-  /* background-color: grey; */
-  display: flex;
-  justify-content: center;
+/* product-2 start */
+.classical-t-shirt .product-3 {
+  height: 380px;
+  width: 23%;
+  /* background-color: purple; */
+  justify-content: space-evenly;
   align-items: center;
-  margin: auto;
+  margin-left: 3%;
+}
+
+.classical-t-shirt .product-3 .product-img {
+  height: 300px;
+  width: 100%;
+  background-image: url(../assets/imgaes/bag.jpg);
+  background-size: cover;
+  background-position-x: center;
+  position: relative;
+  border: 1px solid #d9d9d9;
+  border-radius: 3%;
+}
+
+.product-3 .product-img:hover {
+  background-image: url(../assets/imgaes/missing_image.png);
+  cursor: pointer;
+}
+
+.classical-t-shirt .product-3 .product-img button {
+  height: 50px;
+  width: 17%;
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 7px;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+}
+
+.product-3 .price-section {
+  height: 35px;
+  width: 100%;
+  /* background-color: orange; */
+  background-color: unset;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
   font-family: "Special Gothic", sans-serif;
 }
 
-.view button {
-  border-radius: 10px;
-  border: 1px solid grey;
-  height: 34px;
-  width: 6%;
-  cursor: pointer;
+.product-3 .product-description {
+  height: 20px;
+  width: 100%;
+  /* background-color: violet; */
+  background-color: unset;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
 }
 
-.kids-and-babies {
-  height: 50px;
+/* product-2 end */
+/* main-section-2 end */
+
+/* main-section-3 start */
+.stickers {
+  height: 100px;
   width: 90%;
   /* background-color: red; */
   margin: auto;
   font-size: 2rem;
   font-family: "Special Gothic", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-/* main-section-2 end */
 
-/* main-section-3 start */
 .kids-babies {
   height: 380px;
   width: 90%;
@@ -850,17 +531,13 @@ button {
 
 .kids-babies .product-5 .product-img {
   height: 300px;
-  width: 100%;
-  background-image: url(../assets/imgaes/neck-t-shirt-1.jpg);
+  width: 106%;
+  background-image: url(../assets/imgaes/sticker.jpg);
   background-size: cover;
   background-position-x: center;
   position: relative;
   border: 1px solid #d9d9d9;
   border-radius: 3%;
-}
-
-.product-5 .product-img:hover {
-  background-image: url(../assets/imgaes/neck-t-shirt-2.jpg);
   cursor: pointer;
 }
 
@@ -954,66 +631,11 @@ button {
   cursor: pointer;
 }
 
-.product-color-section .color-navy {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: navy;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
-}
-
-.product-color-section .color-navy:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.product-color-section .color-peachpuff {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: peachpuff;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
-}
-
-.product-color-section .color-peachpuff:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.product-color-section .color-black {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: black;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
-}
-
-.product-color-section .color-black:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
-}
 /* main-section-3 end */
 
 /* main-section-4 start */
-.women-and-athletic {
+/* product-1 start */
+.phone-cases {
   height: 70px;
   width: 90%;
   /* background-color: grey; */
@@ -1023,15 +645,17 @@ button {
   padding-top: 2%;
 }
 
-.women-athletic {
+.phone-case {
   height: 380px;
   width: 90%;
   /* background-color: yellow; */
   margin: auto;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.women-athletic .product-6 {
+.phone-case .product-6 {
   height: 380px;
   width: 23%;
   /* background-color: purple; */
@@ -1039,23 +663,19 @@ button {
   align-items: center;
 }
 
-.women-athletic .product-6 .product-img {
+.phone-case .product-6 .product-img {
   height: 300px;
   width: 100%;
-  background-image: url(../assets/imgaes/legging-1.jpg);
+  background-image: url(../assets/imgaes/samsung-element-case.jpg);
   background-size: cover;
   background-position-x: center;
   position: relative;
   border: 1px solid #d9d9d9;
   border-radius: 3%;
-}
-
-.product-6 .product-img:hover {
-  background-image: url(../assets/imgaes/legging-2.jpg);
   cursor: pointer;
 }
 
-.women-athletic .product-6 .product-img button {
+.phone-case .product-6 .product-img button {
   height: 50px;
   width: 17%;
   border: 1px solid #d9d9d9;
@@ -1201,6 +821,11 @@ button {
   border-radius: 50%;
   cursor: pointer;
 }
+/* product-1 end */
+
+/* product-2 start */
+
+/* product-2 end */
 /* main-section-4 end */
 
 /* main-section-5 start */

@@ -1,0 +1,606 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* main-section start */
+
+.main-container {
+  /* height: 700vh; */
+  width: 100%;
+  /* background-color: pink; */
+  display: grid;
+  grid-template-areas:
+    "nav-bar"
+    "products-section"
+    "slide-bar"
+    "footer-section";
+}
+
+/* nav-bar start */
+
+.navigation-bar {
+  height: 50px;
+  width: 100%;
+  box-shadow: 10px 10px 5px #877a7a47;
+}
+
+.nav-bar {
+  grid-area: nav-bar;
+  height: 50px;
+  width: 90%;
+  /* background-color: burlywood; */
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar .logo {
+  height: 42px;
+  width: 20%;
+  /* background-color: red; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar .logo img {
+  height: 42px;
+  width: 20%;
+}
+
+.nav-bar .menus-section {
+  height: 50px;
+  width: 45%;
+  /* background-color: grey; */
+}
+
+.nav-bar .icon-section {
+  height: 50px;
+  width: 20%;
+  font-size: 1.5rem;
+  /* background-color: yellow; */
+}
+
+.menus-section,
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Special Gothic", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon-section {
+  font-size: 1.8rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon-section,
+i {
+  padding-left: 9%;
+}
+
+/* nav-bar end */
+
+/* main-section-1 start */
+/* product-section-1 start */
+.container {
+  /* height: 700vh; */
+  width: 100%;
+  /* background-color: pink; */
+}
+
+.products-section .featured-products p {
+  height: 60px;
+  width: 100%;
+  /* background-color: aqua; */
+  padding: 1%;
+  margin-top: 1%;
+  padding-left: 5%;
+  font-size: 2rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.buttons {
+  width: 92%;
+  margin: auto;
+}
+
+.buttons button {
+  border-radius: 10px;
+  padding: 1%;
+  margin-left: 1%;
+  font-family: "Special Gothic", sans-serif;
+  background-color: white;
+}
+
+button {
+  border: 1px solid grey;
+}
+
+.products-section p {
+  height: 60px;
+  width: 100%;
+  /* background-color: aqua; */
+  padding: 1%;
+  padding-left: 5%;
+  font-size: 2rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.Men-T-Shirts {
+  height: 380px;
+  width: 90%;
+  /* background-color: red; */
+  margin: auto;
+  display: flex;
+}
+
+.Men-T-Shirts .product-1 {
+  height: 380px;
+  width: 23%;
+  /* background-color: purple; */
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Men-T-Shirts .product-1 .product-img {
+  height: 300px;
+  width: 100%;
+  background-image: url(../assets/imgaes/towel.jpg);
+  background-size: cover;
+  background-position-x: center;
+  position: relative;
+  border: 1px solid #d9d9d9;
+  border-radius: 3%;
+  cursor: pointer;
+}
+
+.Men-T-Shirts .product-1 .product-img button {
+  height: 50px;
+  width: 17%;
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 7px;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+}
+
+.product-1 .price-section {
+  height: 35px;
+  width: 100%;
+  /* background-color: orange; */
+  background-color: unset;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.product-1 .product-description {
+  height: 20px;
+  width: 100%;
+  /* background-color: violet; */
+  background-color: unset;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.product-1 .product-color-section {
+  height: 25px;
+  width: 100%;
+  /* background-color: orange; */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.product-color-section .color-white {
+  height: 17px;
+  width: 6%;
+  justify-content: center;
+  align-items: left;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+
+.product-color-section .color-green {
+  height: 11px;
+  width: 4%;
+  justify-content: center;
+  align-items: left;
+  background-color: green;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.product-color-section .color-green:hover {
+  height: 12px;
+  width: 4%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product-color-section .color-pink {
+  height: 11px;
+  width: 4%;
+  justify-content: center;
+  align-items: left;
+  background-color: pink;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.product-color-section .color-pink:hover {
+  height: 12px;
+  width: 4%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product-color-section .color-navy {
+  height: 11px;
+  width: 4%;
+  justify-content: center;
+  align-items: left;
+  background-color: navy;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.product-color-section .color-navy:hover {
+  height: 12px;
+  width: 4%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product-color-section .color-peachpuff {
+  height: 11px;
+  width: 4%;
+  justify-content: center;
+  align-items: left;
+  background-color: peachpuff;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.product-color-section .color-peachpuff:hover {
+  height: 12px;
+  width: 4%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product-color-section .color-black {
+  height: 11px;
+  width: 4%;
+  justify-content: center;
+  align-items: left;
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.product-color-section .color-black:hover {
+  height: 12px;
+  width: 4%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* product-section-1 end */
+
+/* main-section-1 end */
+
+/* main-section-2 start */
+.T-Shirts {
+  height: 50px;
+  width: 90%;
+  margin: auto;
+  font-family: "Special Gothic", sans-serif;
+  /* background-color: green; */
+  font-size: 2rem;
+  padding-top: 2%;
+  margin-top: 2%;
+}
+
+.Pillows {
+  height: 430px;
+  width: 90%;
+  /* background-color: blue; */
+  margin: auto;
+  display: flex;
+  margin-top: 1%;
+}
+
+.Pillows .product-4 {
+  height: 380px;
+  width: 23%;
+  /* background-color: purple; */
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Pillows .product-4 .product-img {
+  height: 300px;
+  width: 100%;
+  background-image: url(../assets/imgaes/pillow-1.jpg);
+  background-size: cover;
+  background-position-x: center;
+  position: relative;
+  border: 1px solid #d9d9d9;
+  border-radius: 3%;
+}
+
+.product-4 .product-img:hover {
+  background-image: url(../assets/imgaes/pillow2.jpg);
+  cursor: pointer;
+}
+
+.Pillows .product-4 .product-img button {
+  height: 50px;
+  width: 17%;
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 7px;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+}
+
+.product-4 .price-section {
+  height: 35px;
+  width: 100%;
+  /* background-color: orange; */
+  background-color: unset;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.product-4 .product-description {
+  height: 20px;
+  width: 100%;
+  /* background-color: violet; */
+  background-color: unset;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.product-4 .product-color-section {
+  height: 25px;
+  width: 100%;
+  /* background-color: orange; */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.product-color-section .color-white {
+  height: 17px;
+  width: 6%;
+  justify-content: center;
+  align-items: left;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+
+.product-color-section .color-green {
+  height: 11px;
+  width: 4%;
+  justify-content: center;
+  align-items: left;
+  background-color: green;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.product-color-section .color-green:hover {
+  height: 12px;
+  width: 4%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product-color-section .color-pink {
+  height: 11px;
+  width: 4%;
+  justify-content: center;
+  align-items: left;
+  background-color: pink;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.product-color-section .color-pink:hover {
+  height: 12px;
+  width: 4%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product-color-section .color-navy {
+  height: 11px;
+  width: 4%;
+  justify-content: center;
+  align-items: left;
+  background-color: navy;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.product-color-section .color-navy:hover {
+  height: 12px;
+  width: 4%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product-color-section .color-peachpuff {
+  height: 11px;
+  width: 4%;
+  justify-content: center;
+  align-items: left;
+  background-color: peachpuff;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.product-color-section .color-peachpuff:hover {
+  height: 12px;
+  width: 4%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product-color-section .color-black {
+  height: 11px;
+  width: 4%;
+  justify-content: center;
+  align-items: left;
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+.product-color-section .color-black:hover {
+  height: 12px;
+  width: 4%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* main-section-2 end */
+
+/* footer-section start */
+.footer-section {
+  height: 500px;
+  width: 100%;
+  background-color: #212020;
+}
+
+.footer-section .footer-box {
+  height: 300px;
+  width: 33%;
+  /* background-color: green; */
+  margin-top: 5%;
+  padding-top: 5%;
+  margin: auto;
+}
+
+.footer-section .footer-box .footer-logo {
+  height: 50px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+}
+
+.footer-box .footer-logo img {
+  height: 50px;
+  width: 13%;
+  margin: auto;
+  cursor: pointer;
+}
+
+.footer-section .footer-box .footer-menus {
+  height: 80px;
+  width: 100%;
+  /* background-color: orange; */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.footer-section .footer-box .footer-icons {
+  height: 50px;
+  width: 100%;
+  /* background-color: brown; */
+  color: white;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-section .footer-box .footer-description {
+  height: 70px;
+  width: 43%;
+  /* background-color: red; */
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Special Gothic", sans-serif;
+  margin: auto;
+}
+
+.footer-section .footer-services {
+  height: 70px;
+  width: 100%;
+  /* background-color: red; */
+  margin-top: 5%;
+}
+
+.footer-section .footer-services .footer {
+  height: 50px;
+  width: 92%;
+  /* background-color: blueviolet; */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.footer-section .footer-services .footer img {
+  height: 34px;
+  width: 60%;
+}
+
+/* footer-section end */
