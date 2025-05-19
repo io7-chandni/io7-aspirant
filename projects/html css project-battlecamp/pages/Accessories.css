@@ -27,7 +27,7 @@ html {
 .navigation-bar {
   height: 50px;
   width: 100%;
-  box-shadow: 10px 10px 5px #877a7a47;
+  box-shadow: 10px 3px 5px #877a7a47;
 }
 
 .nav-bar {
@@ -322,7 +322,7 @@ button {
 /* main-section-1 end */
 
 /* main-section-2 start */
-.Bags {
+.bags {
   height: 50px;
   width: 90%;
   margin: auto;
@@ -333,7 +333,7 @@ button {
   font-family: "Special Gothic", sans-serif;
 }
 
-.classical-t-shirt {
+.bags-section {
   height: 380px;
   width: 90%;
   /* background-color: blue; */
@@ -342,7 +342,7 @@ button {
   margin-top: 1%;
 }
 
-.classical-t-shirt .product-2 {
+.bags-section .product-2 {
   height: 380px;
   width: 23%;
   /* background-color: purple; */
@@ -350,7 +350,7 @@ button {
   align-items: center;
 }
 
-.classical-t-shirt .product-2 .product-img {
+.bags-section .product-2 .product-img {
   height: 300px;
   width: 100%;
   background-image: url(../assets/imgaes/bag.jpg);
@@ -366,7 +366,7 @@ button {
   cursor: pointer;
 }
 
-.classical-t-shirt .product-2 .product-img button {
+.bags-section .product-2 .product-img button {
   height: 50px;
   width: 17%;
   border: 1px solid #d9d9d9;
@@ -440,7 +440,7 @@ button {
 /* product-1 end */
 
 /* product-2 start */
-.classical-t-shirt .product-3 {
+.bags-section .product-3 {
   height: 380px;
   width: 23%;
   /* background-color: purple; */
@@ -449,7 +449,7 @@ button {
   margin-left: 3%;
 }
 
-.classical-t-shirt .product-3 .product-img {
+.bags-section .product-3 .product-img {
   height: 300px;
   width: 100%;
   background-image: url(../assets/imgaes/bag.jpg);
@@ -465,7 +465,7 @@ button {
   cursor: pointer;
 }
 
-.classical-t-shirt .product-3 .product-img button {
+.bags-section .product-3 .product-img button {
   height: 50px;
   width: 17%;
   border: 1px solid #d9d9d9;
@@ -513,7 +513,7 @@ button {
   align-items: center;
 }
 
-.kids-babies {
+.stickers-section {
   height: 380px;
   width: 90%;
   /* background-color: yellow; */
@@ -521,7 +521,7 @@ button {
   display: flex;
 }
 
-.kids-babies .product-5 {
+.stickers-section .product-5 {
   height: 380px;
   width: 23%;
   /* background-color: purple; */
@@ -529,7 +529,7 @@ button {
   align-items: center;
 }
 
-.kids-babies .product-5 .product-img {
+.stickers-section .product-5 .product-img {
   height: 300px;
   width: 106%;
   background-image: url(../assets/imgaes/sticker.jpg);
@@ -541,7 +541,7 @@ button {
   cursor: pointer;
 }
 
-.kids-babies .product-5 .product-img button {
+.stickers-section .product-5 .product-img button {
   height: 50px;
   width: 17%;
   border: 1px solid #d9d9d9;

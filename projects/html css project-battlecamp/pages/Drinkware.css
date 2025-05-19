@@ -140,7 +140,7 @@ button {
   font-family: "Special Gothic", sans-serif;
 }
 
-.Men-T-Shirts {
+.Pint-Glass {
   height: 380px;
   width: 90%;
   /* background-color: red; */
@@ -148,7 +148,7 @@ button {
   display: flex;
 }
 
-.Men-T-Shirts .product-1 {
+.Pint-Glass .product-1 {
   height: 380px;
   width: 23%;
   /* background-color: purple; */
@@ -156,19 +156,23 @@ button {
   align-items: center;
 }
 
-.Men-T-Shirts .product-1 .product-img {
+.Pint-Glass .product-1 .product-img {
   height: 300px;
   width: 100%;
-  background-image: url(../assets/imgaes/towel.jpg);
+  background-image: url(../assets/imgaes/right-battle-camp-timp.jpg);
   background-size: cover;
   background-position-x: center;
   position: relative;
   border: 1px solid #d9d9d9;
   border-radius: 3%;
+}
+
+.product-1 .product-img:hover {
+  background-image: url(../assets/imgaes/left-battle-camp-timp.jpg);
   cursor: pointer;
 }
 
-.Men-T-Shirts .product-1 .product-img button {
+.Pint-Glass .product-1 .product-img button {
   height: 50px;
   width: 17%;
   border: 1px solid #d9d9d9;
@@ -200,138 +204,23 @@ button {
   font-family: "Special Gothic", sans-serif;
 }
 
-.product-1 .product-color-section {
-  height: 25px;
-  width: 100%;
-  /* background-color: orange; */
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-
-.product-color-section .color-white {
-  height: 17px;
-  width: 6%;
-  justify-content: center;
-  align-items: left;
-  background-color: white;
-  border-radius: 50%;
-  border: 1px solid blue;
-  cursor: pointer;
-}
-
-.product-color-section .color-green {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: green;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
-}
-
-.product-color-section .color-green:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.product-color-section .color-pink {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: pink;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
-}
-
-.product-color-section .color-pink:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.product-color-section .color-navy {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: navy;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
-}
-
-.product-color-section .color-navy:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.product-color-section .color-peachpuff {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: peachpuff;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
-}
-
-.product-color-section .color-peachpuff:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.product-color-section .color-black {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: black;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
-}
-
-.product-color-section .color-black:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
-}
 /* product-section-1 end */
-
 /* main-section-1 end */
 
 /* main-section-2 start */
-.T-Shirts {
+.Mugs {
   height: 50px;
   width: 90%;
   margin: auto;
-  font-family: "Special Gothic", sans-serif;
   /* background-color: green; */
   font-size: 2rem;
   padding-top: 2%;
   margin-top: 2%;
+  font-family: "Special Gothic", sans-serif;
 }
 
-.Pillows {
-  height: 430px;
+.Mugs-section {
+  height: 380px;
   width: 90%;
   /* background-color: blue; */
   margin: auto;
@@ -339,7 +228,7 @@ button {
   margin-top: 1%;
 }
 
-.Pillows .product-4 {
+.Mugs-section .product-2 {
   height: 380px;
   width: 23%;
   /* background-color: purple; */
@@ -347,10 +236,10 @@ button {
   align-items: center;
 }
 
-.Pillows .product-4 .product-img {
+.Mugs-section .product-2 .product-img {
   height: 300px;
   width: 100%;
-  background-image: url(../assets/imgaes/pillow-1.jpg);
+  background-image: url(../assets/imgaes/left-green-mug.jpg);
   background-size: cover;
   background-position-x: center;
   position: relative;
@@ -358,12 +247,12 @@ button {
   border-radius: 3%;
 }
 
-.product-4 .product-img:hover {
-  background-image: url(../assets/imgaes/pillow2.jpg);
+.product-2 .product-img:hover {
+  background-image: url(../assets/imgaes/right-green-mug.jpg);
   cursor: pointer;
 }
 
-.Pillows .product-4 .product-img button {
+.Mugs-section .product-2 .product-img button {
   height: 50px;
   width: 17%;
   border: 1px solid #d9d9d9;
@@ -374,7 +263,7 @@ button {
   right: 4%;
 }
 
-.product-4 .price-section {
+.product-2 .price-section {
   height: 35px;
   width: 100%;
   /* background-color: orange; */
@@ -386,7 +275,7 @@ button {
   font-family: "Special Gothic", sans-serif;
 }
 
-.product-4 .product-description {
+.product-2 .product-description {
   height: 20px;
   width: 100%;
   /* background-color: violet; */
@@ -395,122 +284,228 @@ button {
   font-family: "Special Gothic", sans-serif;
 }
 
-.product-4 .product-color-section {
-  height: 25px;
+/* product-1 end */
+
+/* product-2 start */
+.Mugs-section .product-3 {
+  height: 380px;
+  width: 23%;
+  /* background-color: purple; */
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 3%;
+}
+
+.Mugs-section .product-3 .product-img {
+  height: 300px;
+  width: 100%;
+  background-image: url(../assets/imgaes/right-black-mug.jpg);
+  background-size: cover;
+  background-position-x: center;
+  position: relative;
+  border: 1px solid #d9d9d9;
+  border-radius: 3%;
+}
+
+.product-3 .product-img:hover {
+  background-image: url(../assets/imgaes/left-black-mug.jpg);
+  cursor: pointer;
+}
+
+.Mugs-section .product-3 .product-img button {
+  height: 50px;
+  width: 17%;
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 7px;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+}
+
+.product-3 .price-section {
+  height: 35px;
   width: 100%;
   /* background-color: orange; */
+  background-color: unset;
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.product-3 .product-description {
+  height: 20px;
+  width: 100%;
+  /* background-color: violet; */
+  background-color: unset;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+/* product-2 end */
+/* main-section-2 end */
+
+/* main-section-3 start */
+.steel-tumbler {
+  height: 100px;
+  width: 90%;
+  /* background-color: red; */
+  margin: auto;
+  font-size: 2rem;
+  font-family: "Special Gothic", sans-serif;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.product-color-section .color-white {
-  height: 17px;
-  width: 6%;
-  justify-content: center;
-  align-items: left;
-  background-color: white;
-  border-radius: 50%;
-  border: 1px solid blue;
+.steel-tumbler-section {
+  height: 380px;
+  width: 90%;
+  /* background-color: yellow; */
+  margin: auto;
+  display: flex;
+}
+
+.steel-tumbler-section .product-5 {
+  height: 380px;
+  width: 23%;
+  /* background-color: purple; */
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.steel-tumbler-section .product-5 .product-img {
+  height: 300px;
+  width: 106%;
+  background-image: url(../assets/imgaes/right-battle-camp-tumbler.jpg);
+  background-size: cover;
+  background-position-x: center;
+  position: relative;
+  border: 1px solid #d9d9d9;
+  border-radius: 3%;
+}
+
+.steel-tumbler-section .product-5 .product-img:hover {
+  background-image: url(../assets/imgaes/left-battle-camp-tumbler.jpg);
   cursor: pointer;
 }
 
-.product-color-section .color-green {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: green;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
+.steel-tumbler-section .product-5 .product-img button {
+  height: 50px;
+  width: 17%;
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 7px;
+  position: absolute;
+  top: 4%;
+  right: 4%;
 }
 
-.product-color-section .color-green:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
+.product-5 .price-section {
+  height: 35px;
+  width: 100%;
+  /* background-color: orange; */
+  background-color: unset;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
 }
 
-.product-color-section .color-pink {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: pink;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
+.product-5 .product-description {
+  height: 20px;
+  width: 100%;
+  /* background-color: violet; */
+  background-color: unset;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
 }
 
-.product-color-section .color-pink:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
+/* main-section-3 end */
+
+/* main-section-4 start */
+/* product-1 start */
+.water-bottle {
+  height: 70px;
+  width: 90%;
+  /* background-color: grey; */
+  margin: auto;
+  font-size: 2rem;
+  font-family: "Special Gothic", sans-serif;
+  padding-top: 2%;
 }
 
-.product-color-section .color-navy {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: navy;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
+.water-bottle-section {
+  height: 400px;
+  width: 90%;
+  /* background-color: yellow; */
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.product-color-section .color-navy:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
+.water-bottle-section .product-6 {
+  height: 380px;
+  width: 23%;
+  /* background-color: purple; */
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.product-color-section .color-peachpuff {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: peachpuff;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
+.water-bottle-section .product-6 .product-img {
+  height: 300px;
+  width: 100%;
+  background-image: url(../assets/imgaes/water-bottle-1.jpg);
+  background-size: cover;
+  background-position-x: center;
+  position: relative;
+  border: 1px solid #d9d9d9;
+  border-radius: 3%;
 }
 
-.product-color-section .color-peachpuff:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.product-color-section .color-black {
-  height: 11px;
-  width: 4%;
-  justify-content: center;
-  align-items: left;
-  background-color: black;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 3%;
-}
-
-.product-color-section .color-black:hover {
-  height: 12px;
-  width: 4%;
-  border: 1px solid blue;
-  border-radius: 50%;
+.water-bottle-section .product-6 .product-img:hover {
+  background-image: url(../assets/imgaes/water-bottle-2.jpg);
   cursor: pointer;
 }
 
-/* main-section-2 end */
+.water-bottle-section .product-6 .product-img button {
+  height: 50px;
+  width: 17%;
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 7px;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+}
+
+.product-6 .price-section {
+  height: 35px;
+  width: 100%;
+  /* background-color: orange; */
+  background-color: unset;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+.product-6 .product-description {
+  height: 20px;
+  width: 100%;
+  /* background-color: violet; */
+  background-color: unset;
+  font-size: 1.5rem;
+  font-family: "Special Gothic", sans-serif;
+}
+
+/* product-1 end */
+/* main-section-4 end */
 
 /* footer-section start */
 .footer-section {
